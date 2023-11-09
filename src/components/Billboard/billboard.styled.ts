@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 interface BillboardProps {
   image: string
-  mobileImage: string
+  mobileimage: string
 }
 
 export const BillboardContainer = styled.div<BillboardProps>`
@@ -16,14 +16,14 @@ export const BillboardContainer = styled.div<BillboardProps>`
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 84vh;
+  height: 80vh;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     padding: 20px 24px;
-    background-image: url(${({ mobileImage }) => mobileImage});
+    background-image: url(${({ mobileimage }) => mobileimage});
   }
   .title {
     width: 800px;
@@ -52,26 +52,5 @@ export const BillboardContainer = styled.div<BillboardProps>`
       padding: 20px 0 36px;
       font-weight: 400;
     }
-  }
-  .contact {
-    display: inline-flex;
-    scroll-behavior: smooth;
-    line-height: 42px; 
-      a {
-        background-color: ${({ theme }) => theme.palette.white};
-        color: ${({ theme }) => theme.palette.black};
-        border: none;
-        padding: 0 24px;
-        height: 42px;
-        cursor: pointer;
-        text-decoration: none;
-        display: grid;
-        place-items: center;
-        font-size: 1.2rem;
-        font-weight: 400;
-      }
-      a:hover {
-        opacity: 0.8;
-      }
   }
 `

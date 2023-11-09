@@ -12,7 +12,6 @@ export interface BillboardProps {
   button: string
   image: string
   mobileImage: string
-  alt: string
 }
 
 export interface MainCardProps {
@@ -46,8 +45,9 @@ export interface mainDesignTypes {
 }
 
 export const english = {
+  meta: "We help you choose the best dental irrigator for your health care: ✓ Types ✓ Prices ✓ Reviews ✓ Benefits ✓ Risks",
   billboard: {
-    title: "Enhance your oral health.",
+    title: "Enhance your oral health",
     subtitle: "We have performed an exhaustive analysis of reviews, user comments, forum discussions, brand reputation sentiments, and other pertinent data to empower you in making an informed decision when selecting your Dental Irrigator.",
     button: "View the Best Irrigators",
     image: AnimationBillboard,
@@ -106,5 +106,4 @@ export const english = {
     altImageFour: "Icon of a computer with an avatar pointing at statistics on a tablet",
     altImageFive: "Icon of a computer with a user avatar and authentication"
   },
-  meta: "Leading digital agency with expertise in mobile product and web application design and development"
 }

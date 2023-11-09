@@ -1,4 +1,5 @@
 import { BillboardProps } from "../../pages/translate/app";
+import SimpleButton from "../Button/SimpleButton/SimpleButton";
 import { BillboardContainer } from "./billboard.styled"
 
 export default function Billboard(props: BillboardProps) {
@@ -6,7 +7,7 @@ export default function Billboard(props: BillboardProps) {
   const { title, subtitle, image, button, mobileImage } = props
 
   return (
-    <BillboardContainer image={image} mobileImage={mobileImage}>
+    <BillboardContainer image={image} mobileimage={mobileImage}>
       <div className="title">
         <h1>
           {title}
@@ -14,9 +15,7 @@ export default function Billboard(props: BillboardProps) {
         <h2>
           {subtitle}
         </h2>
-        <div className="contact">
-          <a href="#contact">{button}</a>
-        </div>
+        <SimpleButton text={button} />
       </div>
     </BillboardContainer>
   );

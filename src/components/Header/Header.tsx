@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useLocation, useNavigate, Outlet, ScrollRestoration, Link } from "react-router-dom"
-import logo from "./images/logo2.png"
+import logo from "./images/logo.png"
 import { HeaderContainer, Logo, NavContainer, NavItems, HamburgerMenu } from "./header.styled"
 import ColorSwitcher from "../ThemeSwitcher/colorSwitcher"
 
@@ -35,7 +35,7 @@ export default function Header({ headerProps }: LinkItemProps) {
       <HeaderContainer>
         <Logo className="nav-logo">
           <Link to='/'>
-            <img src={logo} alt="Alejandro Web Logo" />
+            <img src={logo} alt="Dental Irrigators" />
           </Link>
         </Logo>
         <NavContainer>
