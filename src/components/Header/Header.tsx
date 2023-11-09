@@ -1,9 +1,8 @@
 import { useState } from "react"
 import { useLocation, useNavigate, Outlet, ScrollRestoration, Link } from "react-router-dom"
-import logo from "./vanguardia-logo.svg"
+import logo from "./images/logo2.png"
 import { HeaderContainer, Logo, NavContainer, NavItems, HamburgerMenu } from "./header.styled"
 import ColorSwitcher from "../ThemeSwitcher/colorSwitcher"
-import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher"
 
 interface LinkItemProps {
   headerProps: {
@@ -40,7 +39,6 @@ export default function Header({ headerProps }: LinkItemProps) {
           </Link>
         </Logo>
         <NavContainer>
-          <LanguageSwitcher />
           <ColorSwitcher />
           <NavItems>
             <ul>
