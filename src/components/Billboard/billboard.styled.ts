@@ -1,12 +1,22 @@
 import styled from 'styled-components'
 
-export const BillboardContainer = styled.div`
+interface BillboardProps {
+  image: string
+}
+
+export const BillboardContainer = styled.div<BillboardProps>`
   padding: 32px 24px;
   display: grid;
   grid-template-columns: auto auto;
   margin: 0 auto;
   gap: 0;
-  max-width: ${({ theme }) => theme.breakpoint.md};
+  background-image: url(${({ image }) => image});
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+
   @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
     display: grid;
     grid-template-columns: 1fr;
@@ -14,8 +24,11 @@ export const BillboardContainer = styled.div`
     padding: 20px 24px;
   }
   .billboard-title {
-    padding-right: 20px;
+    width: 700px;
     margin: auto 0;
+    border: 1px solid #333;
+    background: #123b5cc7;
+    padding: 24px;
     @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
     padding-right: 0;
     }
@@ -33,24 +46,6 @@ export const BillboardContainer = styled.div`
       line-height: 2rem;
       padding: 20px 0;
       font-weight: 400;
-    }
-  }
-  .billboard-svg {
-    text-align: center;
-    img {
-      width: auto;
-      height: 440px;
-    }
-    @media(max-width: ${({ theme }) => theme.breakpoint.sm}){
-      img {
-        height: 329px;
-      }
-    }
-    @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
-      img {
-        width: 100%;
-        height: auto;
-      }
     }
   }
   .billboard-contact {

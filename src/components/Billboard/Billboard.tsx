@@ -7,7 +7,7 @@ export default function Billboard(props: BillboardProps) {
   const { title, subtitle, image, alt } = props
 
   return (
-    <BillboardContainer>
+    <BillboardContainer image={image} >
       <div className="billboard-title">
         <h1>
           {title}
@@ -15,15 +15,10 @@ export default function Billboard(props: BillboardProps) {
         <h2>
           {subtitle}
         </h2>
-        {/* <div className="billboard-contact">
-          <a href="#contact">{button}</a>
-        </div> */}
+        <div className="billboard-contact">
+          <a href="#contact">button</a>
+        </div>
       </div>
-
-      <div className="billboard-svg">
-        <img src={image} alt={alt} width="530" height="542"/>
-      </div>
-
     </BillboardContainer>
   );
 }
