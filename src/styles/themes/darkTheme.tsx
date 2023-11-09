@@ -54,15 +54,15 @@ export const darkTheme: DefaultTheme = {
   textColor: "#fff",
   palette: {
     black: "#212121",
-    white: "#ffffff",
+    white: "#fff",
     gray: "#39393A",
     red: "#ae3c43",
     primary: {
-      main: "#7AA4C8",
+      main: "#164863",
       contrastText: "#868686",
     },
     secondary: {
-      main: "#ccc9c9",
+      main: "#9BBEC8",
       contrastText: "#ffffff",
     },
   },

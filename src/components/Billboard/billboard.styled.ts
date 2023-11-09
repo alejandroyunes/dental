@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 interface BillboardProps {
   image: string
+  mobileImage: string
 }
 
 export const BillboardContainer = styled.div<BillboardProps>`
@@ -15,53 +16,59 @@ export const BillboardContainer = styled.div<BillboardProps>`
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 84vh;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     padding: 20px 24px;
+    background-image: url(${({ mobileImage }) => mobileImage});
   }
-  .billboard-title {
-    width: 700px;
+  .title {
+    width: 800px;
     margin: auto 0;
     border: 1px solid #333;
     background: #123b5cc7;
     padding: 24px;
+    @media(max-width: ${({ theme }) => theme.breakpoint.sm}){
+      width: 700px;
+    }
     @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
-    padding-right: 0;
+      width: 100%;
     }
     h1 {
       font-weight: bold;
-      color: ${({ theme }) => theme.palette.primary.main};
+      color: ${({ theme }) => theme.palette.white};
       font-size: 3rem;
       @media(max-width: ${({ theme }) => theme.breakpoint.sm}){
         font-size: 2.6rem;
       }
     }
     h2 {
-      color: ${({ theme }) => theme.textColor};
+      color: ${({ theme }) => theme.palette.white};
       font-size: 1.5rem;
       line-height: 2rem;
-      padding: 20px 0;
+      padding: 20px 0 36px;
       font-weight: 400;
     }
   }
-  .billboard-contact {
+  .contact {
     display: inline-flex;
     scroll-behavior: smooth;
     line-height: 42px; 
       a {
-        background-color: ${({ theme }) => theme.palette.primary.main};
-        color: white;
+        background-color: ${({ theme }) => theme.palette.white};
+        color: ${({ theme }) => theme.palette.black};
         border: none;
-        width: 140px;
+        padding: 0 24px;
         height: 42px;
         cursor: pointer;
         text-decoration: none;
         display: grid;
         place-items: center;
+        font-size: 1.2rem;
+        font-weight: 400;
       }
       a:hover {
         opacity: 0.8;

@@ -4,13 +4,14 @@ import ResponsiveDesignIcon from "./svgs/main-cards/responsive-design-icon.svg"
 import RocketAnimation from "./svgs/main-cards/rocket.svg"
 
 import AnimationBillboard from './images/app/irrigador-dental-max.webp'
-import AnimationBillboardT from './images/app/billboard-dental-irrigator.webp'
+import MobileImage from './images/app/irrigador-dental-max-mobile.webp'
 
 export interface BillboardProps {
   title: string
   subtitle: string
   button: string
   image: string
+  mobileImage: string
   alt: string
 }
 
@@ -48,9 +49,9 @@ export const english = {
   billboard: {
     title: "Enhance your oral health.",
     subtitle: "We have performed an exhaustive analysis of reviews, user comments, forum discussions, brand reputation sentiments, and other pertinent data to empower you in making an informed decision when selecting your Dental Irrigator.",
-    button: "Contact us",
+    button: "View the Best Irrigators",
     image: AnimationBillboard,
-    alt: "Avatars constructing a website by components animated"
+    mobileImage: MobileImage,
   },
   titleOne: {
     title: "Technologies",
