@@ -20,10 +20,6 @@ export const english = {
       {
         link: "Blog",
         path: '/blog',
-      },
-      {
-        link: 'Contact',
-        path: '/contact'
       }
     ],
     arialLabel: 'Menu button',
