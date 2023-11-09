@@ -5,12 +5,7 @@ interface BillboardProps {
   mobileimage: string
 }
 
-export const BillboardContainer = styled.div<BillboardProps>`
-  padding: 32px 24px;
-  display: grid;
-  grid-template-columns: auto auto;
-  margin: 0 auto;
-  gap: 0;
+export const ImageContainer = styled.div<BillboardProps>`
   background-image: url(${({ image }) => image});
   background-size: cover;
   background-position: center;
@@ -19,18 +14,24 @@ export const BillboardContainer = styled.div<BillboardProps>`
   height: 80vh;
 
   @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr;
-    padding: 20px 24px;
     background-image: url(${({ mobileimage }) => mobileimage});
   }
+`
+export const BillboardContainer = styled.div`
+  max-width:  ${({ theme }) => theme.breakpoint.md};
+  margin: 0 auto;
+  padding: 140px 24px 0;
+
+  @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
+    padding-top: 24px;
+  }
+
   .title {
     width: 800px;
-    margin: auto 0;
     border: 1px solid #333;
     background: #123b5cc7;
     padding: 24px;
+
     @media(max-width: ${({ theme }) => theme.breakpoint.sm}){
       width: 700px;
     }
@@ -41,8 +42,8 @@ export const BillboardContainer = styled.div<BillboardProps>`
       font-weight: bold;
       color: ${({ theme }) => theme.palette.white};
       font-size: 3rem;
-      @media(max-width: ${({ theme }) => theme.breakpoint.sm}){
-        font-size: 2.6rem;
+      @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
+        font-size: 1.8rem;
       }
     }
     h2 {
@@ -51,6 +52,10 @@ export const BillboardContainer = styled.div<BillboardProps>`
       line-height: 2rem;
       padding: 20px 0 36px;
       font-weight: 400;
+      @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
+        font-size: 1.1rem;
+      }
     }
   }
 `
+

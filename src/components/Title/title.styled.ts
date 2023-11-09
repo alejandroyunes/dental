@@ -11,7 +11,6 @@ export const TitleContainer = styled.div`
   }
   p {
     margin-top: 0px;
-    text-align: center;
     font-size: 1.2rem;
 		font-weight: 400;
     color: ${({ theme }) => theme.textColor};
