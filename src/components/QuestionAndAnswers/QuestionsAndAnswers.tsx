@@ -4,7 +4,7 @@ import { Container, DetailsContainer } from "./questionsAndAnswers.styled"
 type ItemProps = {
   question: string
   answer: string
-  url: string
+  url?: string
 }
 
 type QuestionsProps = {
