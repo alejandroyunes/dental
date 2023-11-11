@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import SimpleButton from "../Button/SimpleButton/SimpleButton"
 import Title from "../Title/Title"
-import { Button, Container, IrrigatorTypes, Item } from "./IrrigatorTypes.styled"
+import { Button, Container, IrrigatorTypes, Item } from "./irrigatorTypes.styled"
 
 type itemProps = {
   id: number

@@ -8,6 +8,8 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { proAndCons } from "./data/proAndCons/proAndCons"
 import { irrigatorProps } from "./data/irrigatorTypes/irrigatorData";
 import IrrigatorTypes from "../../components/IrrigatorTypes/IrrigatorTypes";
+import QuestionsAndAnswers from "../../components/QuestionAndAnswers/QuestionsAndAnswers";
+import { questions } from "./data/questionsAndAnswers/questions";
 
 export default function HomePage() {
 
@@ -22,6 +24,7 @@ export default function HomePage() {
       <ThreeRowTable {...firstThreeRowsTable} />
       <ProAndCon {...proAndCons} />
       <IrrigatorTypes {...irrigatorProps} />
+      <QuestionsAndAnswers {...questions} />
     </>
   )
 }
