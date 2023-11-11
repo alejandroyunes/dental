@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const TitleContainer = styled.div`
   margin: 0 auto;
-  padding: 32px 16px;
+  padding: 32px 24px;
 	max-width: ${({ theme }) => theme.breakpoint.sm};
   &.left {
     h1 {
