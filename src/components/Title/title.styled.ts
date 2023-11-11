@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const TitleContainer = styled.div`
-  margin: 32px auto;
-  padding: 0 16px;
+  margin: 0 auto;
+  padding: 32px 16px;
 	max-width: ${({ theme }) => theme.breakpoint.sm};
   &.left {
     h1 {
@@ -17,7 +17,7 @@ export const TitleContainer = styled.div`
     padding-bottom: 16px;
   }
   .url {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     max-width: 660px;
     margin: 0 auto;

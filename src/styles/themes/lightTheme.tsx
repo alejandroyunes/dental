@@ -14,10 +14,12 @@ export const lightTheme: DefaultTheme = {
     primary: {
       main: "#164863",
       contrastText: "#172846",
+      contrastBg: "#d8dde6",
     },
     secondary: {
       main: "#777777",
       contrastText: "#d4eafa",
+      contrastBg: "#d4eafa",
     },
   },
   breakpoint,

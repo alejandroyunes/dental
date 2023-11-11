@@ -10,6 +10,7 @@ interface BreakpointTypes {
 interface IPalette {
   main: string
   contrastText: string
+  contrastBg: string
 }
 
 export interface ZindexType {

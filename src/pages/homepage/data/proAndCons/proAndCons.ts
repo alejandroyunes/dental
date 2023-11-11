@@ -1,53 +1,34 @@
-const HTML5Img = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/kkc4eb4flw5qgmjpmdro.webp'
-const webDev = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/o8uhw4gqb4wdjj6nrnef.webp'
-const NodeExpressServer = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698957906/blog/mcygclsb4g0jj5jrchuj.webp'
-
 export const proAndCons = {
   title: "What is a Dental Irrigator?",
   subTitle: "A dental irrigator, also known as an oral irrigator, is a household device that releases a stream of water between the teeth and gums, effectively eliminating any residual food, plaque, or bacteria.",
   moreInfo: "Some models of dental irrigators come with various nozzles and adjustable pressure levels, allowing users to customize the cleaning experience based on individual needs and sensitivity. Moreover, regular use of an oral irrigator can contribute to preventing diseases such as gingivitis and periodontitis, promoting healthier and stronger gums.",
-  items: [
+  url: '/blog/what-is-a-dental-irrigator',
+  itemsPro: [
     {
-      id: 6,
-      image: webDev,
-      alt: 'lorem ipsum, dolor sit amet consectetur.',
-      title: 'lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      url: 'https://res.cloudinary.com/d',
+      title: 'Helps reduce tartar and prevent oral diseases.',
     },
     {
-      id: 5,
-      image: webDev,
-      alt: 'lorem ipsum, dolor sit amet consectetur.',
-      title: 'lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      url: 'https://res.cloudinary.com/d',
+      title: 'Ensures a thorough cleaning, improving the health of teeth and gums.',
     },
     {
-      id: 4,
-      image: HTML5Img,
-      alt: 'lorem ipsum, dolor sit amet consectetur.',
-      title: 'lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      url: 'https://res.cloudinary.com/d',
+      title: 'Can be especially useful for people with braces or implants, facilitating cleaning in hard-to-reach areas.',
     },
     {
-      id: 3,
-      image: webDev,
-      alt: 'lorem ipsum, dolor sit amet consectetur.',
-      title: 'lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      url: 'https://res.cloudinary.com/d',
+      title: 'Promotes circulation in the gums, strengthening them and helping to maintain their health.',
     },
     {
-      id: 2,
-      image: NodeExpressServer,
-      alt: 'lorem ipsum, dolor sit amet consectetur.',
-      title: 'lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      url: 'https://res.cloudinary.com/d',
+      title: 'Contributes to the prevention of dental stains, maintaining a more attractive dental aesthetic.',
+    },
+  ],
+  itemsCons: [
+    {
+      title: 'The more comprehensive models require a lot of space',
     },
     {
-      id: 1,
-      image: webDev,
-      alt: 'lorem ipsum, dolor sit amet consectetur.',
-      title: 'lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      url: 'https://res.cloudinary.com/d',
-    }
+      title: ' For those with dental sensitivity, using it can be a bit uncomfortable.',
+    },
+    {
+      title: 'Is easy to use, but it is necessary to learn how to use it correctly to avoid damaging the gums.',
+    },
   ]
 }

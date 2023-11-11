@@ -1,50 +1,49 @@
+import SimpleButton from "../Button/SimpleButton/SimpleButton"
 import Title from "../Title/Title"
-import { Link } from "react-router-dom"
-import { Helmet, HelmetProvider } from "react-helmet-async"
-import { ProAndConContainer } from "./proandcon.styled"
+import { ProAndCon, ProAndConButton, ProAndConContainer } from "./proandcon.styled"
 
 type itemProps = {
-  id: number
-  image: string
-  alt: string
   title: string
-  url: string
 }
 
 type Props = {
-  meta: string
   title: string
   subTitle: string
   moreInfo: string
-  items: itemProps[]
+  url: string
+  itemsPro: itemProps[]
+  itemsCons: itemProps[]
 }
 
 export default function (props: Props) {
-  const { title, subTitle, moreInfo, items } = props
+  const { title, subTitle, moreInfo, url, itemsPro, itemsCons } = props
   return (
     <>
-      <Title title={title} message={subTitle} moreInfo={moreInfo} />
+      <Title title={title} message={subTitle} moreInfo={moreInfo} url={{ url: url, text: "To what purpose it serves, and to what it does not." }} />
 
       <ProAndConContainer>
-        <div className="pros-cons-container">
+        <ProAndCon>
           <div className="pros">
             <h2>Pros</h2>
             <ul>
-              <li><span className="icon">&#10003;</span>: Lorem ipsum dolor sit amet</li>
-              <li>Pro 2: Consectetur adipiscing elit</li>
-              <li>Pro 3: Sed do eiusmod tempor incididunt</li>
+              {itemsPro.map((item, index) => (
+                <li key={index}><span className="icon">&#10003;</span> {item.title}</li>
+              ))}
             </ul>
           </div>
 
           <div className="cons">
             <h2>Cons</h2>
             <ul>
-              <li><span className="icon">&#10007;</span>: Ut labore et dolore magna aliqua</li>
-              <li>Con 2: Ut enim ad minim veniam</li>
-              <li>Con 3: Duis aute irure dolor in reprehenderit</li>
+              {itemsCons.map((item, index) => (
+                <li key={index}><span className="icon">&#10007;</span> {item.title}</li>
+              ))}
             </ul>
           </div>
-        </div>
+        </ProAndCon>
+        <ProAndConButton>
+          <SimpleButton url={'url'} text="best irrigators" color={true} />
+        </ProAndConButton>
       </ProAndConContainer>
     </>
   )

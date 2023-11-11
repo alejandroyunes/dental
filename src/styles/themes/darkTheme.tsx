@@ -60,10 +60,13 @@ export const darkTheme: DefaultTheme = {
     primary: {
       main: "#164863",
       contrastText: "#868686",
+      contrastBg: "#164863",
     },
     secondary: {
       main: "#9BBEC8",
       contrastText: "#ffffff",
+      contrastBg: "#d4eafa",
+
     },
   },
   breakpoint,

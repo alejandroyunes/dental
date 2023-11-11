@@ -1,6 +1,12 @@
 import styled from "styled-components"
 
-export const ThreeRowTableContainer = styled.div`
+export const Container = styled.div`
+  width: 100%;
+  background-color: ${({ theme }) => theme.palette.primary.contrastBg};
+`
+
+
+export const ThreeRow = styled.div`
   max-width:  ${({ theme }) => theme.breakpoint.sm};
   margin: 0 auto;
   display: grid;

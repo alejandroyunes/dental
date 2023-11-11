@@ -1,14 +1,18 @@
 import styled from "styled-components"
 
 export const ProAndConContainer = styled.div`
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fff;
+  margin: 0 24px;
+`
+export const ProAndCon = styled.div`
+  display: flex;
+  margin: 40px auto;
+  padding: 0 20px;
+  background-color: ${({ theme }) => theme.palette.black};
+  max-width:  ${({ theme }) => theme.breakpoint.sm};
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-  .pros-cons-container {
-    display: flex;
+  @media (max-width: ${({ theme }) => theme.breakpoint.xs}) { 
+    flex-direction: column;
   }
 
   .pros, .cons {
@@ -16,12 +20,10 @@ export const ProAndConContainer = styled.div`
     padding: 20px;
   }
 
-  h1 {
-    color: #333;
-  }
-
   h2 {
-    color: #007bff;
+    font-size: 1.4rem;
+    padding-bottom: 12px;
+    color: ${({ theme }) => theme.palette.white};
   }
 
   ul {
@@ -31,7 +33,7 @@ export const ProAndConContainer = styled.div`
 
   ul li {
     margin-bottom: 10px;
-    color: #555;
+    color: ${({ theme }) => theme.palette.white};
   }
 
   .icon {
@@ -47,4 +49,9 @@ export const ProAndConContainer = styled.div`
   .cons .icon {
     color: #ff5252;
   }
+`
+
+export const ProAndConButton = styled.div`
+  display: flex;
+  justify-content: center;
 `
