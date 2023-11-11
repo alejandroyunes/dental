@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 interface BillboardProps {
   image: string
-  mobileimage: string
+  mobileimage?: string
 }
 
 export const ImageContainer = styled.div<BillboardProps>`

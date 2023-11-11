@@ -4,6 +4,7 @@ import { ThreeRowTableContainer } from "./threeRowTable.styled"
 import { Helmet, HelmetProvider } from "react-helmet-async"
 
 type itemProps = {
+  id: number
   image: string
   alt: string
   title: string
@@ -14,13 +15,13 @@ type Props = {
   meta: string
   title: string
   subTitle: string
+  moreInfo: string
   items: itemProps[]
 }
 
 export default function ThreeRowTable(props: Props) {
 
-  const { meta, title, subTitle, items } = props
-
+  const { meta, title, subTitle, moreInfo, items } = props
 
   return (
     <>
@@ -30,18 +31,19 @@ export default function ThreeRowTable(props: Props) {
         </Helmet>
       </HelmetProvider>
 
-      <Title title={title} message={subTitle} />
+      <Title title={title} message={subTitle} moreInfo={moreInfo} />
 
       <ThreeRowTableContainer>
         {items && items.map((post, i) => (
-          <Link to={`${post.url}`} key={i}>
+          <Link to={`/highlighted/${post.id}`} key={i}>
             <div className="child-card">
-              <img src={`${post.image}`} alt={post.alt} width="372" height="210" />
+              <img src={`${post.image}`} alt={post.alt} width="287" height="162" />
               <h2>{post.title}</h2>
             </div>
           </Link>
         ))}
       </ThreeRowTableContainer>
+      <Title url={{ url: 'viewmore', text: 'view more' }} />
     </>
   )
 }

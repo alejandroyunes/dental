@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const ThreeRowTableContainer = styled.div`
-  max-width:  ${({ theme }) => theme.breakpoint.md};
+  max-width:  ${({ theme }) => theme.breakpoint.sm};
   margin: 0 auto;
   display: grid;
   grid-gap: 10px;
@@ -10,14 +10,14 @@ export const ThreeRowTableContainer = styled.div`
     text-decoration: none;
   }
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
     margin: 0 0 16px;
     line-height: 1.3;
     max-width: 660px;
     margin: 16px auto;
     text-align: center;
-    color: ${({ theme }) => theme.palette.primary.main};
+    color: ${({ theme }) => theme.textColor};
   }
   p {
     font-size: 1.125rem;
@@ -27,7 +27,6 @@ export const ThreeRowTableContainer = styled.div`
     text-align: center;
     color: ${({ theme }) => theme.textColor};
   }
-
   @media (max-width: ${({ theme }) => theme.breakpoint.sm}) {
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(3, auto);

@@ -1,6 +1,6 @@
 import { RouteObject } from "react-router-dom"
 
-import App from '../../pages/app.tsx'
+import HomePage from '../../pages/homepage/HomePage.tsx'
 import About from '../../pages/about.tsx'
 import Services from '../../pages/services.tsx'
 import Blog from '../../pages/blog.tsx'
@@ -16,7 +16,15 @@ const routerConfig: RouteObject[] = [
     path: '/',
     element: <Layout />,
     children: [
-      { index: true, element: <App /> },
+      {
+        index: true,
+        element: <HomePage />
+      },
+      {
+        path: '/highlighted/:id',
+        element: <BlogArticle />,
+        errorElement: <ErrorPage />
+      },
       {
         path: '/about-us',
         element: <About />,
@@ -38,7 +46,7 @@ const routerConfig: RouteObject[] = [
         errorElement: <ErrorPage />
       },
       {
-        path: '/blog-article/:id',
+        path: '/blog-articles/:id',
         element: <BlogArticle />,
         errorElement: <ErrorPage />
       },
