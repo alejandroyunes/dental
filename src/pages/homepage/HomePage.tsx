@@ -5,7 +5,9 @@ import ThreeRowTable from "../../components/ThreeRowTable/ThreeRowTable";
 import { billboard } from "./data/billboard/billboard"
 import { firstThreeRowsTable } from "./data/firstThreeRowTable/firstThreeRowsTable"
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { proAndCons } from "./data/proAndCons/proAndCons";
+import { proAndCons } from "./data/proAndCons/proAndCons"
+import { irrigatorProps } from "./data/irrigatorTypes/irrigatorData";
+import IrrigatorTypes from "../../components/IrrigatorTypes/IrrigatorTypes";
 
 export default function HomePage() {
 
@@ -19,6 +21,7 @@ export default function HomePage() {
       <Billboard {...billboard.billboard} />
       <ThreeRowTable {...firstThreeRowsTable} />
       <ProAndCon {...proAndCons} />
+      <IrrigatorTypes {...irrigatorProps} />
     </>
   )
 }
