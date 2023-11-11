@@ -30,8 +30,8 @@ export default function Footer(props: FooterProps) {
       </div>
 
       <div className="footer-right">
-
         <div className="secure">
+          <p>Secure Payment through Amazon</p>
           <img src={image} alt="secure payment" />
           <p>{text}</p>
         </div>

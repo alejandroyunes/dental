@@ -34,11 +34,6 @@ export const FooterContainer = styled.footer`
       padding: 0 0 8px 0;
       text-decoration: underline;
     }
-    @media(max-width: ${({ theme }) => theme.breakpoint.sm}){
-      h1 {
-        font-size: 2em;
-      }
-    }
   }
   .footer-right {
     margin: auto 0;
@@ -49,6 +44,8 @@ export const FooterContainer = styled.footer`
       font-size: .9rem;
       color: ${({ theme }) => theme.textColor};
     }
+    img {
+      border: 1px solid ${({ theme }) => theme.palette.gray};
+    }
   }
 `
-
