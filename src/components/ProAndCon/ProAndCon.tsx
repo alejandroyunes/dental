@@ -20,15 +20,9 @@ type Props = {
 }
 
 export default function (props: Props) {
-  const { meta, title, subTitle, moreInfo, items } = props
+  const { title, subTitle, moreInfo, items } = props
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          <meta name="description" content={'meta'} />
-        </Helmet>
-      </HelmetProvider>
-
       <Title title={title} message={subTitle} moreInfo={moreInfo} />
 
       <ProAndConContainer>

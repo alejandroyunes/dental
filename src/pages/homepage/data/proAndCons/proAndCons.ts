@@ -3,10 +3,9 @@ const webDev = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/bl
 const NodeExpressServer = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698957906/blog/mcygclsb4g0jj5jrchuj.webp'
 
 export const proAndCons = {
-  meta: "Irrigators Tips and Tricks on Oral",
-  title: "Brushing Alone Falls Short",
-  subTitle: "The Dental Irrigator removes plaque that lodges deep in the interdental spaces and below the gums. Using a toothbrush or dental floss alone is not sufficient to achieve the best oral hygiene. That's why we recommend that you acquire a good Oral Irrigator.",
-  moreInfo: "Click on the following images to read reviews of the top-rated Bucodental Irrigators:",
+  title: "What is a Dental Irrigator?",
+  subTitle: "A dental irrigator, also known as an oral irrigator, is a household device that releases a stream of water between the teeth and gums, effectively eliminating any residual food, plaque, or bacteria.",
+  moreInfo: "Some models of dental irrigators come with various nozzles and adjustable pressure levels, allowing users to customize the cleaning experience based on individual needs and sensitivity. Moreover, regular use of an oral irrigator can contribute to preventing diseases such as gingivitis and periodontitis, promoting healthier and stronger gums.",
   items: [
     {
       id: 6,
