@@ -10,7 +10,6 @@ export interface FooterProps {
 }
 
 export default function Footer(props: FooterProps) {
-
   const { title, subtitle, image, text } = props
 
   return (
