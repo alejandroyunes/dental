@@ -1,4 +1,4 @@
-export const english = {
+export const footerDataProps = {
   headerProps: {
     links: [
       {
@@ -25,14 +25,9 @@ export const english = {
     arialLabel: 'Menu button',
   },
   footer: {
-    title: "Our Office",
-    subtitle: "Leading digital agency with a strong background in design and development.",
-    label: "The weather in Medellín:",
-    socialLinkText: {
-      facebook: 'Visit us on Facebook',
-      instagram: 'Visit us on Instagram',
-      twitter: 'Visit us on Twitter',
-      github: 'Visit us on GitHub',
-    }
+    title: "Legal",
+    subtitle: "Improve your oral health with Max Dental Irrigator",
+    image: "https://res.cloudinary.com/dkv2cmxfs/image/upload/v1699701691/footer/fiogr0e786h5sk4k7v82.webp",
+    text: "We include products that we believe are useful for our readers. If you purchase through links on this page, we may earn a small commission."
   }
 }
