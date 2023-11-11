@@ -1,9 +1,9 @@
 export const proAndCons = {
   title: "What is a Dental Irrigator?",
-  subTitle: "A dental irrigator, also known as an oral irrigator, is a household device that releases a stream of water between the teeth and gums, effectively eliminating any residual food, plaque, or bacteria.",
-  moreInfo: "Some models of dental irrigators come with various nozzles and adjustable pressure levels, allowing users to customize the cleaning experience based on individual needs and sensitivity. Moreover, regular use of an oral irrigator can contribute to preventing diseases such as gingivitis and periodontitis, promoting healthier and stronger gums.",
+  subtitle: "A dental irrigator, also known as an oral irrigator, is a household device that releases a stream of water between the teeth and gums, effectively eliminating any residual food, plaque, or bacteria.",
+  moreinfo: "Some models of dental irrigators come with various nozzles and adjustable pressure levels, allowing users to customize the cleaning experience based on individual needs and sensitivity. Moreover, regular use of an oral irrigator can contribute to preventing diseases such as gingivitis and periodontitis, promoting healthier and stronger gums.",
   url: '/blog/what-is-a-dental-irrigator',
-  itemsPro: [
+  itemspro: [
     {
       title: 'Helps reduce tartar and prevent oral diseases.',
     },
@@ -20,7 +20,7 @@ export const proAndCons = {
       title: 'Contributes to the prevention of dental stains, maintaining a more attractive dental aesthetic.',
     },
   ],
-  itemsCons: [
+  itemscons: [
     {
       title: 'The more comprehensive models require a lot of space',
     },

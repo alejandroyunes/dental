@@ -9,7 +9,7 @@ import { irrigatorProps } from "./data/irrigatorTypes/irrigatorData";
 import IrrigatorTypes from "../../components/IrrigatorTypes/IrrigatorTypes";
 import QuestionsAndAnswers from "../../components/QuestionAndAnswers/QuestionsAndAnswers";
 import { questions } from "./data/questionsAndAnswers/questions";
-import { ProAndCon } from "../../components/ProAndCon/proandcon.styled";
+import ProAndConComponent from "../../components/ProAndCon/ProAndConComponent";
 
 export default function HomePage() {
 
@@ -22,7 +22,7 @@ export default function HomePage() {
       </HelmetProvider>
       <Billboard {...billboard.billboard} />
       <ThreeRowTable {...firstThreeRowsTable} />
-      <ProAndCon {...proAndCons} />
+      <ProAndConComponent {...proAndCons} />
       <IrrigatorTypes {...irrigatorProps} />
       <QuestionsAndAnswers {...questions} />
     </>

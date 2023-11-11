@@ -1,4 +1,3 @@
-// components/themes/defaultTheme.tsx
 import { DefaultTheme } from "styled-components";
 import { breakpoint, fontSizes, fonts, zIndices } from "./darkTheme";
 

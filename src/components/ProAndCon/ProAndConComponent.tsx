@@ -1,6 +1,6 @@
 import SimpleButton from "../Button/SimpleButton/SimpleButton"
 import Title from "../Title/Title"
-import { ProAndCon, ProAndConButton, ProAndConContainer } from "./proandcon.styled"
+import { ProAndCon, ProAndConButton, ProAndConContainer } from "./proandconponent.styled"
 
 type itemProps = {
   title: string
@@ -8,25 +8,25 @@ type itemProps = {
 
 type Props = {
   title: string
-  subTitle: string
-  moreInfo: string
+  subtitle: string
+  moreinfo: string
   url: string
-  itemsPro: itemProps[]
-  itemsCons: itemProps[]
+  itemspro: itemProps[]
+  itemscons: itemProps[]
 }
 
-export default function (props: Props) {
-  const { title, subTitle, moreInfo, url, itemsPro, itemsCons } = props
+export default function ProAndConComponent(props: Props) {
+  const { title, subtitle, moreinfo, url, itemspro, itemscons } = props
   return (
     <>
-      <Title title={title} message={subTitle} moreInfo={moreInfo} url={{ url: url, text: "To what purpose it serves, and to what it does not." }} />
+      <Title title={title} message={subtitle} moreinfo={moreinfo} url={{ url: url, text: "To what purpose it serves, and to what it does not." }} />
 
       <ProAndConContainer>
         <ProAndCon>
           <div className="pros">
             <h2>Pros</h2>
             <ul>
-              {itemsPro.map((item, index) => (
+              {itemspro.map((item, index) => (
                 <li key={index}><span className="icon">&#10003;</span> {item.title}</li>
               ))}
             </ul>
@@ -35,7 +35,7 @@ export default function (props: Props) {
           <div className="cons">
             <h2>Cons</h2>
             <ul>
-              {itemsCons.map((item, index) => (
+              {itemscons.map((item, index) => (
                 <li key={index}><span className="icon">&#10007;</span> {item.title}</li>
               ))}
             </ul>
