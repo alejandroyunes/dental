@@ -6,6 +6,7 @@ export const Container = styled.div`
   h2{
     text-align: center;
     font-size: 2rem;
+    color: ${({ theme }) => theme.textColor};
   }
 `
 
@@ -27,8 +28,12 @@ export const DetailsContainer = styled.div`
     margin: 8px 0;
     padding: 10px;
     border: 1px solid #e2e8f0;
+    span {
+      color: ${({ theme }) => theme.palette.black};
+    }
     .summary-title {
       user-select: none;
+      padding-right: 12px;
     }
 
     &:hover {
@@ -41,6 +46,17 @@ export const DetailsContainer = styled.div`
       padding: 8px;
       font-weight: 300;
       line-height: 1.5;
+      color: ${({ theme }) => theme.palette.black};
+    }
+
+    .view-more {
+      font-weight: 300;
+      line-height: 1.5;
+      padding: 8px;
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
     }
 
     summary {
@@ -58,8 +74,8 @@ export const DetailsContainer = styled.div`
       position: absolute;
       top: 1em;
       right: 1em;
-      background: #ffffff;
-
+      background:  ${({ theme }) => theme.palette.primary.main};
+      color: #ffffff;
       svg {
         display: block;
       }
@@ -70,6 +86,3 @@ export const DetailsContainer = styled.div`
     }
   }
 `
-
-
-

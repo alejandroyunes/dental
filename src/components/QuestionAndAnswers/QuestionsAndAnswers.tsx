@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom"
 import { Container, DetailsContainer } from "./questionsAndAnswers.styled"
 
 type ItemProps = {
   question: string
   answer: string
+  url: string
 }
 
 type QuestionsProps = {
@@ -28,6 +30,11 @@ export default function (props: QuestionsProps) {
               </summary>
 
               <div className="summary-content">{item.answer}</div>
+
+              {item.url &&
+                <Link to={item.url}>
+                  <span className="view-more">view more</span>
+                </Link>}
               <div className="summary-chevron-down">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
               </div>
