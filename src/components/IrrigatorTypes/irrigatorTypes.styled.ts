@@ -17,6 +17,7 @@ export const Item = styled.div`
   padding: 24px;
   @media (max-width: ${({ theme }) => theme.breakpoint.xs}) {
     grid-template-columns: 1fr;
+    padding: 0 24px 24px;
   }
   h3 {
     font-size: 1.4rem;

@@ -1,5 +1,4 @@
 import Billboard from "../../components/Billboard/Billboard"
-import ProAndCon from "../../components/ProAndCon/ProAndCon";
 import ThreeRowTable from "../../components/ThreeRowTable/ThreeRowTable";
 
 import { billboard } from "./data/billboard/billboard"
@@ -10,6 +9,7 @@ import { irrigatorProps } from "./data/irrigatorTypes/irrigatorData";
 import IrrigatorTypes from "../../components/IrrigatorTypes/IrrigatorTypes";
 import QuestionsAndAnswers from "../../components/QuestionAndAnswers/QuestionsAndAnswers";
 import { questions } from "./data/questionsAndAnswers/questions";
+import { ProAndCon } from "../../components/ProAndCon/proandcon.styled";
 
 export default function HomePage() {
 

@@ -1,15 +1,10 @@
 import { RouteObject } from "react-router-dom"
 
 import HomePage from '../../pages/homepage/HomePage.tsx'
-import About from '../../pages/about.tsx'
-import Services from '../../pages/services.tsx'
-import Blog from '../../pages/blog.tsx'
-import Portfolio from '../../pages/portfolio.tsx'
 import ErrorPage from '../../pages/error-page.tsx'
 
-import BlogArticle from '../../components/Blog/BlogArticle/BlogArticle.tsx'
 import Layout from '../layout.tsx'
-
+import Privacy from "../../components/Legal/Privacy/Privacy.tsx";
 
 const routerConfig: RouteObject[] = [
   {
@@ -22,32 +17,27 @@ const routerConfig: RouteObject[] = [
       },
       {
         path: '/highlighted/:id',
-        element: <BlogArticle />,
-        errorElement: <ErrorPage />
-      },
-      {
-        path: '/about-us',
-        element: <About />,
-        errorElement: <ErrorPage />
-      },
-      {
-        path: '/services',
-        element: <Services />,
-        errorElement: <ErrorPage />
-      },
-      {
-        path: '/portfolio',
-        element: <Portfolio />,
+        element: <h1>about</h1>,
         errorElement: <ErrorPage />
       },
       {
         path: '/blog',
-        element: <Blog />,
+        element: <h1>some</h1>,
         errorElement: <ErrorPage />
       },
       {
-        path: '/blog-articles/:id',
-        element: <BlogArticle />,
+        path: '/privacy-policy',
+        element: <Privacy />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/legal-notice',
+        element: <h1>some</h1>,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/cookie-policy',
+        element: <h1>some</h1>,
         errorElement: <ErrorPage />
       },
     ]

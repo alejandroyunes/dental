@@ -5,12 +5,13 @@ export const FooterContainer = styled.footer`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  padding: 60px 24px 40px;
-  max-width: ${({ theme }) => theme.breakpoint.md};
+  padding: 60px 0 40px;
+  max-width: ${({ theme }) => theme.breakpoint.sm};
   gap: 10px;
   @media(max-width: ${({ theme }) => theme.breakpoint.sm}){
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(2, auto);
+    padding: 24px 24px 40px;
     }
   .footer-left {
     h1 {

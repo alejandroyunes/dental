@@ -7,23 +7,26 @@ export interface FooterProps {
   subtitle: string
   image: string
   text: string
+  policy: string
+  notice: string
+  cookie: string
 }
 
 export default function Footer(props: FooterProps) {
-  const { title, subtitle, image, text } = props
+  const { title, subtitle, image, text, policy, notice, cookie } = props
 
   return (
     <FooterContainer>
       <div className="footer-left">
         <h1>{title}</h1>
         <h2>{subtitle}</h2>
-        <Link to={''}>
+        <Link to={policy}>
           <p>Privacy Policy</p>
         </Link>
-        <Link to={''}>
+        <Link to={notice}>
           <p>Legal Notice</p>
         </Link>
-        <Link to={''}>
+        <Link to={cookie}>
           <p>Cookie Policy</p>
         </Link>
       </div>

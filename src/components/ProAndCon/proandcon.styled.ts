@@ -13,6 +13,7 @@ export const ProAndCon = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.xs}) { 
     flex-direction: column;
+    margin: 0 auto 40px;
   }
 
   .pros, .cons {

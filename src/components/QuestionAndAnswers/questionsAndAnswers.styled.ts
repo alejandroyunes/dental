@@ -17,6 +17,7 @@ export const DetailsContainer = styled.div`
   align-items: center;
   padding: 24px;
   -webkit-tap-highlight-color: transparent;
+
   details {
     font-size: 1.2rem;
     box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.1),
