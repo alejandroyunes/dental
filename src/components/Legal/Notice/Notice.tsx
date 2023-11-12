@@ -3,7 +3,6 @@ import { Container, Legal } from "../styles.styled"
 
 export default function () {
   const url = 'https://www.vanguardia.tech/'
-  const name = 'vanguardia.tech'
   const email = 'irrigatordental@gmail.com'
 
   return (
