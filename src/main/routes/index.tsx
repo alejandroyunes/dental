@@ -5,6 +5,8 @@ import ErrorPage from '../../pages/error-page.tsx'
 
 import Layout from '../layout.tsx'
 import Privacy from "../../components/Legal/Privacy/Privacy.tsx";
+import Notice from "../../components/Legal/Notice/Notice.tsx";
+import Cookie from "../../components/Legal/Cookie/Cookie.tsx";
 
 const routerConfig: RouteObject[] = [
   {
@@ -32,12 +34,12 @@ const routerConfig: RouteObject[] = [
       },
       {
         path: '/legal-notice',
-        element: <h1>some</h1>,
+        element: <Notice />,
         errorElement: <ErrorPage />
       },
       {
         path: '/cookie-policy',
-        element: <h1>some</h1>,
+        element: <Cookie />,
         errorElement: <ErrorPage />
       },
     ]

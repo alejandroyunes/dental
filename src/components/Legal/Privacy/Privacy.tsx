@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom"
-import { Container, Legal } from "./privacy.styled"
+import { Container, Legal } from "../styles.styled"
 
 export default function () {
   const url = 'https://www.vanguardia.tech/'
+  const name = 'vanguardia.tech'
 
   return (
     <Container>
       <Legal>
         <h2>Privacy Policy</h2>
         <p>
-          If you are here, it's because you want to know more about the obligations and rights that correspond to you as a user of this website <Link to={url}><span>{url}</span></Link>, and that's great. Our duty is to inform you, and yours is to be duly informed.
+          Here are the obligations and rights that correspond to you as a user of this website <Link to={url}><span>{url}</span></Link>.
         </p>
         <p>
           In this Privacy Policy, we will provide you with complete transparency regarding the purpose of this website and everything related to the data you provide us, as well as the obligations and rights that are applicable to you.
@@ -23,11 +24,7 @@ export default function () {
         <p>
           <span>The GDPR (General Data Protection Regulation) (EU) 2016/679 of the European Parliament and of the Council dated April 27, 2016, concerning the protection of individuals, is the new regulation of the European Union</span> that standardizes the regulation of personal data processing across various EU countries.
         </p>
-        <p>
-          <span>
-            The LOPD (Organic Law 15/1999, of December 13, on the Protection of Personal Data, and Royal Decree 1720/2007, of December 21, the Regulation for the development of the LOPD)
-          </span>
-          regulates the processing of personal data and the obligations that web or blog owners must assume when managing this information.
+        <p><span>The LOPD (Organic Law 15/1999, of December 13, on the Protection of Personal Data, and Royal Decree 1720/2007, of December 21, the Regulation for the development of the LOPD)</span> regulates the processing of personal data and the obligations that web or blog owners must assume when managing this information.
         </p>
         <p>
           <span>
@@ -39,7 +36,6 @@ export default function () {
         <p>
           Email: irrigatordental@gmail.com
         </p>
-        <p>The personal data you provide us, always with your explicit consent, will be stored and processed for the purposes outlined and described below in this Privacy Policy, until you request their deletion</p>
         <p>Please note that this Privacy Policy may be modified at any time to adapt to legislative changes or changes in our activities, with the version published on the website at any given time being valid. Any such modifications will be notified to you before their implementation.</p>
         <h2>
           Terms of use
@@ -69,7 +65,7 @@ export default function () {
         <p>In other words, it is your responsibility to guarantee and respond, in any case, to the accuracy, validity, and authenticity of the personal data provided, and you commit to keeping them duly updated.</p>
         <p>In accordance with the provisions of this Privacy Policy, you agree to provide complete and correct information in the contact or subscription form.</p>
 
-        <h1>Access to data on behalf of third parties</h1>
+        <h2>Access to data on behalf of third parties</h2>
         <p>To provide strictly necessary services for the operation and development of this website's activities, we inform you that we share data with the following service providers under their respective privacy conditions.</p>
         <p>Rest assured that these third parties will not be able to use this information for any purpose other than that specifically regulated in our relationships with them under the applicable regulations on the protection of personal data.</p>
         <p>This website is hosted on https://vercel.com, with the trade name Vercel, which provides hosting services for you to access and navigate our site. You can check the privacy policy and other legal aspects of this company.</p>
@@ -92,8 +88,8 @@ export default function () {
 
         <h2>Security Measures</h2>
 
-        <p>As the owner of the website, Vanguardia has implemented all the necessary technical and organizational measures to ensure the security and integrity of the personal data it handles, as well as to prevent its loss, alteration, and/or unauthorized access by third parties.</p>
-        <p>We remind you that for more information, you can consult our <Link to={'/cookie-policy'}><span>Legal Notice</span></Link> and <Link to={'/cookie-policy'}><span>Cookie Policy</span></Link> pages.</p>
+        <p>As the owner of the website, {name} has implemented all the necessary technical and organizational measures to ensure the security and integrity of the personal data it handles, as well as to prevent its loss, alteration, and/or unauthorized access by third parties.</p>
+        <p>We remind you that for more information, you can consult our <Link to={'/legal-notice'}><span>Legal Notice</span></Link> and <Link to={'/cookie-policy'}><span>Cookie Policy</span></Link> pages.</p>
       </Legal>
     </Container>
   )
