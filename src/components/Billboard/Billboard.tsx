@@ -7,13 +7,14 @@ export interface BillboardProps {
   title: string
   subtitle: string
   image: string
+  url: string
   mobileImage: string
   buttonText: string
 }
 
 export default function Billboard(props: BillboardProps) {
 
-  const { title, subtitle, image, buttonText, mobileImage } = props
+  const { title, subtitle, image, buttonText, mobileImage, url } = props
 
   return (
     <StyleSheetManager shouldForwardProp={(prop) => isPropValid(prop)}>
@@ -27,7 +28,7 @@ export default function Billboard(props: BillboardProps) {
             <h2>
               {subtitle}
             </h2>
-            <SimpleButton text={buttonText} />
+            <SimpleButton text={buttonText} color url={url} blank={false} />
           </div>
         </BillboardContainer>
 

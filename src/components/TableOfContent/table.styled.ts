@@ -1,18 +1,12 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
-  max-width:  ${({ theme }) => theme.breakpoint.sm};
-  margin: 0 auto;
-`
-
 export const DetailsContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 24px 24px;
+  padding: 24px;
   -webkit-tap-highlight-color: transparent;
-
   details {
     font-size: 1.2rem;
     box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.1),
@@ -21,7 +15,7 @@ export const DetailsContainer = styled.div`
     background: #ffffff;
     border-radius: 8px;
     position: relative;
-    max-width: 500px;
+    max-width: 600px;
     margin: 8px 0;
     padding: 10px;
     border: 1px solid #e2e8f0;
@@ -31,6 +25,7 @@ export const DetailsContainer = styled.div`
     .summary-title {
       user-select: none;
       padding-right: 12px;
+      font-weight: 500;
     }
 
     &:hover {
@@ -44,6 +39,10 @@ export const DetailsContainer = styled.div`
       font-weight: 300;
       line-height: 1.5;
       color: ${({ theme }) => theme.palette.black};
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
     }
 
     .view-more {
@@ -59,7 +58,6 @@ export const DetailsContainer = styled.div`
     summary {
       list-style: none;
       padding: 8px;
-
       &:focus {
         outline: none;
       }

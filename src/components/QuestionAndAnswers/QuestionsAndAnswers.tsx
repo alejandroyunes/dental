@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { Container, DetailsContainer } from "./questionsAndAnswers.styled"
+import Title from "../Title/Title"
 
 type ItemProps = {
   question: string
@@ -17,7 +18,7 @@ export default function (props: QuestionsProps) {
 
   return (
     <Container>
-      <h2>{title}</h2>
+      <Title titleH2={title} />
       <DetailsContainer>
         {items.map((item, index) => {
           return (

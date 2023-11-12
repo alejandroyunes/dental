@@ -19,7 +19,7 @@ export default function ProAndConComponent(props: Props) {
   const { title, subtitle, moreinfo, url, itemspro, itemscons } = props
   return (
     <>
-      <Title title={title} message={subtitle} moreinfo={moreinfo} url={{ url: url, text: "To what purpose it serves, and to what it does not." }} />
+      <Title titleH2={title} message={subtitle} moreinfo={moreinfo} url={{ url: url, text: "To what purpose it serves, and to what it does not." }} />
 
       <ProAndConContainer>
         <ProAndCon>

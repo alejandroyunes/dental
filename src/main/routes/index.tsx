@@ -4,9 +4,12 @@ import HomePage from '../../pages/homepage/HomePage.tsx'
 import ErrorPage from '../../pages/error-page.tsx'
 
 import Layout from '../layout.tsx'
-import Privacy from "../../components/Legal/Privacy/Privacy.tsx";
-import Notice from "../../components/Legal/Notice/Notice.tsx";
-import Cookie from "../../components/Legal/Cookie/Cookie.tsx";
+import Privacy from "../../components/Legal/Privacy/Privacy.tsx"
+import Notice from "../../components/Legal/Notice/Notice.tsx"
+import { Cookie } from "@mui/icons-material";
+import Article from "../../components/Article/Article.tsx"
+import Best from "../../pages/categories/best-irrigators/Best.tsx"
+
 
 const routerConfig: RouteObject[] = [
   {
@@ -18,13 +21,13 @@ const routerConfig: RouteObject[] = [
         element: <HomePage />
       },
       {
-        path: '/highlighted/:id',
-        element: <h1>about</h1>,
+        path: '/categories/:id',
+        element: <Article />,
         errorElement: <ErrorPage />
       },
       {
-        path: '/blog',
-        element: <h1>some</h1>,
+        path: '/best-irrigators',
+        element: <Best />,
         errorElement: <ErrorPage />
       },
       {
@@ -35,7 +38,7 @@ const routerConfig: RouteObject[] = [
       {
         path: '/legal-notice',
         element: <Notice />,
-        errorElement: <ErrorPage />
+        errorElement: <ErrorPage />,
       },
       {
         path: '/cookie-policy',

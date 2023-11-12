@@ -1,17 +1,17 @@
+import { Link } from "react-router-dom"
 import { SimpleButton as Button } from "./simple.styled"
 
 type SimpleButtonProps = {
   text: string
-  url?: string
+  url: string
+  blank?: boolean
   color?: boolean
 }
 
-const handleClick = () => {
-  console.log('Hello from handleClick')
-}
-
-export default function SimpleButton({ text, url, color }: SimpleButtonProps) {
+export default function SimpleButton({ text, url, color, blank }: SimpleButtonProps) {
   return (
-    <Button onClick={handleClick}> <a className={color ? 'color' : ''} href={url}>{text}</a></Button>
+    <Button>
+      <Link to={url} target={blank ? '_blank' : '_self'}><span className={color ? 'color' : ''}>{text}</span></Link>
+    </Button>
   )
 }

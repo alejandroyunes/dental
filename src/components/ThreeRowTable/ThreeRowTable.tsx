@@ -25,7 +25,7 @@ export default function ThreeRowTable(props: Props) {
     <>
 
       <Container>
-        <Title title={title} message={subTitle} moreinfo={moreInfo} />
+        <Title titleH2={title} message={subTitle} moreinfo={moreInfo} />
 
         <ThreeRow>
 

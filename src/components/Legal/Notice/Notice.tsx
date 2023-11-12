@@ -60,7 +60,7 @@ export default function () {
         <p>To access complete information about the use of cookies on this website, their purpose, and their rejection, you can consult our <Link to={'/cookie-policy'}>COOKIES POLICY</Link>.</p>
         <p></p>
 
-        <p>We remind you that for more information, you can consult our <Link to={'/privacy-policy'}><span>Private Policy</span></Link> and <Link to={'/legal-notice'}><span>Legal Notice</span></Link> pages.</p>
+        <p>We remind you that for more information, you can consult our <Link to={'/privacy-policy'}><span>Private Policy</span></Link> and <Link to={'/cookie-policy'}><span>Cookie Policy</span></Link> pages.</p>
       </Legal>
     </Container>
   )

@@ -31,7 +31,7 @@ export const TitleContainer = styled.div`
     }
   }
   
-  h1 {
+  h1, h2 {
     text-align: center;
     font-size: 2rem;
 		font-weight: 600;
