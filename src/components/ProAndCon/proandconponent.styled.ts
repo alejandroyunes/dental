@@ -21,7 +21,7 @@ export const ProAndCon = styled.div`
     padding: 20px;
   }
 
-  h2 {
+  p {
     font-size: 1.4rem;
     padding-bottom: 12px;
     color: ${({ theme }) => theme.palette.white};

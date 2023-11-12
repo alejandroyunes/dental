@@ -39,6 +39,11 @@ export const BillboardContainer = styled.div`
       width: 100%;
     }
     h1 {
+      font-weight: 400;
+      color: ${({ theme }) => theme.palette.white};
+      font-size: 1.5rem;
+    }
+    h2 {
       font-weight: bold;
       color: ${({ theme }) => theme.palette.white};
       font-size: 3rem;
@@ -46,7 +51,7 @@ export const BillboardContainer = styled.div`
         font-size: 1.8rem;
       }
     }
-    h2 {
+    p {
       color: ${({ theme }) => theme.palette.white};
       font-size: 1.5rem;
       line-height: 2rem;

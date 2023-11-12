@@ -24,7 +24,7 @@ export default function ProAndConComponent(props: Props) {
       <ProAndConContainer>
         <ProAndCon>
           <div className="pros">
-            <h2>Pros</h2>
+            <p>Pros</p>
             <ul>
               {itemspro.map((item, index) => (
                 <li key={index}><span className="icon">&#10003;</span> {item.title}</li>
@@ -33,7 +33,7 @@ export default function ProAndConComponent(props: Props) {
           </div>
 
           <div className="cons">
-            <h2>Cons</h2>
+            <p>Cons</p>
             <ul>
               {itemscons.map((item, index) => (
                 <li key={index}><span className="icon">&#10007;</span> {item.title}</li>

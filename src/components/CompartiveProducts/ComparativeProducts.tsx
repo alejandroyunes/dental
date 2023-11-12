@@ -1,10 +1,14 @@
-import Title from "../Title/Title";
-import { Container } from "./comparative.styled";
+import Title from "../Title/Title"
+import { Container } from "./comparative.styled"
 
-export default function () {
+type Props = {
+  title: string
+  message: string
+}
+export default function ({ title, message }: Props) {
   return (
     <Container>
-      <Title title='Comparative of the Best Oral Irrigators' message="lorem ipsum" />
+      <Title titleH2={title} message={message} />
     </Container>
   )
 }

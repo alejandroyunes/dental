@@ -13,7 +13,7 @@ export const ThreeRow = styled.div`
   a {
     text-decoration: none;
   }
-  h2 {
+  h3 {
     font-size: 1.4rem;
     font-weight: 600;
     margin: 0 0 16px;

@@ -33,7 +33,7 @@ export default function ThreeRowTable(props: Props) {
             <Link to={`/highlighted/${post.id}`} key={i}>
               <div className="child-card">
                 <img src={`${post.image}`} alt={post.alt} width="287" height="162" />
-                <h2>{post.title}</h2>
+                <h3>{post.title}</h3>
               </div>
             </Link>
           ))}

@@ -5,6 +5,7 @@ import isPropValid from '@emotion/is-prop-valid'
 
 export interface BillboardProps {
   title: string
+  titleH2: string
   subtitle: string
   image: string
   url: string
@@ -14,7 +15,7 @@ export interface BillboardProps {
 
 export default function Billboard(props: BillboardProps) {
 
-  const { title, subtitle, image, buttonText, mobileImage, url } = props
+  const { title, subtitle, image, buttonText, mobileImage, url, titleH2 } = props
 
   return (
     <StyleSheetManager shouldForwardProp={(prop) => isPropValid(prop)}>
@@ -22,12 +23,11 @@ export default function Billboard(props: BillboardProps) {
       <ImageContainer image={image} mobileimage={mobileImage} >
         <BillboardContainer>
           <div className="title">
-            <h1>
-              {title}
-            </h1>
-            <h2>
+            <h2>{titleH2}</h2>
+            <h1>{title}</h1>
+            <p>
               {subtitle}
-            </h2>
+            </p>
             <SimpleButton text={buttonText} color url={url} blank={false} />
           </div>
         </BillboardContainer>
