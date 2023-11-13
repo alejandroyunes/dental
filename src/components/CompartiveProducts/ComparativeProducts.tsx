@@ -54,11 +54,11 @@ const TableInfo = () => {
         <p>Deposit</p>
       </div>
 
-      <div className="grid-item grid-item-image-highlight">
+      <div className="grid-item grid-item-highlight">
         <p>Highlight</p>
       </div>
 
-      <div className="grid-item grid-item-image-problem">
+      <div className="grid-item grid-item-problem">
         <p>Problem</p>
       </div>
 
@@ -111,11 +111,11 @@ export default function ({ title, message, items, primeUrl }: Props) {
                   <p>{item.deposit}</p>
                 </div>
 
-                <div className="grid-item grid-item-image-highlight">
+                <div className="grid-item grid-item-highlight">
                   <p>{item.highlight}</p>
                 </div>
 
-                <div className="grid-item grid-item-image-problem">
+                <div className="grid-item grid-item-problem">
                   <p>{item.problem}</p>
                 </div>
 
@@ -137,7 +137,6 @@ export default function ({ title, message, items, primeUrl }: Props) {
       </DesktopWrapper >
 
       <TableMobile>
-
         {items.map((item, index) => {
           return (
             <Fragment key={index}>
@@ -167,11 +166,11 @@ export default function ({ title, message, items, primeUrl }: Props) {
                   <p>{item.deposit}</p>
                 </div>
 
-                <div className="grid-item grid-item-text">
+                <div className="grid-item grid-item-highlight">
                   <p>{item.highlight}</p>
                 </div>
 
-                <div className="grid-item grid-item-text">
+                <div className="grid-item grid-item-problem">
                   <p>{item.problem}</p>
                 </div>
 
@@ -181,6 +180,10 @@ export default function ({ title, message, items, primeUrl }: Props) {
 
                 <div className="grid-item">
                   <p>{item.satisfaction}</p>
+                </div>
+
+                <div className="grid-item grid-item-buy-button">
+                  <AmazonButton text={item.view} url={item.url} blank={true} />
                 </div>
 
               </div>
