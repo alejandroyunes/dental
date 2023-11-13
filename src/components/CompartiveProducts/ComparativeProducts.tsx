@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import AmazonButton from "../Button/AmazonButton/AmazonButton"
 
 type ItemProps = {
-  model: string
+  models: string
   image: string
   prime: boolean
   dimensions: string
@@ -17,7 +17,7 @@ type ItemProps = {
   satisfaction: string
   view: string
   url: string
-  [key: string]: string | boolean | number;
+  [key: string]: string | boolean | number
 }
 
 type TitleProps = {
@@ -33,7 +33,6 @@ type Props = {
 }
 
 export default function ({ title, message, items, primeUrl, titles }: Props) {
-
 
   return (
     <>
