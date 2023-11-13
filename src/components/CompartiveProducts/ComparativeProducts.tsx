@@ -9,7 +9,7 @@ type ItemProps = {
   image: string
   prime: boolean
   dimensions: string
-  replacementHeads: string
+  replacementheads: string
   capacity: string
   highlight: string
   problem: string
