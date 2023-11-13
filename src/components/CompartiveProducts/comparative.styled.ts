@@ -48,7 +48,7 @@ export const Table = styled.div`
     align-items: center;
     justify-content: center;
   }
-  .grid-item-svg {
+  .grid-item-prime {
     height: 50px;
     display: flex;
     align-items: center;
@@ -57,7 +57,7 @@ export const Table = styled.div`
       width: 100%;
     }
   }
-  .grid-item-svg-icon {
+  .grid-item-prime-svg {
     height: 50px;
     display: flex;
     align-items: center;
@@ -129,6 +129,30 @@ export const TableMobile = styled.div`
   }
   .grid-item-image {
     height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid-item-image-text {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      width: 100%;
+    }
+  }
+  .grid-item-prime {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      width: 100%;
+    }
+  }
+  .grid-item-prime-svg {
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;

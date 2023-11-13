@@ -5,13 +5,12 @@ type AmazonButtonProps = {
   text: string
   url: string
   blank?: boolean
-  color?: boolean
 }
 
-export default function AmazonButton({ text, url, color, blank }: AmazonButtonProps) {
+export default function AmazonButton({ text, url, blank }: AmazonButtonProps) {
   return (
     <Button>
-      <Link to={url} target={blank ? '_blank' : '_self'}><span className={color ? 'color' : ''}>{text}</span></Link>
+      <Link to={url} target={blank ? '_blank' : '_self'}><span>{text}</span></Link>
     </Button>
   )
 }

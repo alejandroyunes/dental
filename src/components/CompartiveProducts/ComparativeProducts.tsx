@@ -38,7 +38,7 @@ const TableInfo = () => {
         <p>Image</p>
       </div>
 
-      <div className="grid-item grid-item-svg">
+      <div className="grid-item grid-item-prime">
         <p>Prime</p>
       </div>
 
@@ -95,7 +95,7 @@ export default function ({ title, message, items, primeUrl }: Props) {
                   <img src={item.image} width={160} height={160} />
                 </div>
 
-                <div className="grid-item grid-item-svg-icon">
+                <div className="grid-item grid-item-prime-svg">
                   <p>{item.prime ? <Link to={primeUrl} target='_blank'><PrimeSvg /></Link> : '-'}</p>
                 </div>
 
@@ -128,7 +128,7 @@ export default function ({ title, message, items, primeUrl }: Props) {
                 </div>
 
                 <div className="grid-item grid-item-buy-button">
-                  <AmazonButton text={item.view} url={primeUrl} blank={true} color={true} />
+                  <AmazonButton text={item.view} url={item.url} blank={true} />
                 </div>
               </div>
             )
@@ -151,8 +151,8 @@ export default function ({ title, message, items, primeUrl }: Props) {
                   <img src={item.image} width={160} height={160} />
                 </div>
 
-                <div className="grid-item">
-                  <p>{item.prime ? 'prime' : 'no prime'}</p>
+                <div className="grid-item grid-item-prime-svg">
+                  <p>{item.prime ? <Link to={primeUrl} target='_blank'><PrimeSvg /></Link> : '-'}</p>
                 </div>
 
                 <div className="grid-item">
