@@ -1,5 +1,5 @@
 import Title from "../Title/Title"
-import { Table, Container, DesktopWrapper, TableMobile } from "./comparative.styled"
+import { Table, Container, DesktopWrapper, TableMobile, StyledTable } from "./comparative.styled"
 import { Fragment } from "react"
 import PrimeSvg from "./svg/Prime"
 import { Link } from "react-router-dom"
@@ -10,14 +10,19 @@ type ItemProps = {
   image: string
   prime: boolean
   dimensions: string
-  replacementHeads: number
-  deposit: string
+  replacementHeads: string
+  capacity: string
   highlight: string
   problem: string
   price: string
   satisfaction: string
   view: string
   url: string
+  [key: string]: string | boolean | number;
+}
+
+type TitleProps = {
+  title: string
 }
 
 type Props = {
@@ -25,173 +30,49 @@ type Props = {
   message: string
   primeUrl: string
   items: ItemProps[]
+  titles: TitleProps[]
 }
 
-const TableInfo = () => {
+export default function ({ title, message, items, primeUrl, titles }: Props) {
+
+
   return (
-    <div className="highlighted">
-      <div className="grid-item">
-        <p>Model</p>
-      </div>
+    <>
+      <Container>
+        <Title titleH2={title} message={message} />
+        <DesktopWrapper>
+          <StyledTable>
+            <tbody>
+              {titles.map((title, i) => (
+                <tr key={i}>
+                  <td className="title">{title.title}</td>
+                  {items.map((item, index) => {
 
-      <div className="grid-item grid-item-image-text">
-        <p>Image</p>
-      </div>
+                    const cellValue =
+                      title.title.toLowerCase() === 'prime'
+                        ? item[title.title.toLowerCase()] ? <Link to={primeUrl} target="_blank"><PrimeSvg /></Link> : '-'
+                        : title.title.toLowerCase() === 'image'
+                          ? <img src={`${item[title.title.toLowerCase()]}`} alt={title.title.toLowerCase()} width={160} height={160} />
+                          : title.title.toLowerCase() === 'view'
+                            ? <AmazonButton text={`${item[title.title.toLowerCase()]}`} url={item.url} blank={true} />
+                            : `${item[title.title.toLowerCase().split(' ').join('')]}`
 
-      <div className="grid-item grid-item-prime">
-        <p>Prime</p>
-      </div>
+                    return <td key={index}>{cellValue}</td>;
+                  })}
+                </tr>
+              ))}
+            </tbody>
+          </StyledTable>
+        </DesktopWrapper >
 
-      <div className="grid-item">
-        <p>Dimensions</p>
-      </div>
+        <TableMobile>
 
-      <div className="grid-item">
-        <p>Replacement Heads</p>
-      </div>
 
-      <div className="grid-item">
-        <p>Deposit</p>
-      </div>
+        </TableMobile>
+      </Container>
 
-      <div className="grid-item grid-item-highlight">
-        <p>Highlight</p>
-      </div>
 
-      <div className="grid-item grid-item-problem">
-        <p>Problem</p>
-      </div>
 
-      <div className="grid-item">
-        <p>Price</p>
-      </div>
-
-      <div className="grid-item">
-        <p>User Satisfaction</p>
-      </div>
-      <div className="grid-item grid-item-buy">
-        <p>Buy Now</p>
-      </div>
-    </div>
-  )
-}
-
-export default function ({ title, message, items, primeUrl }: Props) {
-  return (
-    <Container>
-      <Title titleH2={title} message={message} />
-      <DesktopWrapper>
-        <Table>
-          <TableInfo />
-
-          {items.map((item, index) => {
-            return (
-              <div key={index}>
-                <div className="grid-item">
-                  <p>{item.model}</p>
-                </div>
-
-                <div className="grid-item grid-item-image">
-                  <img src={item.image} width={160} height={160} />
-                </div>
-
-                <div className="grid-item grid-item-prime-svg">
-                  <p>{item.prime ? <Link to={primeUrl} target='_blank'><PrimeSvg /></Link> : '-'}</p>
-                </div>
-
-                <div className="grid-item">
-                  <p>{item.dimensions}</p>
-                </div>
-
-                <div className="grid-item">
-                  <p>{item.replacementHeads}</p>
-                </div>
-
-                <div className="grid-item">
-                  <p>{item.deposit}</p>
-                </div>
-
-                <div className="grid-item grid-item-highlight">
-                  <p>{item.highlight}</p>
-                </div>
-
-                <div className="grid-item grid-item-problem">
-                  <p>{item.problem}</p>
-                </div>
-
-                <div className="grid-item">
-                  <p>{item.price}</p>
-                </div>
-
-                <div className="grid-item">
-                  <p>{item.satisfaction}</p>
-                </div>
-
-                <div className="grid-item grid-item-buy-button">
-                  <AmazonButton text={item.view} url={item.url} blank={true} />
-                </div>
-              </div>
-            )
-          })}
-        </Table>
-      </DesktopWrapper >
-
-      <TableMobile>
-        {items.map((item, index) => {
-          return (
-            <Fragment key={index}>
-              <TableInfo />
-              <div>
-                <div className="grid-item">
-                  <p>{item.model}</p>
-                </div>
-
-                <div className="grid-item grid-item-image">
-                  <img src={item.image} width={160} height={160} />
-                </div>
-
-                <div className="grid-item grid-item-prime-svg">
-                  <p>{item.prime ? <Link to={primeUrl} target='_blank'><PrimeSvg /></Link> : '-'}</p>
-                </div>
-
-                <div className="grid-item">
-                  <p>{item.dimensions}</p>
-                </div>
-
-                <div className="grid-item">
-                  <p>{item.replacementHeads}</p>
-                </div>
-
-                <div className="grid-item">
-                  <p>{item.deposit}</p>
-                </div>
-
-                <div className="grid-item grid-item-highlight">
-                  <p>{item.highlight}</p>
-                </div>
-
-                <div className="grid-item grid-item-problem">
-                  <p>{item.problem}</p>
-                </div>
-
-                <div className="grid-item">
-                  <p>{item.price}</p>
-                </div>
-
-                <div className="grid-item">
-                  <p>{item.satisfaction}</p>
-                </div>
-
-                <div className="grid-item grid-item-buy-button">
-                  <AmazonButton text={item.view} url={item.url} blank={true} />
-                </div>
-
-              </div>
-            </Fragment>
-
-          )
-        })}
-      </TableMobile>
-    </Container>
+    </>
   )
 }

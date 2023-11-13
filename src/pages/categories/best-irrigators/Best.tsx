@@ -7,9 +7,9 @@ import { tableOfContentItems, headerProps, titleProps, comparativeProductsProps 
 export default function () {
   return (
     <>
-      <Header {...headerProps} />
+      {/* <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
-      <Title message={titleProps} />
+      <Title message={titleProps} /> */}
       <ComparativeProducts {...comparativeProductsProps} />
     </>
   )

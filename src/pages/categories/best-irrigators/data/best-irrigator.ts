@@ -1,6 +1,5 @@
 import image from './water.jpg'
 
-
 export const headerProps = {
   title: "Comparison of the Best Irrigators in 2023",
   subtitle: "Best Dental Irrigator",
@@ -75,14 +74,27 @@ export const comparativeProductsProps = {
   title: 'Comparative of the Best Oral Irrigators',
   primeUrl: '/some-amazon-url',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
+  titles: [
+    { title: 'Models' },
+    { title: 'Image' },
+    { title: 'Prime' },
+    { title: 'Dimensions' },
+    { title: 'Replacement Heads' },
+    { title: 'Capacity' },
+    { title: 'Highlight' },
+    { title: 'Problem' },
+    { title: 'Price' },
+    { title: 'Satisfaction' },
+    { title: 'View' }
+  ],
   items: [
     {
-      model: 'Waterpik Ultra 660',
+      models: 'Waterpik Ultra 660 some more texts',
       image: image,
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
-      replacementHeads: 6,
-      deposit: '650 ml',
+      replacementheads: '6',
+      capacity: '650 ml',
       highlight: 'Economical, easy to use, and very comprehensive.',
       problem: 'The customer service of Waterpik.',
       price: 'Best buy',
@@ -91,41 +103,41 @@ export const comparativeProductsProps = {
       url: '/buy-amazon-url'
     },
     {
-      model: 'Waterpik Ultra 660',
+      models: 'Waterpik Ultra 660',
       image: image,
       prime: false,
       dimensions: '15 x 16,5 x 23 cm',
-      replacementHeads: 6,
-      deposit: '650 ml',
+      replacementheads: '6',
+      capacity: '650 ml',
       highlight: 'Economical, easy to use, and very comprehensive.',
       problem: 'The customer service of Waterpik.',
       price: 'Best buy',
       satisfaction: '5/5',
       view: 'View Price',
-      url: '/buy-amazon-url'
+      url: '/buy-amazon-url2'
 
     },
     {
-      model: 'Waterpik Ultra 660',
+      models: 'Waterpik Ultra 660',
       image: image,
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
-      replacementHeads: 6,
-      deposit: '650 ml',
+      replacementheads: '6',
+      capacity: '650 ml',
       highlight: 'Economical, easy to use, and very comprehensive.',
       problem: 'The customer service of Waterpik.',
       price: 'Best buy',
       satisfaction: '5/5',
       view: 'View Price',
-      url: '/buy-amazon-url'
+      url: '/buy-amazon-url3'
     },
     {
-      model: 'Waterpik Ultra 660',
+      models: 'Waterpik Ultra 660',
       image: image,
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
-      replacementHeads: 6,
-      deposit: '650 ml',
+      replacementheads: '6',
+      capacity: '650 ml',
       highlight: 'Economical, easy to use, and very comprehensive.',
       problem: 'The customer service of Waterpik.',
       price: 'Best buy',
