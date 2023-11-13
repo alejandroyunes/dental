@@ -17,7 +17,7 @@ export const lightTheme: DefaultTheme = {
     },
     secondary: {
       main: "#777777",
-      contrastText: "#d4eafa",
+      contrastText: "#75767a",
       contrastBg: "#d4eafa",
     },
   },

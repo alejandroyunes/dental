@@ -9,9 +9,6 @@ export const DesktopWrapper = styled.div`
   margin: 0 auto;
   p {
     font-size: 1rem;
-    line-height: 1.5;
-    max-width: 660px;
-    margin: 0 auto;
     text-align: center;
     color: ${({ theme }) => theme.textColor};
   }
@@ -21,7 +18,7 @@ export const Table = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  border: 1px solid ${({ theme }) => theme.palette.primary.main}; 
+  border: 1px solid ${({ theme }) => theme.palette.secondary.contrastText}; 
   border-right: none;
   border-bottom: none;
   margin: 0 24px;
@@ -42,11 +39,26 @@ export const Table = styled.div`
     background-color: ${({ theme }) => theme.palette.primary.contrastBg};
   }
   .grid-item { 
-    border-right: 1px solid ${({ theme }) => theme.palette.primary.main};
-    border-bottom: 1px solid ${({ theme }) => theme.palette.primary.main};
+    border-right: 1px solid ${({ theme }) => theme.palette.secondary.contrastText};
+    border-bottom: 1px solid ${({ theme }) => theme.palette.secondary.contrastText};
   }
   .grid-item-image {
     height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid-item-svg {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      width: 100%;
+    }
+  }
+  .grid-item-svg-icon {
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,6 +82,24 @@ export const Table = styled.div`
     }
   }
   .grid-item-image-problem {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      width: 100%;
+    }
+  }
+  .grid-item-buy {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      width: 100%;
+    }
+  }
+  .grid-item-buy-button {
     height: 120px;
     display: flex;
     align-items: center;

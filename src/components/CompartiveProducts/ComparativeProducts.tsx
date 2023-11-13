@@ -1,67 +1,31 @@
 import Title from "../Title/Title"
 import { Table, Container, DesktopWrapper, TableMobile } from "./comparative.styled"
-import image from '../../pages/categories/best-irrigators/data/water.jpg'
 import { Fragment } from "react"
+import PrimeSvg from "./svg/Prime"
+import { Link } from "react-router-dom"
+import AmazonButton from "../Button/AmazonButton/AmazonButton"
+
+type ItemProps = {
+  model: string
+  image: string
+  prime: boolean
+  dimensions: string
+  replacementHeads: number
+  deposit: string
+  highlight: string
+  problem: string
+  price: string
+  satisfaction: string
+  view: string
+  url: string
+}
 
 type Props = {
   title: string
   message: string
+  primeUrl: string
+  items: ItemProps[]
 }
-
-const data = [
-  {
-    model: 'Waterpik Ultra 660',
-    image: image,
-    prime: true,
-    dimensions: '15 x 16,5 x 23 cm',
-    replacementHeads: 6,
-    deposit: '650 ml',
-    highlight: 'Economical, easy to use, and very comprehensive.',
-    problem: 'The customer service of Waterpik.',
-    price: 'Best buy',
-    satisfaction: '5/5',
-    view: 'View Price',
-  },
-  {
-    model: 'Waterpik Ultra 660',
-    image: image,
-    prime: true,
-    dimensions: '15 x 16,5 x 23 cm',
-    replacementHeads: 6,
-    deposit: '650 ml',
-    highlight: 'Economical, easy to use, and very comprehensive.',
-    problem: 'The customer service of Waterpik.',
-    price: 'Best buy',
-    satisfaction: '5/5',
-    view: 'View Price',
-  },
-  {
-    model: 'Waterpik Ultra 660',
-    image: image,
-    prime: true,
-    dimensions: '15 x 16,5 x 23 cm',
-    replacementHeads: 6,
-    deposit: '650 ml',
-    highlight: 'Economical, easy to use, and very comprehensive.',
-    problem: 'The customer service of Waterpik.',
-    price: 'Best buy',
-    satisfaction: '5/5',
-    view: 'View Price',
-  },
-  {
-    model: 'Waterpik Ultra 660',
-    image: image,
-    prime: true,
-    dimensions: '15 x 16,5 x 23 cm',
-    replacementHeads: 6,
-    deposit: '650 ml',
-    highlight: 'Economical, easy to use, and very comprehensive.',
-    problem: 'The customer service of Waterpik.',
-    price: 'Best buy',
-    satisfaction: '5/5',
-    view: 'View Price',
-  }
-]
 
 const TableInfo = () => {
   return (
@@ -74,7 +38,7 @@ const TableInfo = () => {
         <p>Image</p>
       </div>
 
-      <div className="grid-item">
+      <div className="grid-item grid-item-svg">
         <p>Prime</p>
       </div>
 
@@ -105,11 +69,14 @@ const TableInfo = () => {
       <div className="grid-item">
         <p>User Satisfaction</p>
       </div>
+      <div className="grid-item grid-item-buy">
+        <p>Buy Now</p>
+      </div>
     </div>
   )
 }
 
-export default function ({ title, message }: Props) {
+export default function ({ title, message, items, primeUrl }: Props) {
   return (
     <Container>
       <Title titleH2={title} message={message} />
@@ -117,7 +84,7 @@ export default function ({ title, message }: Props) {
         <Table>
           <TableInfo />
 
-          {data.map((item, index) => {
+          {items.map((item, index) => {
             return (
               <div key={index}>
                 <div className="grid-item">
@@ -128,8 +95,8 @@ export default function ({ title, message }: Props) {
                   <img src={item.image} width={160} height={160} />
                 </div>
 
-                <div className="grid-item">
-                  <p>{item.prime ? 'prime' : 'no prime'}</p>
+                <div className="grid-item grid-item-svg-icon">
+                  <p>{item.prime ? <Link to={primeUrl} target='_blank'><PrimeSvg /></Link> : '-'}</p>
                 </div>
 
                 <div className="grid-item">
@@ -160,6 +127,9 @@ export default function ({ title, message }: Props) {
                   <p>{item.satisfaction}</p>
                 </div>
 
+                <div className="grid-item grid-item-buy-button">
+                  <AmazonButton text={item.view} url={primeUrl} blank={true} color={true} />
+                </div>
               </div>
             )
           })}
@@ -168,7 +138,7 @@ export default function ({ title, message }: Props) {
 
       <TableMobile>
 
-        {data.map((item, index) => {
+        {items.map((item, index) => {
           return (
             <Fragment key={index}>
               <TableInfo />
