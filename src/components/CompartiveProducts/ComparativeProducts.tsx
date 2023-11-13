@@ -1,6 +1,5 @@
 import Title from "../Title/Title"
-import { Table, Container, DesktopWrapper, TableMobile, StyledTable } from "./comparative.styled"
-import { Fragment } from "react"
+import { Container, DesktopWrapper, TableMobile, StyledTable } from "./comparative.styled"
 import PrimeSvg from "./svg/Prime"
 import { Link } from "react-router-dom"
 import AmazonButton from "../Button/AmazonButton/AmazonButton"
