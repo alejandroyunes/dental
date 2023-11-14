@@ -71,6 +71,7 @@ export const tableOfContentItems = [
 export const titleProps = 'Dental irrigators are efficient for removing plaque and food particles from between the teeth. Additionally, they contribute to reducing the risk of gum diseases and combating bad breath. But, which irrigator to buy? What would be the best irrigator? Below, we present the most comprehensive and detailed analysis of the best irrigators to assist you in your purchase.'
 
 export const comparativeProductsProps = {
+  id: 'comparative-table-of-the-best-oral-irrigators',
   title: 'Comparative of the Best Oral Irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: '/some-amazon-url',

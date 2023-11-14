@@ -26,13 +26,14 @@ type ItemProps = {
 }
 
 type Props = {
+  id?: string
   title?: string
   message?: string
   primeUrl: string
   items: ItemProps[]
 }
 
-export default function ({ title, message, items, primeUrl }: Props) {
+export default function ({ title, message, items, primeUrl, id }: Props) {
 
   const columns = [
     'Models',
@@ -61,7 +62,7 @@ export default function ({ title, message, items, primeUrl }: Props) {
   return (
     <>
       <Container>
-        <Title titleH2={title} message={message} />
+        <Title id={id} titleH2={title} message={message} />
         <DesktopWrapper>
           <Table>
             <tbody>

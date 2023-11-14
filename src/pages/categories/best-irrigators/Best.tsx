@@ -13,9 +13,12 @@ export default function () {
       <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
       <Title message={titleProps} />
+
       <ComparativeProducts {...comparativeProductsProps} />
+
       <TitleList {...titleListProps} />
       <ProAndConComponent {...proAndCons} />
+
     </>
   )
 }

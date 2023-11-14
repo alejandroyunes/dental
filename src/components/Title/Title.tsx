@@ -3,6 +3,7 @@ import { TitleContainer } from './title.styled';
 import { StyleSheetManager } from 'styled-components';
 import isPropValid from '@emotion/is-prop-valid'
 interface TitleProps {
+  id?: string
   title?: string
   titleH2?: string
   message?: string
@@ -14,12 +15,12 @@ interface TitleProps {
   }
 }
 
-export default function Title({ title, message, left, moreinfo, url, titleH2 }: TitleProps) {
+export default function Title({ title, message, left, moreinfo, url, titleH2, id }: TitleProps) {
 
   return (
     <StyleSheetManager shouldForwardProp={(prop) => isPropValid(prop)}>
 
-      <TitleContainer className={left ? 'left' : ''}>
+      <TitleContainer className={left ? 'left' : ''} id={id}>
         {title && <h1>{title}</h1>}
         {titleH2 && <h2>{titleH2}</h2>}
         {message && <p>{message}</p>}
