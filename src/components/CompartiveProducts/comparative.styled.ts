@@ -59,7 +59,7 @@ export const ContentSliderWrapper = styled.div`
 
 export const SliderWrapper = styled.div<SliderProps>`
   display: flex;
-  width: ${(props) => props.totalSlides * 100}%; /* Set the total width */
+  width: ${(props) => props.totalSlides * 100}%;
   transition: transform 0.5s ease-in-out;
 `;
 
@@ -75,7 +75,7 @@ export const NavigationButton = styled.button`
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #007bff;
+  background-color:    ${({ theme }) => theme.palette.gray};
   color: #fff;
   border: none;
   padding: 10px;

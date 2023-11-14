@@ -26,8 +26,8 @@ type ItemProps = {
 }
 
 type Props = {
-  title: string
-  message: string
+  title?: string
+  message?: string
   primeUrl: string
   items: ItemProps[]
 }
@@ -88,11 +88,6 @@ export default function ({ title, message, items, primeUrl }: Props) {
   const handleTouchEnd = () => {
     setIsSwiping(false)
   }
-
-
-
-
-
 
   return (
     <>
@@ -166,8 +161,8 @@ export default function ({ title, message, items, primeUrl }: Props) {
                   </Slide>
                 ))}
               </SliderWrapper>
-              <PrevButton onClick={handlePrev}>&lt</PrevButton>
-              <NextButton onClick={handleNext}>&gt</NextButton>
+              <PrevButton onClick={handlePrev}>&lt;</PrevButton>
+              <NextButton onClick={handleNext}>&gt;</NextButton>
             </ContentSliderWrapper>
 
           </StyleSheetManager>
