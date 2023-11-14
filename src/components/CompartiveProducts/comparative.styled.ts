@@ -84,9 +84,9 @@ export const NavigationButton = styled.button`
 `;
 
 export const PrevButton = styled(NavigationButton)`
-  left: 10px;
+  left: 0px;
 `;
 
 export const NextButton = styled(NavigationButton)`
-  right: 10px;
+  right: 0px;
 `;
