@@ -49,44 +49,44 @@ export default function ({ title, message, items, primeUrl }: Props) {
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [startX, setStartX] = useState(0);
-  const [isSwiping, setIsSwiping] = useState(false);
-  const sliderRef = useRef(null);
+  const [startX, setStartX] = useState(0)
+  const [isSwiping, setIsSwiping] = useState(false)
+  const sliderRef = useRef(null)
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? items.length - 1 : prevIndex - 1));
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? items.length - 1 : prevIndex - 1))
   }
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1));
+    setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1))
   }
 
   const handleTouchStart = (e: React.TouchEvent) => {
-    setStartX(e.touches[0].clientX);
-    setIsSwiping(true);
+    setStartX(e.touches[0].clientX)
+    setIsSwiping(true)
   }
 
   const handleTouchMove = (e: React.TouchEvent) => {
-    if (!isSwiping) return;
+    if (!isSwiping) return
 
-    const currentX = e.touches[0].clientX;
-    const diff = startX - currentX;
+    const currentX = e.touches[0].clientX
+    const diff = startX - currentX
 
-    if (Math.abs(diff) > 10) {
-      e.preventDefault();
+    if (Math.abs(diff) > 50) {
+      e.preventDefault()
     }
 
     if (diff > 0) {
-      handleNext();
+      handleNext()
     } else if (diff < 0) {
-      handlePrev();
+      handlePrev()
     }
 
-    setIsSwiping(false);
+    setIsSwiping(false)
   }
 
   const handleTouchEnd = () => {
-    setIsSwiping(false);
+    setIsSwiping(false)
   }
 
 
@@ -166,8 +166,8 @@ export default function ({ title, message, items, primeUrl }: Props) {
                   </Slide>
                 ))}
               </SliderWrapper>
-              <PrevButton onClick={handlePrev}>&lt;</PrevButton>
-              <NextButton onClick={handleNext}>&gt;</NextButton>
+              <PrevButton onClick={handlePrev}>&lt</PrevButton>
+              <NextButton onClick={handleNext}>&gt</NextButton>
             </ContentSliderWrapper>
 
           </StyleSheetManager>
