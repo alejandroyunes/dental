@@ -8,18 +8,25 @@ type itemProps = {
 
 type Props = {
   title: string
-  subtitle: string
-  moreinfo: string
-  url: string
+  subtitle?: string
+  moreinfo?: string
+  buttonUrl?: {
+    url: string
+    text: string
+  }
+  url: {
+    url: string
+    text: string
+  }
   itemspro: itemProps[]
   itemscons: itemProps[]
 }
 
 export default function ProAndConComponent(props: Props) {
-  const { title, subtitle, moreinfo, url, itemspro, itemscons } = props
+  const { title, subtitle, moreinfo, url, itemspro, itemscons, buttonUrl } = props
   return (
     <>
-      <Title titleH2={title} message={subtitle} moreinfo={moreinfo} url={{ url: url, text: "To what purpose it serves, and to what it does not." }} />
+      <Title titleH2={title} message={subtitle} moreinfo={moreinfo} url={{ url: url.url, text: url.text }} />
 
       <ProAndConContainer>
         <ProAndCon>
@@ -41,9 +48,9 @@ export default function ProAndConComponent(props: Props) {
             </ul>
           </div>
         </ProAndCon>
-        <ProAndConButton>
-          <SimpleButton url={'url'} text="best irrigators" color={true} />
-        </ProAndConButton>
+        {buttonUrl && <ProAndConButton>
+          <SimpleButton url={buttonUrl.url} text={buttonUrl.text} color={true} />
+        </ProAndConButton>}
       </ProAndConContainer>
     </>
   )

@@ -3,7 +3,7 @@ import { Container, ContentSliderWrapper, DesktopWrapper, MobileWrapper, NextBut
 import PrimeSvg from "./svg/Prime"
 import { Link } from "react-router-dom"
 import AmazonButton from "../Button/AmazonButton/AmazonButton"
-import { useRef, useState } from "react"
+import { useState } from "react"
 import { StyleSheetManager } from 'styled-components'
 import isPropValid from '@emotion/is-prop-valid'
 
