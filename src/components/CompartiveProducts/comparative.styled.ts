@@ -46,3 +46,53 @@ export const Table = styled.table`
     color: ${({ theme }) => theme.textColor};
   }
 `;
+
+
+type SliderProps = {
+  totalSlides: number
+}
+
+export const ContentSliderWrapper = styled.div`
+  position: relative;
+  overflow: hidden;
+`;
+
+export const SliderWrapper = styled.div<SliderProps>`
+  display: flex;
+  width: ${(props) => props.totalSlides * 100}%; /* Set the total width */
+  transition: transform 0.5s ease-in-out;
+`;
+
+
+export const Slide = styled.div`
+  width: 100%; /* Set each slide to take up the full width of the container */
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+`;
+
+export const NavigationButton = styled.button`
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+`;
+
+export const PrevButton = styled(NavigationButton)`
+  left: 10px;
+`;
+
+export const NextButton = styled(NavigationButton)`
+  right: 10px;
+`;
+
+export const AdditionalContainerStyles = styled.div`
+  max-width: 600px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the slider */
+  overflow: hidden; /* Hide overflow for the container */
+`;

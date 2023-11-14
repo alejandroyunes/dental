@@ -1,9 +1,10 @@
 import Title from "../Title/Title"
-import { Container, DesktopWrapper, MobileTable, MobileWrapper, Table } from "./comparative.styled"
+import { AdditionalContainerStyles, Container, ContentSliderWrapper, DesktopWrapper, MobileWrapper, NextButton, PrevButton, Slide, SliderWrapper, Table } from "./comparative.styled"
 import PrimeSvg from "./svg/Prime"
 import { Link } from "react-router-dom"
 import AmazonButton from "../Button/AmazonButton/AmazonButton"
-
+import { useState } from "react"
+import Slider from 'react-slick';
 type ItemProps = {
   models: string
   image: string
@@ -42,7 +43,28 @@ export default function ({ title, message, items, primeUrl }: Props) {
     'Price',
     'Satisfaction',
     'View More'
-  ];
+  ]
+
+
+
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  const slides = [
+    { id: 1, title: 'Slide 1', content: 'Content for Slide 1' },
+    { id: 2, title: 'Slide 2', content: 'Content for Slide 2' },
+    { id: 3, title: 'Slide 3', content: 'Content for Slide 3' },
+    { id: 4, title: 'Slide 4', content: 'Content for Slide 4' },
+    { id: 5, title: 'Slide 5', content: 'Content for Slide 5' },
+  ]
+
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? slides.length - 1 : prevIndex - 1));
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === slides.length - 1 ? 0 : prevIndex + 1));
+  };
 
   return (
     <>
@@ -106,6 +128,18 @@ export default function ({ title, message, items, primeUrl }: Props) {
 
       </Container>
 
+      <ContentSliderWrapper>
+        <SliderWrapper totalSlides={slides.length} style={{ transform: `translateX(-${currentIndex * (100 / slides.length)}%)` }}>
+          {slides.map((slide) => (
+            <Slide key={slide.id}>
+              <h3>{slide.title}</h3>
+              <p>{slide.content}</p>
+            </Slide>
+          ))}
+        </SliderWrapper>
+        <PrevButton onClick={handlePrev}>&lt;</PrevButton>
+        <NextButton onClick={handleNext}>&gt;</NextButton>
+      </ContentSliderWrapper>
 
 
     </>
