@@ -76,6 +76,7 @@ export const comparativeProductsProps = {
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   items: [
     {
+      id: 1,
       models: 'Waterpik Ultra 660 some more texts',
       image: image,
       alt: 'Waterpik Ultra 660',
@@ -91,6 +92,7 @@ export const comparativeProductsProps = {
       url: '/buy-amazon-url'
     },
     {
+      id: 2,
       models: 'Waterpik Ultra 660',
       image: image,
       alt: 'Waterpik Ultra 660',
@@ -107,6 +109,7 @@ export const comparativeProductsProps = {
 
     },
     {
+      id: 3,
       models: 'Waterpik Ultra 660',
       image: image,
       alt: 'Waterpik Ultra 660',
@@ -122,6 +125,7 @@ export const comparativeProductsProps = {
       url: '/buy-amazon-url3'
     },
     {
+      id: 4,
       models: 'Waterpik Ultra 660',
       image: image,
       alt: 'Waterpik Ultra 660',

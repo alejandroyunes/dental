@@ -65,7 +65,7 @@ export const SliderWrapper = styled.div<SliderProps>`
 
 
 export const Slide = styled.div`
-  width: 100%; /* Set each slide to take up the full width of the container */
+  width: 100%; 
   box-sizing: border-box;
   padding: 20px;
   text-align: center;
@@ -89,10 +89,4 @@ export const PrevButton = styled(NavigationButton)`
 
 export const NextButton = styled(NavigationButton)`
   right: 10px;
-`;
-
-export const AdditionalContainerStyles = styled.div`
-  max-width: 600px; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the slider */
-  overflow: hidden; /* Hide overflow for the container */
 `;

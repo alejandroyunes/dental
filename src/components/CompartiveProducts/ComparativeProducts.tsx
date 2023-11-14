@@ -1,11 +1,14 @@
 import Title from "../Title/Title"
-import { AdditionalContainerStyles, Container, ContentSliderWrapper, DesktopWrapper, MobileWrapper, NextButton, PrevButton, Slide, SliderWrapper, Table } from "./comparative.styled"
+import { Container, ContentSliderWrapper, DesktopWrapper, MobileWrapper, NextButton, PrevButton, Slide, SliderWrapper, Table } from "./comparative.styled"
 import PrimeSvg from "./svg/Prime"
 import { Link } from "react-router-dom"
 import AmazonButton from "../Button/AmazonButton/AmazonButton"
-import { useState } from "react"
-import Slider from 'react-slick';
+import { useRef, useState } from "react"
+import { StyleSheetManager } from 'styled-components'
+import isPropValid from '@emotion/is-prop-valid'
+
 type ItemProps = {
+  id: number
   models: string
   image: string
   alt: string
@@ -45,33 +48,49 @@ export default function ({ title, message, items, primeUrl }: Props) {
     'View More'
   ]
 
-
-
   const [currentIndex, setCurrentIndex] = useState(0)
-
-  const slides = [
-    { id: 1, title: 'Slide 1', content: 'Content for Slide 1' },
-    { id: 2, title: 'Slide 2', content: 'Content for Slide 2' },
-    { id: 3, title: 'Slide 3', content: 'Content for Slide 3' },
-    { id: 4, title: 'Slide 4', content: 'Content for Slide 4' },
-    { id: 5, title: 'Slide 5', content: 'Content for Slide 5' },
-  ]
-
+  const [startX, setStartX] = useState(0);
+  const [isSwiping, setIsSwiping] = useState(false);
+  const sliderRef = useRef(null);
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? slides.length - 1 : prevIndex - 1));
-  };
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? items.length - 1 : prevIndex - 1));
+  }
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === slides.length - 1 ? 0 : prevIndex + 1));
+    setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1));
+  }
+
+  const handleTouchStart = (e) => {
+    setStartX(e.touches[0].clientX);
+    setIsSwiping(true);
   };
+
+  const handleTouchMove = (e) => {
+    if (!isSwiping) return;
+
+    const currentX = e.touches[0].clientX;
+    const diff = startX - currentX;
+
+    if (diff > 0) {
+      handleNext();
+    } else if (diff < 0) {
+      handlePrev();
+    }
+
+    setIsSwiping(false);
+  };
+
+  const handleTouchEnd = () => {
+    setIsSwiping(false);
+  };
+
 
   return (
     <>
       <Container>
         <Title titleH2={title} message={message} />
         <DesktopWrapper>
-
           <Table>
             <tbody>
               {columns.map((column, index) => (
@@ -99,49 +118,53 @@ export default function ({ title, message, items, primeUrl }: Props) {
               ))}
             </tbody>
           </Table>
-
         </DesktopWrapper >
 
+
         <MobileWrapper>
-          <Table>
-            {items.map((item, index) => (
-              <tbody key={index}>
-                {columns.map((column, i) => (
-                  <tr key={i}>
-                    <td className="title">{column}</td>
-                    <td>
-                      {column === 'Image' ? <img src={item.image} alt="Image" width={160} height={160} />
-                        : column === 'Prime' ?
-                          item.prime ?
-                            <Link to={item.view} target="_blank"><PrimeSvg /></Link> : '-'
-                          :
-                          column === 'Replacement Heads' ? item.replacementheads :
-                            item[column.toLowerCase()]
-                      }
-                    </td>
-                  </tr>
+          <StyleSheetManager shouldForwardProp={(prop) => isPropValid(prop)}>
+
+            <ContentSliderWrapper>
+              <SliderWrapper
+                ref={sliderRef}
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}
+                totalSlides={items.length}
+                style={{ transform: `translateX(-${currentIndex * (100 / items.length)}%)` }}>
+                {items.map((slide) => (
+                  <Slide key={slide.id}>
+                    <Table>
+                      <tbody>
+                        {columns.map((column, i) => (
+                          <tr key={i}>
+                            <td className="title">{column}</td>
+                            <td>
+                              {column === 'Image' ? <img src={slide.image} alt="Image" width={160} height={160} />
+                                : column === 'Prime' ?
+                                  slide.prime ?
+                                    <Link to={primeUrl} target="_blank"><PrimeSvg /></Link> : '-'
+                                  :
+                                  column === 'Replacement Heads' ? slide.replacementheads :
+                                    column === 'View More' ?
+                                      slide.view ? <AmazonButton text={'View Price'} url={slide.url} blank={true} /> : 'No' :
+                                      slide[column.toLowerCase()]
+                              }
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </Table>
+                  </Slide>
                 ))}
-              </tbody>
-            ))}
-          </Table>
+              </SliderWrapper>
+              <PrevButton onClick={handlePrev}>&lt;</PrevButton>
+              <NextButton onClick={handleNext}>&gt;</NextButton>
+            </ContentSliderWrapper>
+
+          </StyleSheetManager>
         </MobileWrapper>
-
       </Container>
-
-      <ContentSliderWrapper>
-        <SliderWrapper totalSlides={slides.length} style={{ transform: `translateX(-${currentIndex * (100 / slides.length)}%)` }}>
-          {slides.map((slide) => (
-            <Slide key={slide.id}>
-              <h3>{slide.title}</h3>
-              <p>{slide.content}</p>
-            </Slide>
-          ))}
-        </SliderWrapper>
-        <PrevButton onClick={handlePrev}>&lt;</PrevButton>
-        <NextButton onClick={handleNext}>&gt;</NextButton>
-      </ContentSliderWrapper>
-
-
     </>
   )
 }
