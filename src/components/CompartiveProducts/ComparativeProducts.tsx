@@ -64,13 +64,17 @@ export default function ({ title, message, items, primeUrl }: Props) {
   const handleTouchStart = (e: React.TouchEvent) => {
     setStartX(e.touches[0].clientX);
     setIsSwiping(true);
-  };
+  }
 
   const handleTouchMove = (e: React.TouchEvent) => {
     if (!isSwiping) return;
 
     const currentX = e.touches[0].clientX;
     const diff = startX - currentX;
+
+    if (Math.abs(diff) > 10) {
+      e.preventDefault();
+    }
 
     if (diff > 0) {
       handleNext();
@@ -79,11 +83,15 @@ export default function ({ title, message, items, primeUrl }: Props) {
     }
 
     setIsSwiping(false);
-  };
+  }
 
   const handleTouchEnd = () => {
     setIsSwiping(false);
-  };
+  }
+
+
+
+
 
 
   return (
