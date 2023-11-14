@@ -49,7 +49,7 @@ export default function ({ title, message, items, primeUrl }: Props) {
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [startX, setStartX] = useState(0)
+  const [startX,] = useState(0)
   const [isSwiping, setIsSwiping] = useState(false)
   const sliderRef = useRef(null)
 
@@ -60,6 +60,11 @@ export default function ({ title, message, items, primeUrl }: Props) {
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1))
   }
+
+  // const handleTouchStart = (e: React.TouchEvent) => {
+  //   setStartX(e.touches[0].clientX)
+  //   setIsSwiping(true)
+  // }
 
   const handleTouchMove = (e: React.TouchEvent) => {
     if (!isSwiping) return
