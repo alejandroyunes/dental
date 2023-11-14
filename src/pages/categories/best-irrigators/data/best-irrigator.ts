@@ -74,23 +74,11 @@ export const comparativeProductsProps = {
   title: 'Comparative of the Best Oral Irrigators',
   primeUrl: '/some-amazon-url',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  titles: [
-    { title: 'Models' },
-    { title: 'Image' },
-    { title: 'Prime' },
-    { title: 'Dimensions' },
-    { title: 'Replacement Heads' },
-    { title: 'Capacity' },
-    { title: 'Highlight' },
-    { title: 'Problem' },
-    { title: 'Price' },
-    { title: 'Satisfaction' },
-    { title: 'View' }
-  ],
   items: [
     {
       models: 'Waterpik Ultra 660 some more texts',
       image: image,
+      alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
       replacementheads: '6',
@@ -105,6 +93,7 @@ export const comparativeProductsProps = {
     {
       models: 'Waterpik Ultra 660',
       image: image,
+      alt: 'Waterpik Ultra 660',
       prime: false,
       dimensions: '15 x 16,5 x 23 cm',
       replacementheads: '6',
@@ -120,6 +109,7 @@ export const comparativeProductsProps = {
     {
       models: 'Waterpik Ultra 660',
       image: image,
+      alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
       replacementheads: '6',
@@ -134,6 +124,7 @@ export const comparativeProductsProps = {
     {
       models: 'Waterpik Ultra 660',
       image: image,
+      alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
       replacementheads: '6',

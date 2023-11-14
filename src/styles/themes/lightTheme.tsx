@@ -18,7 +18,7 @@ export const lightTheme: DefaultTheme = {
     secondary: {
       main: "#777777",
       contrastText: "#75767a",
-      contrastBg: "#d4eafa",
+      contrastBg: "#f8f2dd",
     },
   },
   breakpoint,

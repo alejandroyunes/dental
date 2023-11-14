@@ -1,5 +1,5 @@
 import Title from "../Title/Title"
-import { Container, DesktopWrapper, TableMobile, StyledTable } from "./comparative.styled"
+import { Container, DesktopWrapper, MobileTable, MobileWrapper, Table } from "./comparative.styled"
 import PrimeSvg from "./svg/Prime"
 import { Link } from "react-router-dom"
 import AmazonButton from "../Button/AmazonButton/AmazonButton"
@@ -7,6 +7,7 @@ import AmazonButton from "../Button/AmazonButton/AmazonButton"
 type ItemProps = {
   models: string
   image: string
+  alt: string
   prime: boolean
   dimensions: string
   replacementheads: string
@@ -20,53 +21,89 @@ type ItemProps = {
   [key: string]: string | boolean | number
 }
 
-type TitleProps = {
-  title: string
-}
-
 type Props = {
   title: string
   message: string
   primeUrl: string
   items: ItemProps[]
-  titles: TitleProps[]
 }
 
-export default function ({ title, message, items, primeUrl, titles }: Props) {
+export default function ({ title, message, items, primeUrl }: Props) {
+
+  const columns = [
+    'Models',
+    'Image',
+    'Prime',
+    'Dimensions',
+    'Replacement Heads',
+    'Capacity',
+    'Highlight',
+    'Problem',
+    'Price',
+    'Satisfaction',
+    'View More'
+  ];
 
   return (
     <>
       <Container>
         <Title titleH2={title} message={message} />
         <DesktopWrapper>
-          <StyledTable>
+
+          <Table>
             <tbody>
-              {titles.map((title, i) => (
-                <tr key={i}>
-                  <td className="title">{title.title}</td>
-                  {items.map((item, index) => {
-
-                    const cellValue =
-                      title.title.toLowerCase() === 'prime'
-                        ? item[title.title.toLowerCase()] ? <Link to={primeUrl} target="_blank"><PrimeSvg /></Link> : '-'
-                        : title.title.toLowerCase() === 'image'
-                          ? <img src={`${item[title.title.toLowerCase()]}`} alt={title.title.toLowerCase()} width={160} height={160} />
-                          : title.title.toLowerCase() === 'view'
-                            ? <AmazonButton text={`${item[title.title.toLowerCase()]}`} url={item.url} blank={true} />
-                            : `${item[title.title.toLowerCase().split(' ').join('')]}`
-
-                    return <td key={index}>{cellValue}</td>;
-                  })}
+              {columns.map((column, index) => (
+                <tr key={index}>
+                  <th>{column}</th>
+                  {items.map((product, productIndex) => (
+                    <td key={productIndex}>
+                      {column === 'Image' && product.image ?
+                        <img src={product.image} alt={product.alt} />
+                        : column === 'Prime' ?
+                          product.prime ? <Link to={primeUrl} target="_blank"><PrimeSvg /></Link> : '-'
+                          : column === 'View' ?
+                            product.view ? <AmazonButton text={'View Price'} url={product.url} blank={true} /> : 'No'
+                            :
+                            column === 'Replacement Heads' ?
+                              product.replacementheads
+                              :
+                              column === 'View More' ?
+                                product.view ? <AmazonButton text={'View Price'} url={product.url} blank={true} /> : 'No' :
+                                product[column.toLowerCase()]
+                      }
+                    </td>
+                  ))}
                 </tr>
               ))}
             </tbody>
-          </StyledTable>
+          </Table>
+
         </DesktopWrapper >
 
-        <TableMobile>
+        <MobileWrapper>
+          <Table>
+            {items.map((item, index) => (
+              <tbody key={index}>
+                {columns.map((column, i) => (
+                  <tr key={i}>
+                    <td className="title">{column}</td>
+                    <td>
+                      {column === 'Image' ? <img src={item.image} alt="Image" width={160} height={160} />
+                        : column === 'Prime' ?
+                          item.prime ?
+                            <Link to={item.view} target="_blank"><PrimeSvg /></Link> : '-'
+                          :
+                          column === 'Replacement Heads' ? item.replacementheads :
+                            item[column.toLowerCase()]
+                      }
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            ))}
+          </Table>
+        </MobileWrapper>
 
-
-        </TableMobile>
       </Container>
 
 
