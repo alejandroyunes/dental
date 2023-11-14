@@ -61,11 +61,6 @@ export default function ({ title, message, items, primeUrl }: Props) {
     setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1))
   }
 
-  const handleTouchStart = (e: React.TouchEvent) => {
-    setStartX(e.touches[0].clientX)
-    setIsSwiping(true)
-  }
-
   const handleTouchMove = (e: React.TouchEvent) => {
     if (!isSwiping) return
 
@@ -130,7 +125,6 @@ export default function ({ title, message, items, primeUrl }: Props) {
             <ContentSliderWrapper>
               <SliderWrapper
                 ref={sliderRef}
-                onTouchStart={handleTouchStart}
                 onTouchMove={handleTouchMove}
                 onTouchEnd={handleTouchEnd}
                 totalSlides={items.length}
