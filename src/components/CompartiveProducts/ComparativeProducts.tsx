@@ -49,10 +49,6 @@ export default function ({ title, message, items, primeUrl }: Props) {
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [startX, setStartX] = useState(0)
-  const [startY,] = useState(0)
-  const [isSwiping, setIsSwiping] = useState(false)
-  const sliderRef = useRef(null)
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? items.length - 1 : prevIndex - 1))
