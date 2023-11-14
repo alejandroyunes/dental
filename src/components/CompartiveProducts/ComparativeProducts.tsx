@@ -49,7 +49,7 @@ export default function ({ title, message, items, primeUrl }: Props) {
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [startX,] = useState(0)
+  const [startX, setStartX] = useState(0)
   const [isSwiping, setIsSwiping] = useState(false)
   const sliderRef = useRef(null)
 
@@ -61,10 +61,10 @@ export default function ({ title, message, items, primeUrl }: Props) {
     setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1))
   }
 
-  // const handleTouchStart = (e: React.TouchEvent) => {
-  //   setStartX(e.touches[0].clientX)
-  //   setIsSwiping(true)
-  // }
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setStartX(e.touches[0].clientX)
+    setIsSwiping(true)
+  }
 
   const handleTouchMove = (e: React.TouchEvent) => {
     if (!isSwiping) return
@@ -85,9 +85,6 @@ export default function ({ title, message, items, primeUrl }: Props) {
     setIsSwiping(false)
   }
 
-  const handleTouchEnd = () => {
-    setIsSwiping(false)
-  }
 
   return (
     <>
@@ -130,8 +127,8 @@ export default function ({ title, message, items, primeUrl }: Props) {
             <ContentSliderWrapper>
               <SliderWrapper
                 ref={sliderRef}
+                onTouchStart={handleTouchStart}
                 onTouchMove={handleTouchMove}
-                onTouchEnd={handleTouchEnd}
                 totalSlides={items.length}
                 style={{ transform: `translateX(-${currentIndex * (100 / items.length)}%)` }}>
                 {items.map((slide) => (
