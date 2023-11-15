@@ -7,6 +7,10 @@ export const proAndCons = {
     text: 'To what purpose it serves, and to what it does not.'
 
   },
+  buttonUrl: {
+    url: '/best-irrigators',
+    text: 'Best Irrigator'
+  },
   itemspro: [
     {
       title: 'Helps reduce tartar and prevent oral diseases.',
