@@ -25,8 +25,8 @@ export const Table = styled.table`
     background-color: ${({ theme }) => theme.palette.primary.contrastBg};
   }
   td:nth-child(2) {
-    background: ${({ theme }) => theme.palette.secondary.contrastBg};
-    border: 1px solid ${({ theme }) => theme.palette.primary.contrastText};
+    background: ${({ theme }) => theme.palette.primary.contrastBg};
+    border: 1px solid ${({ theme }) => theme.palette.primary.contrastBorder};
   }
   img {
     margin: 0 auto;
@@ -35,7 +35,7 @@ export const Table = styled.table`
     margin: 0 auto;
   }
   th, td {
-    border: 1px solid ${({ theme }) => theme.palette.secondary.contrastText};
+    border: 1px solid ${({ theme }) => theme.palette.primary.contrastBorder};
     text-align: left;
     padding: 8px;
   }

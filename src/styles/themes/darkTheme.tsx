@@ -59,14 +59,17 @@ export const darkTheme: DefaultTheme = {
     red: "#ae3c43",
     primary: {
       main: "#164863",
-      contrastText: "#868686",
+      contrastBorder: "#868686",
       contrastBg: "#164863",
+      contrastButton: '#d8dde6',
+      contrastText: "#081B26",
     },
     secondary: {
-      main: "#9BBEC8",
-      contrastText: "#5e8397",
-      contrastBg: "#205572ae",
-
+      main: "",
+      contrastBorder: "",
+      contrastBg: "",
+      contrastButton: '',
+      contrastText: "",
     },
   },
   breakpoint,

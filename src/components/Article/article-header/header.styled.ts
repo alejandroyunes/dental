@@ -68,6 +68,6 @@ export const Header = styled.div`
     }
   }
   button {
-    padding-top: 16px;
+    margin-top: 16px;
   }
 `

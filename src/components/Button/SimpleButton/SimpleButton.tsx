@@ -11,7 +11,12 @@ type SimpleButtonProps = {
 export default function SimpleButton({ text, url, color, blank }: SimpleButtonProps) {
   return (
     <Button>
-      <Link to={url} target={blank ? '_blank' : '_self'}><span className={color ? 'color' : ''}>{text}</span></Link>
+      <Link to={url} target={blank ? '_blank' : '_self'}>
+
+        <span className={color ? 'color' : ''}>
+          {text}
+        </span></Link>
+
     </Button>
   )
 }

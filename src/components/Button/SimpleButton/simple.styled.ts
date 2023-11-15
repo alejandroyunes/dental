@@ -19,11 +19,11 @@ export const SimpleButton = styled.button`
     transition: color 0.3s ease, transform 0.2s ease;
     white-space: nowrap;
   }
-  a:hover {
+  a:hover, span:hover {
     transform: scale(1.1);
   }
   .color { 
-    background-color: ${({ theme }) => theme.palette.primary.main};
-    color: ${({ theme }) => theme.palette.white};
+    background-color: ${({ theme }) => theme.palette.primary.contrastButton};
+    color: ${({ theme }) => theme.palette.primary.contrastText};
   }
 `

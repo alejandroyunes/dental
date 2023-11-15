@@ -24,7 +24,7 @@ export default function (props: ArticleHeaderProps) {
           <h3>{title}</h3>
           <h1>{subtitle}</h1>
           <p>{text}</p>
-          <SimpleButton text={buttonText} color url={url} />
+          <SimpleButton text={buttonText} url={url} />
           {date && <p className="last-updated">Last updated: {date}</p>}
         </Header>
       </Container>

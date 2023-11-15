@@ -49,7 +49,7 @@ export default function ProAndConComponent(props: ProAndConsProps) {
           </div>
         </ProAndCon>
         {buttonUrl && <ProAndConButton>
-          <SimpleButton url={buttonUrl.url} text={buttonUrl.text} color={true} />
+          <SimpleButton url={buttonUrl.url} text={buttonUrl.text} color />
         </ProAndConButton>}
       </ProAndConContainer>
     </>

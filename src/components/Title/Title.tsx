@@ -25,7 +25,11 @@ export default function Title({ title, message, left, moreinfo, url, titleH2, id
         {titleH2 && <h2>{titleH2}</h2>}
         {message && <p>{message}</p>}
         {moreinfo && <p>{moreinfo}</p>}
-        {url && <Link to={url.url}><p className='url'>{url.text} &rarr;</p></Link>}
+        {url && <Link to={url.url}>
+          <p className='url'>
+            {url.text} &rarr;
+          </p>
+        </Link>}
       </TitleContainer>
     </StyleSheetManager>
   )

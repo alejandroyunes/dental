@@ -8,7 +8,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   background: white;
   z-index: 10;
-  @media(max-width: ${({theme}) => theme.breakpoint.xs}){
+  @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
     height: 42px;
   }
 `
@@ -16,12 +16,20 @@ export const HeaderContainer = styled.header`
 export const Logo = styled.div`
   margin: 0 24px;
   padding-top: 2px;
+  display: flex;
+  align-items: center;
   img {
     width: 45px;
     height: 45px;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
-  @media(max-width: ${({theme}) => theme.breakpoint.xs}){
+  h3 {
+    padding-left: 4px;
+    color: ${({ theme }) => theme.palette.black};
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
     img {
       height: 40px;
     }
@@ -34,7 +42,7 @@ export const NavContainer = styled.div`
 
 export const NavItems = styled.div`
   display: block;
-  @media(max-width: ${({theme}) => theme.breakpoint.xs}){
+  @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
     display: none;
   }
   ul {

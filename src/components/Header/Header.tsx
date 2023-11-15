@@ -37,6 +37,11 @@ export default function Header({ headerProps }: LinkItemProps) {
           <Link to='/'>
             <img src={logo} alt="Dental Irrigators" />
           </Link>
+
+          <div>
+            <h3>Dental Irrigator</h3>
+          </div>
+
         </Logo>
         <NavContainer>
           <ColorSwitcher />
