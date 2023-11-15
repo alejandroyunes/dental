@@ -21,6 +21,7 @@ export default function HomePage() {
           <meta name="description" content={billboard.meta} />
         </Helmet>
       </HelmetProvider>
+
       <Billboard {...billboard.billboard} />
       <ThreeRowTable {...firstThreeRowsTable} />
       <ProAndConComponent {...proAndCons} />

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const TitleContainer = styled.div`
   margin: 0 auto;
-  padding: 32px 24px;
+  padding: 32px 24px 0;
 	max-width: ${({ theme }) => theme.breakpoint.sm};
   scroll-margin-top: 24px; 
   &.left {

@@ -6,7 +6,7 @@ type itemProps = {
   title: string
 }
 
-type Props = {
+export type ProAndConsProps = {
   title: string
   subtitle?: string
   moreinfo?: string
@@ -22,7 +22,7 @@ type Props = {
   itemscons: itemProps[]
 }
 
-export default function ProAndConComponent(props: Props) {
+export default function ProAndConComponent(props: ProAndConsProps) {
   const { title, subtitle, moreinfo, url, itemspro, itemscons, buttonUrl } = props
   return (
     <>

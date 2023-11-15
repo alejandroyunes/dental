@@ -45,8 +45,7 @@ export const Table = styled.table`
     text-align: center;
     color: ${({ theme }) => theme.textColor};
   }
-`;
-
+`
 
 type SliderProps = {
   totalSlides: number
@@ -55,13 +54,13 @@ type SliderProps = {
 export const ContentSliderWrapper = styled.div`
   position: relative;
   overflow: hidden;
-`;
+`
 
 export const SliderWrapper = styled.div<SliderProps>`
   display: flex;
   width: ${(props) => props.totalSlides * 100}%;
   transition: transform 0.5s ease-in-out;
-`;
+`
 
 
 export const Slide = styled.div`
@@ -69,7 +68,7 @@ export const Slide = styled.div`
   box-sizing: border-box;
   padding: 20px;
   text-align: center;
-`;
+`
 
 export const NavigationButton = styled.button`
   position: absolute;
@@ -81,12 +80,12 @@ export const NavigationButton = styled.button`
   padding: 10px;
   cursor: pointer;
   font-size: 18px;
-`;
+`
 
 export const PrevButton = styled(NavigationButton)`
   left: 0px;
-`;
+`
 
 export const NextButton = styled(NavigationButton)`
   right: 0px;
-`;
+`

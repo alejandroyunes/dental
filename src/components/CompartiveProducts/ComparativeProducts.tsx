@@ -93,7 +93,6 @@ export default function ({ title, message, items, primeUrl, id }: Props) {
           </Table>
         </DesktopWrapper >
 
-
         <MobileWrapper>
           <StyleSheetManager shouldForwardProp={(prop) => isPropValid(prop)}>
 

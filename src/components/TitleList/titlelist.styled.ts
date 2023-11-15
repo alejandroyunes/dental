@@ -44,11 +44,10 @@ export const TitleContainer = styled.div`
   margin: 0;
   padding: 0;
   list-style-type: circle;
-
 }
 
 li {
-  margin-bottom: 10px;
+  margin: 0 0 10px 24px;
   font-size: 1.125rem;
 }
 
