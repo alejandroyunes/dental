@@ -1,19 +1,19 @@
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 
-import Billboard from "../../components/Billboard/Billboard"
-import ThreeColumnCard from "../../components/ThreeColumnCard/ThreeColumnCard"
-import ProAndConComponent from "../../components/ProAndCon/ProAndConComponent"
-import IrrigatorTypes from "../../components/IrrigatorTypes/IrrigatorTypes"
-import QuestionsAndAnswers from "../../components/QuestionAndAnswers/QuestionsAndAnswers"
-import ThreeColumnProduct from "../../components/ThreeColumnProduct/ThreeColumnProduct"
+import Billboard from '../../components/Billboard/Billboard'
+import ThreeColumnCard from '../../components/ThreeColumnCard/ThreeColumnCard'
+import ProAndConComponent from '../../components/ProAndCon/ProAndConComponent'
+import IrrigatorTypes from '../../components/IrrigatorTypes/IrrigatorTypes'
+import QuestionsAndAnswers from '../../components/QuestionAndAnswers/QuestionsAndAnswers'
+import ThreeColumnProduct from '../../components/ThreeColumnProduct/ThreeColumnProduct'
 
 //data
-import { billboard } from "./data/billboard/billboard"
-import { firstThreeColumnCard } from "./data/firstThreeColumnCard/firstThreeColumnCard"
-import { proAndCons } from "./data/proAndCons/proAndCons"
-import { irrigatorProps } from "./data/irrigatorTypes/irrigatorData";
-import { firstThreeColumnProduct } from "./data/firstThreeColumnProduct/firstThreeColumnProduct"
-import { questions } from "./data/questionsAndAnswers/questions"
+import { billboard } from './data/billboard/billboard'
+import { firstThreeColumnCard } from './data/firstThreeColumnCard/firstThreeColumnCard'
+import { proAndCons } from './data/proAndCons/proAndCons'
+import { irrigatorProps } from './data/irrigatorTypes/irrigatorData';
+import { firstThreeColumnProduct } from './data/firstThreeColumnProduct/firstThreeColumnProduct'
+import { questions } from './data/questionsAndAnswers/questions'
 
 export default function HomePage() {
 
@@ -21,7 +21,9 @@ export default function HomePage() {
     <>
       <HelmetProvider>
         <Helmet>
-          <meta name="description" content={billboard.meta} />
+          <meta
+            name='description'
+            content='We help you choose the best dental irrigator for your health care: ✓ Types ✓ Prices ✓ Reviews ✓ Benefits ✓ Risks' />
         </Helmet>
       </HelmetProvider>
 

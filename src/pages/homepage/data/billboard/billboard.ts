@@ -1,8 +1,7 @@
-const image = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1699702078/billboard/zcxvfauicbu1q56xtjkl.webp'
-const mobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1699702078/billboard/kt6iyggh9curtdnkplys.webp'
+const image = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700118132/HomePage/Billboard/c8u7qvk7maqy5a1jq8c6.webp'
+const mobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700118132/HomePage/Billboard/jw6vvwwyugu3eiro5gyb.webp'
 
 export const billboard = {
-  meta: "We help you choose the best dental irrigator for your health care: ✓ Types ✓ Prices ✓ Reviews ✓ Benefits ✓ Risks",
   billboard: {
     titleH2: "Enhance your oral health",
     title: "Dental Irrigator",
