@@ -18,7 +18,7 @@ import { questions } from './data/questionsAndAnswers/questions'
 export default function HomePage() {
 
   return (
-    <>
+    <main>
       <HelmetProvider>
         <Helmet>
           <meta
@@ -36,6 +36,6 @@ export default function HomePage() {
       <ThreeColumnCard {...firstThreeColumnCard} />
 
       <ThreeColumnProduct {...firstThreeColumnProduct} />
-    </>
+    </main>
   )
 }

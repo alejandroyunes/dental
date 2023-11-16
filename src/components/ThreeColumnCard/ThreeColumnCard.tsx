@@ -1,6 +1,6 @@
 import Title from "../Title/Title"
 import { Link } from "react-router-dom"
-import { ThreeColumn, Container } from "./threeColumnCard.styled"
+import { Column, Container } from "./threeColumnCard.styled"
 
 type itemProps = {
   id: number
@@ -26,8 +26,7 @@ export default function ThreeColumnCard(props: Props) {
       <Container>
         <Title titleH2={title} message={subTitle} moreinfo={moreInfo} />
 
-        <ThreeColumn>
-
+        <Column>
           {items && items.map((post, i) => (
             <Link to={`/highlighted/${post.id}`} key={i}>
               <div className="child-card">
@@ -36,7 +35,7 @@ export default function ThreeColumnCard(props: Props) {
               </div>
             </Link>
           ))}
-        </ThreeColumn>
+        </Column>
         <Title url={{ url: 'viewmore', text: 'view more' }} />
 
       </Container>

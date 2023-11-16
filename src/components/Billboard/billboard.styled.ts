@@ -5,7 +5,7 @@ interface BillboardProps {
   mobileimage?: string
 }
 
-export const ImageContainer = styled.div<BillboardProps>`
+export const Container = styled.section<BillboardProps>`
   background-image: url(${({ image }) => image});
   background-size: cover;
   background-position: center;
@@ -17,7 +17,7 @@ export const ImageContainer = styled.div<BillboardProps>`
     background-image: url(${({ mobileimage }) => mobileimage});
   }
 `
-export const BillboardContainer = styled.div`
+export const Billboard = styled.div`
   max-width:  ${({ theme }) => theme.breakpoint.md};
   margin: 0 auto;
   padding: 140px 24px 0;
