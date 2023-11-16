@@ -1,11 +1,11 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
+export const Container = styled.section`
   max-width:  ${({ theme }) => theme.breakpoint.sm};
   margin: 0 auto;
 `
 
-export const DetailsContainer = styled.div`
+export const Details = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;

@@ -21,6 +21,7 @@ type Props = {
 
 export default function (props: Props) {
   const { title, subTitle, url, items } = props
+
   return (
     <Container>
       <Title titleH2={title} message={subTitle} url={{ url: url, text: 'See the three types' }} />

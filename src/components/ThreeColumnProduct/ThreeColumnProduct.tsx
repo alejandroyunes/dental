@@ -1,8 +1,8 @@
-import Title from "../Title/Title"
-import { Link } from "react-router-dom"
-import { ThreeColumn, Container } from "./threeColumnProduct.styled"
-import PrimeSvg from "../CompartiveProducts/svg/Prime"
-import AmazonButton from "../Button/AmazonButton/AmazonButton"
+import Title from '../Title/Title'
+import { Link } from 'react-router-dom'
+import { Column, Container } from './threeColumnProduct.styled'
+import PrimeSvg from '../CompartiveProducts/svg/Prime'
+import AmazonButton from '../Button/AmazonButton/AmazonButton'
 
 type ItemProps = {
   title: string
@@ -27,36 +27,36 @@ export default function ThreeRowProduct(props: Props) {
     <Container>
       <Title titleH2={title} message={subTitle} moreinfo={moreInfo} />
 
-      <ThreeColumn>
+      <Column>
 
         {items && items.map((post, index) => (
-          <div className="product" key={index}>
+          <div className='product' key={index}>
             <div>
-              <img src={post.image} alt="" width="280" height="280" />
+              <img src={post.image} alt='' width='280' height='280' />
             </div>
             <div>
-              <h3 className="product-title">
+              <h3 className='product-title'>
                 <Link to={post.url}>
                   {post.title}
                 </Link>
               </h3>
-              <p className="product-characteristic">Characteristics</p>
+              <p className='product-characteristic'>Characteristics</p>
               <ul>
                 {post.list.map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}
               </ul>
-              <div className="buy-button">
+              <div className='buy-button'>
                 {post.primeUrl && <Link to={post.primeUrl}>
                   <PrimeSvg />
                 </Link>}
-                <AmazonButton text="Buy in Amazon" url="/url" />
+                <AmazonButton text='Buy in Amazon' url='/url' />
               </div>
             </div>
           </div>
         ))}
 
-      </ThreeColumn>
+      </Column>
 
     </Container>
   )
