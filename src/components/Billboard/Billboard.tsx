@@ -1,5 +1,5 @@
-import SimpleButton from "../Button/SimpleButton/SimpleButton"
-import { Billboard, Container } from "./billboard.styled"
+import SimpleButton from '../Button/SimpleButton/SimpleButton'
+import { Billboard, Container } from './billboard.styled'
 import { StyleSheetManager } from 'styled-components'
 import isPropValid from '@emotion/is-prop-valid'
 
@@ -22,7 +22,7 @@ export default function (props: BillboardProps) {
 
       <Container image={image} mobileimage={mobileImage} >
         <Billboard>
-          <div className="title">
+          <div className='title'>
             <h2>{titleH2}</h2>
             <h1>{title}</h1>
             <p>
@@ -34,5 +34,5 @@ export default function (props: BillboardProps) {
 
       </Container>
     </StyleSheetManager>
-  );
+  )
 }
