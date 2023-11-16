@@ -1,16 +1,19 @@
-import Billboard from "../../components/Billboard/Billboard"
-import ThreeRowTable from "../../components/ThreeRowTable/ThreeRowTable"
-import IrrigatorTypes from "../../components/IrrigatorTypes/IrrigatorTypes"
-import ProAndConComponent from "../../components/ProAndCon/ProAndConComponent"
-import QuestionsAndAnswers from "../../components/QuestionAndAnswers/QuestionsAndAnswers"
-
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 
+import Billboard from "../../components/Billboard/Billboard"
+import ThreeColumnCard from "../../components/ThreeColumnCard/ThreeColumnCard"
+import ProAndConComponent from "../../components/ProAndCon/ProAndConComponent"
+import IrrigatorTypes from "../../components/IrrigatorTypes/IrrigatorTypes"
+import QuestionsAndAnswers from "../../components/QuestionAndAnswers/QuestionsAndAnswers"
+import ThreeColumnProduct from "../../components/ThreeColumnProduct/ThreeColumnProduct"
+
+//data
 import { billboard } from "./data/billboard/billboard"
-import { questions } from "./data/questionsAndAnswers/questions"
+import { firstThreeColumnCard } from "./data/firstThreeColumnCard/firstThreeColumnCard"
 import { proAndCons } from "./data/proAndCons/proAndCons"
 import { irrigatorProps } from "./data/irrigatorTypes/irrigatorData";
-import { firstThreeRowsTable } from "./data/firstThreeRowTable/firstThreeRowsTable"
+import { firstThreeColumnProduct } from "./data/firstThreeColumnProduct/firstThreeColumnProduct"
+import { questions } from "./data/questionsAndAnswers/questions"
 
 export default function HomePage() {
 
@@ -23,10 +26,14 @@ export default function HomePage() {
       </HelmetProvider>
 
       <Billboard {...billboard.billboard} />
-      <ThreeRowTable {...firstThreeRowsTable} />
+      <ThreeColumnCard {...firstThreeColumnCard} />
       <ProAndConComponent {...proAndCons} />
       <IrrigatorTypes {...irrigatorProps} />
       <QuestionsAndAnswers {...questions} />
+
+      <ThreeColumnCard {...firstThreeColumnCard} />
+
+      <ThreeColumnProduct {...firstThreeColumnProduct} />
     </>
   )
 }

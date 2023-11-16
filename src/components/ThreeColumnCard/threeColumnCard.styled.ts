@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   background-color: ${({ theme }) => theme.palette.primary.contrastBg};
 `
-export const ThreeRow = styled.div`
+export const ThreeColumn = styled.div`
   max-width:  ${({ theme }) => theme.breakpoint.sm};
   margin: 0 auto;
   display: grid;
@@ -48,5 +48,6 @@ export const ThreeRow = styled.div`
     max-width: 100%;
     height: auto;
     cursor: pointer;
+    border-radius: 8px;
   }
 `

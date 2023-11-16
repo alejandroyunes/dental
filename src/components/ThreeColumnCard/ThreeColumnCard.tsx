@@ -1,6 +1,6 @@
 import Title from "../Title/Title"
 import { Link } from "react-router-dom"
-import { ThreeRow, Container } from "./threeRowTable.styled"
+import { ThreeColumn, Container } from "./threeColumnCard.styled"
 
 type itemProps = {
   id: number
@@ -17,8 +17,7 @@ type Props = {
   items: itemProps[]
 }
 
-export default function ThreeRowTable(props: Props) {
-
+export default function ThreeColumnCard(props: Props) {
   const { title, subTitle, moreInfo, items } = props
 
   return (
@@ -27,7 +26,7 @@ export default function ThreeRowTable(props: Props) {
       <Container>
         <Title titleH2={title} message={subTitle} moreinfo={moreInfo} />
 
-        <ThreeRow>
+        <ThreeColumn>
 
           {items && items.map((post, i) => (
             <Link to={`/highlighted/${post.id}`} key={i}>
@@ -37,7 +36,7 @@ export default function ThreeRowTable(props: Props) {
               </div>
             </Link>
           ))}
-        </ThreeRow>
+        </ThreeColumn>
         <Title url={{ url: 'viewmore', text: 'view more' }} />
 
       </Container>

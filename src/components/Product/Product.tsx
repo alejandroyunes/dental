@@ -25,7 +25,6 @@ type ProductProps = {
   }
 }
 
-
 export default function ({ items }: ProductProps) {
   return (
     <Container>
