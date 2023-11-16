@@ -5,7 +5,7 @@ export const Container = styled.section`
   background-color: ${({ theme }) => theme.palette.primary.contrastBg};
   margin: 32px 0;
 `
-export const IrrigatorTypes = styled.div`
+export const TwoColumn = styled.div`
   max-width:  ${({ theme }) => theme.breakpoint.sm};
   margin: 0 auto;
 

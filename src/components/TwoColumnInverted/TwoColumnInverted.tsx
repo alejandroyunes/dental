@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import SimpleButton from '../Button/SimpleButton/SimpleButton'
 import Title from '../Title/Title'
-import { Button, Container, IrrigatorTypes, Item } from './irrigatorTypes.styled'
+import { Button, Container, TwoColumn, Item } from './TwoColumnInverted.styled'
 
 type itemProps = {
   id: number
@@ -24,7 +24,7 @@ export default function (props: Props) {
   return (
     <Container>
       <Title titleH2={title} message={subTitle} url={{ url: url, text: 'See the three types' }} />
-      <IrrigatorTypes>
+      <TwoColumn>
         {items.map((item) => {
           return (
             <Item key={item.id}>
@@ -41,7 +41,7 @@ export default function (props: Props) {
             </Item>
           )
         })}
-      </IrrigatorTypes>
+      </TwoColumn>
 
       <Button>
         <SimpleButton url={'url'} text='Buy The Best Irrigators' color={true} />

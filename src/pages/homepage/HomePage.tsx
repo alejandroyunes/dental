@@ -3,7 +3,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async'
 import Billboard from '../../components/Billboard/Billboard'
 import ThreeColumnCard from '../../components/ThreeColumnCard/ThreeColumnCard'
 import ProAndConComponent from '../../components/ProAndCon/ProAndConComponent'
-import IrrigatorTypes from '../../components/IrrigatorTypes/IrrigatorTypes'
+import TwoColumnInverted from '../../components/TwoColumnInverted/TwoColumnInverted'
 import QuestionsAndAnswers from '../../components/QuestionAndAnswers/QuestionsAndAnswers'
 import ThreeColumnProduct from '../../components/ThreeColumnProduct/ThreeColumnProduct'
 
@@ -30,7 +30,7 @@ export default function HomePage() {
       <Billboard {...billboard.billboard} />
       <ThreeColumnCard {...firstThreeColumnCard} />
       <ProAndConComponent {...proAndCons} />
-      <IrrigatorTypes {...irrigatorProps} />
+      <TwoColumnInverted {...irrigatorProps} />
       <QuestionsAndAnswers {...questions} />
 
       <ThreeColumnCard {...firstThreeColumnCard} />
