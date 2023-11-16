@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom"
-import SimpleButton from "../Button/SimpleButton/SimpleButton"
-import Title from "../Title/Title"
-import { Button, Container, IrrigatorTypes, Item } from "./irrigatorTypes.styled"
+import { Link } from 'react-router-dom'
+import SimpleButton from '../Button/SimpleButton/SimpleButton'
+import Title from '../Title/Title'
+import { Button, Container, IrrigatorTypes, Item } from './irrigatorTypes.styled'
 
 type itemProps = {
   id: number
@@ -23,7 +23,7 @@ export default function (props: Props) {
   const { title, subTitle, url, items } = props
   return (
     <Container>
-      <Title titleH2={title} message={subTitle} url={{ url: url, text: "See the three types" }} />
+      <Title titleH2={title} message={subTitle} url={{ url: url, text: 'See the three types' }} />
       <IrrigatorTypes>
         {items.map((item) => {
           return (
@@ -32,9 +32,9 @@ export default function (props: Props) {
                 <h3>{item.title}</h3>
                 <p>{item.text}</p>
               </div>
-              <div className="image-items">
+              <div className='image-items'>
                 <Link to={item.url}>
-                  <img src={item.image} alt={item.alt} width="320" height="200" />
+                  <img src={item.image} alt={item.alt} width='320' height='200' />
                   <p>view more &rarr;</p>
                 </Link>
               </div>
@@ -44,7 +44,7 @@ export default function (props: Props) {
       </IrrigatorTypes>
 
       <Button>
-        <SimpleButton url={'url'} text="Buy The Best Irrigators" color={true} />
+        <SimpleButton url={'url'} text='Buy The Best Irrigators' color={true} />
       </Button>
     </Container>
   )

@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
+export const Container = styled.section`
   width: 100%;
   background-color: ${({ theme }) => theme.palette.primary.contrastBg};
   margin: 32px 0;
