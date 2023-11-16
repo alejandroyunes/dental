@@ -1,6 +1,6 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
-export const ProAndConContainer = styled.div`
+export const Container = styled.section`
   margin: 0 24px;
 `
 export const ProAndCon = styled.div`
@@ -51,7 +51,6 @@ export const ProAndCon = styled.div`
     color: #ff5252;
   }
 `
-
 export const ProAndConButton = styled.div`
   display: flex;
   justify-content: center;
