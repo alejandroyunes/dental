@@ -10,7 +10,7 @@ import {
   titleProps,
   // comparativeProductsProps,
   // titleListProps,
-  firstProduct
+  // firstProduct
 } from "./data/oral-b-smart"
 
 export default function () {
