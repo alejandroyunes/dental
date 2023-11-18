@@ -1,5 +1,5 @@
 import Header from "../../../../components/Article/article-header/Header"
-import ComparativeProducts from "../../../../components/CompartiveProducts/ComparativeProducts"
+import ComparativeProducts from "../../../../components/CompartiveProducts/ComparativeTable"
 import Product from "../../../../components/Product/Product"
 import TableOfContent from "../../../../components/TableOfContent/TableOfContent"
 import Title from "../../../../components/Title/Title"

@@ -1,12 +1,12 @@
 import Header from "../../../components/Article/article-header/Header"
-import ComparativeProducts from "../../../components/CompartiveProducts/ComparativeProducts"
+import SimpleButton from "../../../components/Button/SimpleButton/SimpleButton"
+import ComparativeTable from "../../../components/CompartiveProducts/ComparativeTable"
+import ProAndConComponent from "../../../components/ProAndCon/ProAndCon"
 import Product from "../../../components/Product/Product"
 import TableOfContent from "../../../components/TableOfContent/TableOfContent"
 import Title from "../../../components/Title/Title"
 import TitleList from "../../../components/TitleList/TitleList"
-import { tableOfContentItems, headerProps, titleProps, comparativeProductsProps, titleListProps, firstProduct } from "./data/best-irrigator"
-
-
+import { tableOfContentItems, headerProps, titleProps, comparativeTableProps, titleListProps, firstProduct } from "./data/best"
 
 
 export default function () {
@@ -14,11 +14,23 @@ export default function () {
     <main>
       <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
+
       <Title message={titleProps} />
 
-      <ComparativeProducts {...comparativeProductsProps} />
+      <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
+      <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
+
       <TitleList {...titleListProps} />
-      <Product {...firstProduct} />
+
+      {/* First Product */}
+      <Title titleH2={firstProduct.proAndCons.title} message={firstProduct.proAndCons.subtitle} />
+
+      <ProAndConComponent {...firstProduct.proAndCons} />
+
+      <Product {...firstProduct.product} list={...firstProduct.list} />
+      <Title {...firstProduct.productDetails} />
+      <SimpleButton text="some text" url="/lest" />
+
     </main>
   )
 }

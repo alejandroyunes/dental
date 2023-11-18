@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const SimpleButton = styled.button`
-  display: inline-block;
-  scroll-behavior: smooth;
-  line-height: 42px; 
+  line-height: 42px;
   span {
     background-color: ${({ theme }) => theme.palette.white};
     color: ${({ theme }) => theme.palette.black};
@@ -18,6 +16,7 @@ export const SimpleButton = styled.button`
     font-weight: 400;
     transition: color 0.3s ease, transform 0.2s ease;
     white-space: nowrap;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
   }
   a:hover, span:hover {
     transform: scale(1.1);

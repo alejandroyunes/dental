@@ -73,11 +73,16 @@ export const tableOfContentItems = [
 
 export const titleProps = 'Dental irrigators are efficient for removing plaque and food particles from between the teeth. Additionally, they contribute to reducing the risk of gum diseases and combating bad breath. But, which irrigator to buy? What would be the best irrigator? Below, we present the most comprehensive and detailed analysis of the best irrigators to assist you in your purchase.'
 
-export const comparativeProductsProps = {
+
+export const com = {
+
+}
+
+export const comparativeTableProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',
   title: 'Comparative of the Best Oral Irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: '/some-amazon-url',
+  primeUrl: '/primeurl',
   items: [
     {
       id: 1,
@@ -150,69 +155,69 @@ export const comparativeProductsProps = {
 export const titleListProps = {
   title: 'What criteria we used in this Irrigators Comparison?',
   items: [
-    { item: 'To find the most reliable oral irrigators, we have analyzed user satisfaction levels, rating them on a scale of 1 to 10.' },
-    { item: 'From buyer opinions, we have extracted the most praised feature and the most common issue for each irrigator.' },
-    { item: 'To provide you with comprehensive information, we present the features and accessories of each one.' },
-    { item: 'Finally, we assess the price in relation to its quality, rating it as: Improvable, Fair, Exceptional.' },
+    'To find the most reliable oral irrigators, we have analyzed user satisfaction levels, rating them on a scale of 1 to 10.',
+    'From buyer opinions, we have extracted the most praised feature and the most common issue for each irrigator.',
+    'To provide you with comprehensive information, we present the features and accessories of each one.',
+    'Finally, we assess the price in relation to its quality, rating it as: Improvable, Fair, Exceptional.',
   ]
 }
 
 export const firstProduct = {
-  items: {
+  product: {
     title: 'some title longer title, here is a longer title',
     image: image,
     productUrl: '/amayonlink',
     primeUrl: '/amazonPrime',
     url: '/link to reseña',
-    list: [
-      "Type: Desktop",
-      "Weight: 660 grams",
-      "Tank Capacity: 650 ml",
-      "Includes 7 nozzles",
-      "10 pressure levels",
-      "2 usage modes",
-      "Storage for nozzles",
-    ],
-    productDetails: {
-      title: 'The 660EU model from Waterpik is positioned as the best irrigator to date',
-      message: 'It has one of the most complete sets of nozzles (7 in total), combined with its 10 pressure levels that reach up to 130 psi (a unique feature of Waterpik), allowing you to adjust the power of the jet according to the type of cleaning you want to perform. It has two modes of use: Massage for people with dental sensitivity and Floss to remove bacterial plaque and debris from the teeth.',
-      moreinfo: 'A lightweight tabletop irrigator, the perfect size to place on the sink, regardless of the bathroom size, and with a great extra: a compartment to place the most frequently used nozzles'
+  },
+  list: [
+    "Type: Desktop",
+    "Weight: 660 grams",
+    "Tank Capacity: 650 ml",
+    "Includes 7 nozzles",
+    "10 pressure levels",
+    "2 usage modes",
+    "Storage for nozzles",
+  ],
+  productDetails: {
+    title: 'The 660EU model from Waterpik is positioned as the best irrigator to date',
+    message: 'It has one of the most complete sets of nozzles (7 in total), combined with its 10 pressure levels that reach up to 130 psi (a unique feature of Waterpik), allowing you to adjust the power of the jet according to the type of cleaning you want to perform. It has two modes of use: Massage for people with dental sensitivity and Floss to remove bacterial plaque and debris from the teeth.',
+    moreinfo: 'A lightweight tabletop irrigator, the perfect size to place on the sink, regardless of the bathroom size, and with a great extra: a compartment to place the most frequently used nozzles'
+  },
+  proAndCons: {
+    title: "1. Waterpik Ultra 660EU – Best Quality-Price Ratio Irrigator",
+    subtitle: "Taking into account multiple factors, user ratings, and, of course, our own assessment, the Waterpik Ultra model is the best dental irrigator in terms of quality and price, in addition to being one of the most recommended by dentists.",
+    url: {
+      url: '/blog/water',
+      text: 'WaterPik url title'
     },
-    proAndCons: {
-      title: "1. Waterpik Ultra 660EU – Best Quality-Price Ratio Irrigator",
-      subtitle: "Taking into account multiple factors, user ratings, and, of course, our own assessment, the Waterpik Ultra model is the best dental irrigator in terms of quality and price, in addition to being one of the most recommended by dentists.",
-      url: {
-        url: '/blog/water',
-        text: 'WaterPik url title'
+    itemspro: [
+      {
+        title: 'Helps reduce tartar and prevent oral diseases.',
       },
-      itemspro: [
-        {
-          title: 'Helps reduce tartar and prevent oral diseases.',
-        },
-        {
-          title: 'Ensures a thorough cleaning, improving the health of teeth and gums.',
-        },
-        {
-          title: 'Can be especially useful for people with braces or implants, facilitating cleaning in hard-to-reach areas.',
-        },
-        {
-          title: 'Promotes circulation in the gums, strengthening them and helping to maintain their health.',
-        },
-        {
-          title: 'Contributes to the prevention of dental stains, maintaining a more attractive dental aesthetic.',
-        },
-      ],
-      itemscons: [
-        {
-          title: 'The more comprehensive models require a lot of space',
-        },
-        {
-          title: ' For those with dental sensitivity, using it can be a bit uncomfortable.',
-        },
-        {
-          title: 'Is easy to use, but it is necessary to learn how to use it correctly to avoid damaging the gums.',
-        },
-      ]
-    }
+      {
+        title: 'Ensures a thorough cleaning, improving the health of teeth and gums.',
+      },
+      {
+        title: 'Can be especially useful for people with braces or implants, facilitating cleaning in hard-to-reach areas.',
+      },
+      {
+        title: 'Promotes circulation in the gums, strengthening them and helping to maintain their health.',
+      },
+      {
+        title: 'Contributes to the prevention of dental stains, maintaining a more attractive dental aesthetic.',
+      },
+    ],
+    itemscons: [
+      {
+        title: 'The more comprehensive models require a lot of space',
+      },
+      {
+        title: ' For those with dental sensitivity, using it can be a bit uncomfortable.',
+      },
+      {
+        title: 'Is easy to use, but it is necessary to learn how to use it correctly to avoid damaging the gums.',
+      },
+    ]
   }
 }

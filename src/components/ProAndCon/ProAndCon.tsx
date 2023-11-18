@@ -1,32 +1,25 @@
 import SimpleButton from '../Button/SimpleButton/SimpleButton'
-import Title from '../Title/Title'
-import { ProAndCon, ProAndConButton, Container } from './proandconponent.styled'
+import { ProAndCon, ProAndConButton, Container } from './proandcon.styled'
 
 type itemProps = {
   title: string
 }
 
 export type ProAndConsProps = {
-  title: string
-  subtitle?: string
-  moreinfo?: string
+  itemspro: itemProps[]
+  itemscons: itemProps[]
   buttonUrl?: {
     url: string
     text: string
   }
-  url: {
-    url: string
-    text: string
-  }
-  itemspro: itemProps[]
-  itemscons: itemProps[]
 }
 
-export default function ProAndConComponent(props: ProAndConsProps) {
-  const { title, subtitle, moreinfo, url, itemspro, itemscons, buttonUrl } = props
+export default function (props: ProAndConsProps) {
+
+  const { itemspro, itemscons, buttonUrl } = props
+
   return (
     <Container>
-      <Title titleH2={title} message={subtitle} moreinfo={moreinfo} url={{ url: url.url, text: url.text }} />
 
       <ProAndCon>
         <div className='pros'>

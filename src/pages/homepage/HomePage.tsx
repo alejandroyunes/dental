@@ -2,7 +2,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 import Billboard from '../../components/Billboard/Billboard'
 import ThreeColumnCard from '../../components/ThreeColumnCard/ThreeColumnCard'
-import ProAndConComponent from '../../components/ProAndCon/ProAndConComponent'
+import ProAndConComponent from '../../components/ProAndCon/ProAndCon'
 import TwoColumnInverted from '../../components/TwoColumnInverted/TwoColumnInverted'
 import QuestionsAndAnswers from '../../components/QuestionAndAnswers/QuestionsAndAnswers'
 import ThreeColumnProduct from '../../components/ThreeColumnProduct/ThreeColumnProduct'

@@ -25,15 +25,12 @@ type ItemProps = {
   [key: string]: string | boolean | number
 }
 
-type Props = {
-  id?: string
-  title?: string
-  message?: string
-  primeUrl: string
+interface ComparativeTableProps {
   items: ItemProps[]
+  primeUrl: string
 }
 
-export default function ({ title, message, items, primeUrl, id }: Props) {
+export default function ({ items, primeUrl }: ComparativeTableProps) {
 
   const columns = [
     'Models',
@@ -62,7 +59,6 @@ export default function ({ title, message, items, primeUrl, id }: Props) {
   return (
     <>
       <Container>
-        <Title id={id} titleH2={title} message={message} />
         <DesktopWrapper>
           <Table>
             <tbody>

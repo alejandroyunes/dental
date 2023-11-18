@@ -8,7 +8,7 @@ type SimpleButtonProps = {
   color?: boolean
 }
 
-export default function SimpleButton({ text, url, color, blank }: SimpleButtonProps) {
+export default function ({ text, url, color, blank }: SimpleButtonProps) {
   return (
     <Button>
       <Link to={url} target={blank ? '_blank' : '_self'}>

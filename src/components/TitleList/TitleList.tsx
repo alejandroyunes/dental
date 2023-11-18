@@ -3,10 +3,6 @@ import { TitleContainer } from './titlelist.styled';
 import { StyleSheetManager } from 'styled-components';
 import isPropValid from '@emotion/is-prop-valid'
 
-type ListProps = {
-  item: string
-}
-
 interface TitleProps {
   title?: string
   titleH2?: string
@@ -17,7 +13,7 @@ interface TitleProps {
     url: string
     text: string
   }
-  items: ListProps[]
+  items: string[]
 }
 
 export default function TitleList({ title, message, left, moreinfo, url, titleH2, items }: TitleProps) {
@@ -31,7 +27,7 @@ export default function TitleList({ title, message, left, moreinfo, url, titleH2
         {message && <p>{message}</p>}
         <ul>
           {items.map((listProps, i) => (
-            <li key={i}>{listProps.item}</li>
+            <li key={i}>{listProps}</li>
           ))}
         </ul>
         {moreinfo && <p>{moreinfo}</p>}
