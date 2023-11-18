@@ -1,3 +1,4 @@
+import { Helmet, HelmetProvider } from "react-helmet-async"
 import Header from "../../../components/Article/article-header/Header"
 import SimpleButton from "../../../components/Button/SimpleButton/SimpleButton"
 import ComparativeTable from "../../../components/CompartiveProducts/ComparativeTable"
@@ -13,6 +14,15 @@ import { tableOfContentItems, headerProps, titleProps, comparativeTableProps, ti
 export default function () {
   return (
     <Container>
+      <HelmetProvider>
+        <Helmet>
+          <meta
+            name='description'
+            content='Comparison of the Best Irrigators in 2023 | Dental Irrigator' />
+          <title>Comparison of the Best Irrigators in 2023 | Dental Irrigator</title>
+        </Helmet>
+      </HelmetProvider>
+
       <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
 

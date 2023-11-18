@@ -23,10 +23,10 @@ export default function HomePage() {
         <Helmet>
           <meta
             name='description'
-            content='We help you choose the best dental irrigator for your health care: ✓ Types ✓ Prices ✓ Reviews ✓ Benefits ✓ Risks' />
+            content='Enhance Your Dental Health with a Dental Irrigator for Complete Oral Hygiene' />
+          <title>Enhance Your Dental Health with a Dental Irrigator for Complete Oral Hygiene</title>
         </Helmet>
       </HelmetProvider>
-
       <Billboard {...billboard.billboard} />
       <ThreeColumnCard {...firstThreeColumnCard} />
       <ProAndConComponent {...proAndCons} />
@@ -37,3 +37,4 @@ export default function HomePage() {
     </main>
   )
 }
+

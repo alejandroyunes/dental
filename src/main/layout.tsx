@@ -12,7 +12,6 @@ export default function App() {
 
 	const [theme] = useLocalStorage('theme', darkTheme)
 
-
 	return (
 		<ThemeProvider theme={theme}>
 			<GlobalStyle />
