@@ -1,4 +1,3 @@
-import Title from "../Title/Title"
 import { Container, ContentSliderWrapper, DesktopWrapper, MobileWrapper, NextButton, PrevButton, Slide, SliderWrapper, Table } from "./comparative.styled"
 import PrimeSvg from "./svg/Prime"
 import { Link } from "react-router-dom"
