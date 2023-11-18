@@ -1,6 +1,7 @@
 import image from './water.jpg'
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1699702078/billboard/zcxvfauicbu1q56xtjkl.webp'
 const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1699702078/billboard/zcxvfauicbu1q56xtjkl.webp'
+const HTML5Img = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/kkc4eb4flw5qgmjpmdro.webp'
 
 
 export const headerProps = {
@@ -165,7 +166,7 @@ export const titleListProps = {
 export const firstProduct = {
   product: {
     title: 'some title longer title, here is a longer title',
-    image: image,
+    image: HTML5Img,
     productUrl: '/amayonlink',
     primeUrl: '/amazonPrime',
     url: '/link to reseña',

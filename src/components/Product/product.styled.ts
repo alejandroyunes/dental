@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
+export const Container = styled.section`
   width: 100%;
   padding: 24px;
   .url {
@@ -32,6 +32,9 @@ export const Product = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoint.xs}){
     grid-template-columns: 1fr;
     justify-content: center;
+    img {
+      margin: 0 auto;
+    }
   }
 
   img {

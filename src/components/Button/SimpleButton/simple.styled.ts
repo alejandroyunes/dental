@@ -6,6 +6,7 @@ export const SimpleButton = styled.button`
     background-color: ${({ theme }) => theme.palette.white};
     color: ${({ theme }) => theme.palette.black};
     border: none;
+    border-radius: 8px;
     padding: 0 24px;
     height: 42px;
     cursor: pointer;

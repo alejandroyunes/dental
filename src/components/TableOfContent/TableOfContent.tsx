@@ -1,4 +1,4 @@
-import { DetailsContainer } from "./table.styled"
+import { Container } from "./table.styled"
 import { Link } from "react-router-dom";
 type ItemProps = {
   content: string
@@ -12,7 +12,7 @@ export interface TableOfContentProps {
 export default function ({ items }: TableOfContentProps) {
 
   return (
-    <DetailsContainer>
+    <Container>
       <details>
         <summary>
           <span className="summary-title">Table of Content</span>
@@ -30,6 +30,6 @@ export default function ({ items }: TableOfContentProps) {
         </div>
       </details>
 
-    </DetailsContainer>
+    </Container>
   )
 }

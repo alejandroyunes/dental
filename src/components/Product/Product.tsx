@@ -21,7 +21,7 @@ export default function (product: ProductProps) {
 
       <Product>
         <div>
-          <img src={image} alt="" width="200" height="200" />
+          <img src={image} alt="" width="250" height="200" />
         </div>
         <div>
           <h3 className="product-title">

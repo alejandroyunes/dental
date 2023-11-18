@@ -20,7 +20,6 @@ export default function () {
 
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
-
       <TitleList {...titleListProps} />
 
       {/* First Product */}
