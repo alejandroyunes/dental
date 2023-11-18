@@ -6,12 +6,13 @@ import Product from "../../../components/Product/Product"
 import TableOfContent from "../../../components/TableOfContent/TableOfContent"
 import Title from "../../../components/Title/Title"
 import TitleList from "../../../components/TitleList/TitleList"
+import { Container } from "./best-irrigators.styled"
 import { tableOfContentItems, headerProps, titleProps, comparativeTableProps, titleListProps, firstProduct } from "./data/best"
 
 
 export default function () {
   return (
-    <main>
+    <Container>
       <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
 
@@ -29,8 +30,11 @@ export default function () {
 
       <Product {...firstProduct.product} list={...firstProduct.list} />
       <Title {...firstProduct.productDetails} />
-      <SimpleButton text="some text" url="/lest" />
 
-    </main>
+      <div className="product-button">
+        <SimpleButton text="some text" url="/lest" />
+      </div>
+
+    </Container>
   )
 }
