@@ -25,9 +25,7 @@ export default function () {
 
       {/* First Product */}
       <Title titleH2={firstProduct.proAndCons.title} message={firstProduct.proAndCons.subtitle} />
-
       <ProAndConComponent {...firstProduct.proAndCons} />
-
       <Product {...firstProduct.product} list={...firstProduct.list} />
       <Title {...firstProduct.productDetails} />
 
