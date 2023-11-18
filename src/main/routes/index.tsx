@@ -7,8 +7,8 @@ import Layout from '../layout.tsx'
 import Privacy from "../../components/Legal/Privacy/Privacy.tsx"
 import Notice from "../../components/Legal/Notice/Notice.tsx"
 import { Cookie } from "@mui/icons-material";
-import Article from "../../components/Article/Article.tsx"
 import Best from "../../pages/categories/best-irrigators/Best.tsx"
+import OralBSmart5000 from "../../pages/categories/best-irrigators/article/OralBSmart5000.tsx"
 
 
 const routerConfig: RouteObject[] = [
@@ -21,13 +21,13 @@ const routerConfig: RouteObject[] = [
         element: <HomePage />
       },
       {
-        path: '/categories/:id',
-        element: <Article />,
+        path: '/best-irrigators',
+        element: <Best />,
         errorElement: <ErrorPage />
       },
       {
-        path: '/best-irrigators',
-        element: <Best />,
+        path: '/best/oral-b-pro-5000-smartseries-rechargeable',
+        element: <OralBSmart5000 />,
         errorElement: <ErrorPage />
       },
       {

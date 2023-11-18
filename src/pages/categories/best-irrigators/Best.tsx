@@ -19,7 +19,6 @@ export default function () {
       <ComparativeProducts {...comparativeProductsProps} />
       <TitleList {...titleListProps} />
       <Product {...firstProduct} />
-
     </main>
   )
 }
