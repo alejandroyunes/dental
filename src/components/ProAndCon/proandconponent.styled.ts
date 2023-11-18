@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  margin: 0 24px;
+  max-width:  ${({ theme }) => theme.breakpoint.sm};
+  margin: 0 auto;
 `
 export const ProAndCon = styled.div`
   display: flex;
-  margin: 40px auto;
-  padding: 0 20px;
+  margin: 40px 24px;
   background-color: ${({ theme }) => theme.palette.black};
   max-width:  ${({ theme }) => theme.breakpoint.sm};
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

@@ -11,7 +11,7 @@ import { tableOfContentItems, headerProps, titleProps, comparativeProductsProps,
 
 export default function () {
   return (
-    <>
+    <main>
       <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
       <Title message={titleProps} />
@@ -20,6 +20,6 @@ export default function () {
       <TitleList {...titleListProps} />
       <Product {...firstProduct} />
 
-    </>
+    </main>
   )
 }

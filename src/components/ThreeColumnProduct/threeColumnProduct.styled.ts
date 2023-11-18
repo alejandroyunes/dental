@@ -2,11 +2,14 @@ import styled from "styled-components"
 
 export const Container = styled.section`
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   /* background-color: ${({ theme }) => theme.palette.primary.contrastBg}; */
 `
 export const Column = styled.div`
   max-width:  ${({ theme }) => theme.breakpoint.sm};
-  margin: 0 auto;
+  margin: 0 24px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, auto);

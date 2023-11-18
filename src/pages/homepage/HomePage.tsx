@@ -32,9 +32,7 @@ export default function HomePage() {
       <ProAndConComponent {...proAndCons} />
       <TwoColumnInverted {...irrigatorProps} />
       <QuestionsAndAnswers {...questions} />
-
       <ThreeColumnCard {...firstThreeColumnCard} />
-
       <ThreeColumnProduct {...firstThreeColumnProduct} />
     </main>
   )
