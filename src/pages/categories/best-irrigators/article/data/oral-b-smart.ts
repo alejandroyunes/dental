@@ -1,15 +1,21 @@
-import image from './water.jpg'
+//IMAGES
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700292788/HomePage/firstThreeColumn/oralb5000/zsguiqgbhop6t8xspfvy.webp'
 const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700293313/HomePage/firstThreeColumn/oralb5000/nkhhgoczppqrxn1ofmdj.webp'
+const HTML5Img = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/kkc4eb4flw5qgmjpmdro.webp'
 
+export const oralb5000 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700292788/HomePage/firstThreeColumn/oralb5000/rbf6jycs0baap4pvetou.webp'
+
+
+const productUrl = 'https://a.co/d/aQoAc5G'
+const amazonPrime = '/amazonprimeurl'
 
 export const headerProps = {
   title: "Oral-B Pro 5000 SmartSeries",
-  subtitle: "Includes pressure sensor",
-  text: "The Floss Action brush head gives you a floss-like clean for healthier gums vs. a regular manual brush.",
+  subtitle: "Floss-like clean for healthier gums",
+  text: "Discover the next level of oral care innovation with the Oral-B 5000 SmartSeries rechargeable electric toothbrush.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
-  url: 'https://a.co/d/aQoAc5G',
+  url: productUrl,
   buttonText: "Buy Now",
   date: '11/18/2023'
 }
@@ -75,17 +81,40 @@ export const tableOfContentItems = [
   }
 ]
 
+export const oralB5000Props = {
+  product: {
+    title: 'Oral B Smart 5000 Rechargeable Electric Toothbrush',
+    image: oralb5000,
+    alt: 'Smart 5000 Rechargeable Electric Toothbrush',
+    productUrl: productUrl,
+    primeUrl: amazonPrime,
+    description: 'The Oral-B Smart 5000 oral care station is a complete and efficient product for daily dental care. Its combination of an electric toothbrush and oral irrigator provides a complete solution for tooth cleaning and care.',
+    url: '/best/oral-b-pro-5000-smartseries-rechargeable',
+  },
+  list: [
+    "Real-time feedback on brushing habits",
+    "3D Cleaning Action",
+    "Visible Pressure Sensor",
+    "Bluetooth Connectivity",
+    "Travel Case",
+    "5 Clearning Modes",
+    "Sensitive Gum Care",
+  ],
+}
 
+
+
+//not using yet
 export const comparativeProductsProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',
   title: 'Comparative of the Best Oral Irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: '/some-amazon-url',
+  primeUrl: amazonPrime,
   items: [
     {
       id: 1,
       models: 'Waterpik Ultra 660 some more texts',
-      image: image,
+      image: HTML5Img,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
@@ -101,7 +130,7 @@ export const comparativeProductsProps = {
     {
       id: 2,
       models: 'Waterpik Ultra 660',
-      image: image,
+      image: HTML5Img,
       alt: 'Waterpik Ultra 660',
       prime: false,
       dimensions: '15 x 16,5 x 23 cm',
@@ -118,7 +147,7 @@ export const comparativeProductsProps = {
     {
       id: 3,
       models: 'Waterpik Ultra 660',
-      image: image,
+      image: HTML5Img,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
@@ -134,7 +163,7 @@ export const comparativeProductsProps = {
     {
       id: 4,
       models: 'Waterpik Ultra 660',
-      image: image,
+      image: HTML5Img,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
@@ -158,64 +187,4 @@ export const titleListProps = {
     { item: 'To provide you with comprehensive information, we present the features and accessories of each one.' },
     { item: 'Finally, we assess the price in relation to its quality, rating it as: Improvable, Fair, Exceptional.' },
   ]
-}
-
-export const firstProduct = {
-  items: {
-    title: 'some title longer title, here is a longer title',
-    image: image,
-    productUrl: '/amayonlink',
-    primeUrl: '/amazonPrime',
-    url: '/link to reseña',
-    list: [
-      "Type: Desktop",
-      "Weight: 660 grams",
-      "Tank Capacity: 650 ml",
-      "Includes 7 nozzles",
-      "10 pressure levels",
-      "2 usage modes",
-      "Storage for nozzles",
-    ],
-    productDetails: {
-      title: 'The 660EU model from Waterpik is positioned as the best irrigator to date',
-      message: 'It has one of the most complete sets of nozzles (7 in total), combined with its 10 pressure levels that reach up to 130 psi (a unique feature of Waterpik), allowing you to adjust the power of the jet according to the type of cleaning you want to perform. It has two modes of use: Massage for people with dental sensitivity and Floss to remove bacterial plaque and debris from the teeth.',
-      moreinfo: 'A lightweight tabletop irrigator, the perfect size to place on the sink, regardless of the bathroom size, and with a great extra: a compartment to place the most frequently used nozzles'
-    },
-    proAndCons: {
-      title: "1. Waterpik Ultra 660EU – Best Quality-Price Ratio Irrigator",
-      subtitle: "Taking into account multiple factors, user ratings, and, of course, our own assessment, the Waterpik Ultra model is the best dental irrigator in terms of quality and price, in addition to being one of the most recommended by dentists.",
-      url: {
-        url: '/blog/water',
-        text: 'WaterPik url title'
-      },
-      itemspro: [
-        {
-          title: 'Helps reduce tartar and prevent oral diseases.',
-        },
-        {
-          title: 'Ensures a thorough cleaning, improving the health of teeth and gums.',
-        },
-        {
-          title: 'Can be especially useful for people with braces or implants, facilitating cleaning in hard-to-reach areas.',
-        },
-        {
-          title: 'Promotes circulation in the gums, strengthening them and helping to maintain their health.',
-        },
-        {
-          title: 'Contributes to the prevention of dental stains, maintaining a more attractive dental aesthetic.',
-        },
-      ],
-      itemscons: [
-        {
-          title: 'The more comprehensive models require a lot of space',
-        },
-        {
-          title: ' For those with dental sensitivity, using it can be a bit uncomfortable.',
-        },
-        {
-          title: 'Is easy to use, but it is necessary to learn how to use it correctly to avoid damaging the gums.',
-        },
-      ]
-    }
-  }
 }

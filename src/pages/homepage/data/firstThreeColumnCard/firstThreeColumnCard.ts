@@ -2,7 +2,7 @@ const HTML5Img = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/
 const webDev = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/o8uhw4gqb4wdjj6nrnef.webp'
 const NodeExpressServer = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698957906/blog/mcygclsb4g0jj5jrchuj.webp'
 
-const oralb5000 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700292788/HomePage/firstThreeColumn/oralb5000/rbf6jycs0baap4pvetou.webp'
+import { oralB5000Props, oralb5000 } from '../../../categories/best-irrigators/article/data/oral-b-smart'
 
 export const firstThreeColumnCard = {
   title: "Brushing Alone Falls Short",
@@ -13,9 +13,9 @@ export const firstThreeColumnCard = {
     {
       id: 6,
       image: oralb5000,
-      alt: 'Toothbrush Oral-B Pro 5000 Smartseries Power Rechargeable',
-      title: 'Oral-B Pro 5000 Smartseries Power Rechargeable',
-      url: '/best/oral-b-pro-5000-smartseries-rechargeable',
+      alt: oralB5000Props.product.alt,
+      title: oralB5000Props.product.title,
+      url: oralB5000Props.product.url,
     },
     {
       id: 5,

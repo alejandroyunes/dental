@@ -10,7 +10,7 @@ export const headerProps = {
   text: "According to our analysis, the best quality - price dental irrigator is the Waterpik Ultra WP - 660.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
-  url: 'https://a.co/d/89W1sAL',
+  url: '/bestIrrigator',
   buttonText: "View More",
   date: '11/12/2023'
 }
@@ -73,11 +73,6 @@ export const tableOfContentItems = [
 ]
 
 export const titleProps = 'Dental irrigators are efficient for removing plaque and food particles from between the teeth. Additionally, they contribute to reducing the risk of gum diseases and combating bad breath. But, which irrigator to buy? What would be the best irrigator? Below, we present the most comprehensive and detailed analysis of the best irrigators to assist you in your purchase.'
-
-
-export const com = {
-
-}
 
 export const comparativeTableProps = {
   id: 'comparative-table-of-the-best-oral-irrigators',

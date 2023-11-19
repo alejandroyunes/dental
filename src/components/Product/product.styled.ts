@@ -44,7 +44,7 @@ export const Product = styled.div`
   }
   h3 {
     margin-top: 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 4px;
     text-decoration: underline;
@@ -58,6 +58,10 @@ export const Product = styled.div`
   li {
     margin: 0 0 10px 16px;
     font-size: 1.125rem;
+  }
+  p {
+    font-size: 1rem;
+    margin-bottom: 8px;
   }
   .product-characteristic {
     font-size: 1rem;

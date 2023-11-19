@@ -10,7 +10,6 @@ import TitleList from "../../../components/TitleList/TitleList"
 import { Container } from "./best-irrigators.styled"
 import { tableOfContentItems, headerProps, titleProps, comparativeTableProps, titleListProps, firstProduct } from "./data/best"
 
-
 export default function () {
   return (
     <Container>

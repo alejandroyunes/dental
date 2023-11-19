@@ -9,12 +9,12 @@ export type ProductProps = {
   title: string
   list: string[]
   primeUrl: string
-  url: string
+  description?: string
 }
 
 export default function (product: ProductProps) {
 
-  const { image, productUrl, title, list, primeUrl, url } = product
+  const { image, productUrl, title, list, primeUrl, description } = product
 
   return (
     <Container>
@@ -29,6 +29,7 @@ export default function (product: ProductProps) {
               {title}
             </Link>
           </h3>
+          {description && <p>{description}</p>}
           <p className="product-characteristic">Characteristics</p>
           <ul>
             {list.map((item, i) => (
@@ -39,7 +40,7 @@ export default function (product: ProductProps) {
             {primeUrl && <Link to={primeUrl}>
               <PrimeSvg />
             </Link>}
-            <AmazonButton text="Buy in Amazon" url={url} />
+            <AmazonButton text="Buy in Amazon" url={productUrl} />
           </div>
         </div>
       </Product>
