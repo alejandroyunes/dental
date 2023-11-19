@@ -1,7 +1,7 @@
 import { Helmet, HelmetProvider } from "react-helmet-async"
 import Header from "../../../components/Article/article-header/Header"
 import ComparativeTable from "../../../components/CompartiveProducts/ComparativeTable"
-import ProAndConComponent from "../../../components/ProAndCon/ProAndCon"
+import ProAndCon from "../../../components/ProAndCon/ProAndCon"
 import Product from "../../../components/Product/Product"
 import TableOfContent from "../../../components/TableOfContent/TableOfContent"
 import Title from "../../../components/Title/Title"
@@ -31,7 +31,7 @@ export default function () {
 
       {/* First Product */}
       <Title titleH2={firstProduct.proAndCons.title} message={firstProduct.proAndCons.subtitle} />
-      <ProAndConComponent {...firstProduct.proAndCons} />
+      <ProAndCon {...firstProduct.proAndCons} />
       <Product {...firstProduct.product} list={firstProduct.list} />
       <Title {...firstProduct.productDetails} />
 

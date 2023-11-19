@@ -1,13 +1,13 @@
-//IMAGES
-const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700292788/HomePage/firstThreeColumn/oralb5000/zsguiqgbhop6t8xspfvy.webp'
-const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700293313/HomePage/firstThreeColumn/oralb5000/nkhhgoczppqrxn1ofmdj.webp'
-const HTML5Img = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/kkc4eb4flw5qgmjpmdro.webp'
+import { turewell } from "./turewell610"
 
-export const oralb5000 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700292788/HomePage/firstThreeColumn/oralb5000/rbf6jycs0baap4pvetou.webp'
+const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700374349/Best/oralB5000/kycepptkxyb37q41lu9r.webp'
+const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700374348/Best/oralB5000/finsrbras3jo28nnopmm.webp'
+
+export const oralb5000 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700375550/Best/oralB5000/g9sgpbipdfztsyol3kfi.webp'
 
 
 const productUrl = 'https://a.co/d/aQoAc5G'
-const amazonPrime = '/amazonprimeurl'
+const amazonPrime = 'https://www.amazon.com'
 
 export const headerProps = {
   title: "Oral-B 5000 SmartSeries",
@@ -18,11 +18,6 @@ export const headerProps = {
   url: productUrl,
   buttonText: "Buy Now",
   date: '11/18/2023'
-}
-
-export const titleProps = {
-  title: 'The Best of the Oral B SmartSeries 5000.',
-  message: 'Achieve 100% healthier gums with this advanced toothbrush, outperforming manual ones. Its 3D cleaning action breaks up more plaque along the gumline. Bluetooth provides real-time feedback, and the pressure sensor alerts against excessive force.'
 }
 
 export const tableOfContentUrl = '/best-irrigators/#'
@@ -81,6 +76,11 @@ export const tableOfContentItems = [
   }
 ]
 
+export const titleProps = {
+  title: 'The Best of the Oral B SmartSeries 5000',
+  message: 'Achieve 100% healthier gums with this advanced toothbrush, outperforming manual ones. Its 3D cleaning action breaks up more plaque along the gumline. Bluetooth provides real-time feedback, and the pressure sensor alerts against excessive force.'
+}
+
 export const oralB5000Props = {
   product: {
     title: 'Oral B Smart 5000 Rechargeable Electric Toothbrush',
@@ -93,14 +93,15 @@ export const oralB5000Props = {
   },
   list: [
     "Real-time feedback on brushing habits",
-    "Dimensions: 7.68 x 3.9 x 9.96 in, 1.26 Pounds",
+    "Dimensions: 7.68 x 3.9 x 9.96 in, 1.26 lbs",
     "Visible Pressure Sensor",
     "Bluetooth Connectivity",
-    "Travel Case",
+    "Premium Travel Case",
     "5 Cleaning Modes",
     "Sensitive Gum Care",
   ],
 }
+
 export const titleListProps = {
   title: 'What do people who have purchased it say?',
   items: [
@@ -123,34 +124,62 @@ export const titleListProps = {
   ]
 }
 
+export const proAndCons = {
+  title: "Pros and Cons",
+  url: {
+    url: '/blog/water',
+    text: 'WaterPik url title'
+  },
+  itemspro: [
+    {
+      title: 'Positive feedback from both user and dentist during check-ups.',
+    },
+    {
+      title: 'Comes with multiple brush heads and a convenient travel case.',
+    },
+    {
+      title: 'Outperforms manual toothbrush, providing effective teeth cleaning.',
+    },
+    {
+      title: 'Consistently use it before replacement, long-term usage',
+    },
+  ],
+  itemscons: [
+    {
+      title: 'Some of the bluetooth app features are minimal',
+    },
+    {
+      title: 'Might be loud and inconvenient for those preferring a simple, offline experience',
+    },
+  ]
+}
 
-//not using yet
-export const comparativeProductsProps = {
-  id: 'comparative-table-of-the-best-oral-irrigators',
-  title: 'Comparative of the Best Oral Irrigators',
+export const comparativeTableProps = {
+  id: '',
+  title: 'Compare the Oral-B Smart 5 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: amazonPrime,
+  primeUrl: '/primeurl',
   items: [
     {
       id: 1,
-      models: 'Waterpik Ultra 660 some more texts',
-      image: HTML5Img,
-      alt: 'Waterpik Ultra 660',
+      models: 'Oral B Smart 5',
+      image: oralb5000,
+      alt: 'Oral B Smart 5',
       prime: true,
-      dimensions: '15 x 16,5 x 23 cm',
-      replacementheads: '6',
-      capacity: '650 ml',
-      highlight: 'Economical, easy to use, and very comprehensive.',
-      problem: 'The customer service of Waterpik.',
-      price: 'Best buy',
-      satisfaction: '5/5',
+      dimensions: '7.68 x 3.9 x 9.96 in, 1.26 lbs',
+      replacementheads: '5',
+      capacity: '-',
+      highlight: 'Includes 1 CrossAction Brush Head',
+      problem: 'Minimal app features',
+      price: 'Good price',
+      satisfaction: '10/10',
       view: 'View Price',
-      url: '/buy-amazon-url'
+      url: productUrl
     },
     {
       id: 2,
       models: 'Waterpik Ultra 660',
-      image: HTML5Img,
+      image: turewell,
       alt: 'Waterpik Ultra 660',
       prime: false,
       dimensions: '15 x 16,5 x 23 cm',
@@ -167,7 +196,7 @@ export const comparativeProductsProps = {
     {
       id: 3,
       models: 'Waterpik Ultra 660',
-      image: HTML5Img,
+      image: oralb5000,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
@@ -183,7 +212,7 @@ export const comparativeProductsProps = {
     {
       id: 4,
       models: 'Waterpik Ultra 660',
-      image: HTML5Img,
+      image: oralb5000,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
@@ -198,4 +227,3 @@ export const comparativeProductsProps = {
     }
   ]
 }
-
