@@ -213,9 +213,9 @@ export const titleListTurewellProps = {
       itemContent: [
         'is one of the most recognized brands in the dental hygiene market, known for its oral irrigators that offer a comprehensive solution to users.',
         'stands out not only for its very affordable price but also for the capacity.',
-        'for easy mouth cleaning by adjusting the power with the dial',
-        'set of 8 nozzles, each family member can improve their oral hygiene without having to share',
-        'It features a timer that turns off the irrigator if it detects no use in 3 minutes to save energy',
+        'for easy mouth cleaning by adjusting the power with the dial.',
+        'set of 8 nozzles, each family member can improve their oral hygiene without having to share.',
+        'It features a timer that turns off the irrigator if it detects no use in 3 minutes to save energy.',
       ]
     }
   ]

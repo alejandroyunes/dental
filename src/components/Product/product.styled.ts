@@ -60,7 +60,7 @@ export const Product = styled.div`
     font-size: 1.125rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.125rem;
     margin-bottom: 8px;
   }
   .product-title {
