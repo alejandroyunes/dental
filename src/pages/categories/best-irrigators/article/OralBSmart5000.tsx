@@ -4,14 +4,15 @@ import Product from "../../../../components/Product/Product"
 // import Product from "../../../../components/Product/Product"
 import TableOfContent from "../../../../components/TableOfContent/TableOfContent"
 import Title from "../../../../components/Title/Title"
+import TitleList from "../../../../components/TitleList/TitleList"
 import { oralB5000Props } from "./data/oral-b-smart"
-// import TitleList from "../../../../components/TitleList/TitleList"
+
 import {
   tableOfContentItems,
   headerProps,
   titleProps,
   // comparativeProductsProps,
-  // titleListProps,
+  titleListProps,
   // firstProduct
 } from "./data/oral-b-smart"
 
@@ -23,9 +24,11 @@ export default function () {
       <Title message={titleProps.message} title={titleProps.title} />
 
       <Product {...oralB5000Props.product} list={oralB5000Props.list} />
+      <TitleList {...titleListProps} />
+
 
       {/* <ComparativeProducts {...comparativeProductsProps} /> */}
-      {/* <TitleList {...titleListProps} /> */}
+
     </main>
   )
 }

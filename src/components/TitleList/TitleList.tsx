@@ -2,6 +2,12 @@ import { Link } from 'react-router-dom';
 import { TitleContainer } from './titlelist.styled';
 import { StyleSheetManager } from 'styled-components';
 import isPropValid from '@emotion/is-prop-valid'
+import React from 'react'
+
+interface TitleContent {
+  itemTitle: string[]
+  itemContent: string[]
+}
 
 interface TitleProps {
   title?: string
@@ -13,10 +19,10 @@ interface TitleProps {
     url: string
     text: string
   }
-  items: string[]
+  items: TitleContent[]
 }
 
-export default function TitleList({ title, message, left, moreinfo, url, titleH2, items }: TitleProps) {
+export default function ({ title, message, left, moreinfo, url, titleH2, items }: TitleProps) {
 
   return (
     <StyleSheetManager shouldForwardProp={(prop) => isPropValid(prop)}>
@@ -26,8 +32,15 @@ export default function TitleList({ title, message, left, moreinfo, url, titleH2
         {titleH2 && <h2>{titleH2}</h2>}
         {message && <p>{message}</p>}
         <ul>
-          {items.map((listProps, i) => (
-            <li key={i}>{listProps}</li>
+          {items.map((item, i) => (
+            <React.Fragment key={i}>
+              {item.itemTitle.map((title, index) => (
+                <li key={index}>
+                  <span>{title} </span>
+                  {item.itemContent[index]}
+                </li>
+              ))}
+            </React.Fragment>
           ))}
         </ul>
         {moreinfo && <p>{moreinfo}</p>}

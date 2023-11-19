@@ -10,7 +10,7 @@ const productUrl = 'https://a.co/d/aQoAc5G'
 const amazonPrime = '/amazonprimeurl'
 
 export const headerProps = {
-  title: "Oral-B Pro 5000 SmartSeries",
+  title: "Oral-B 5000 SmartSeries",
   subtitle: "Floss-like clean for healthier gums",
   text: "Discover the next level of oral care innovation with the Oral-B 5000 SmartSeries rechargeable electric toothbrush.",
   image: headerBgImage,
@@ -21,7 +21,7 @@ export const headerProps = {
 }
 
 export const titleProps = {
-  title: 'The Best of the Oral B PRO 5000.',
+  title: 'The Best of the Oral B SmartSeries 5000.',
   message: 'Achieve 100% healthier gums with this advanced toothbrush, outperforming manual ones. Its 3D cleaning action breaks up more plaque along the gumline. Bluetooth provides real-time feedback, and the pressure sensor alerts against excessive force.'
 }
 
@@ -88,12 +88,12 @@ export const oralB5000Props = {
     alt: 'Smart 5000 Rechargeable Electric Toothbrush',
     productUrl: productUrl,
     primeUrl: amazonPrime,
-    description: 'The Oral-B Smart 5000 oral care station is a complete and efficient product for daily dental care. Its combination of an electric toothbrush and oral irrigator provides a complete solution for tooth cleaning and care.',
+    description: 'The Oral-B Smart 5000 electric toothbrush is a complete and efficient product for daily dental care. Its combination of an electric toothbrush and oral irrigator provides a complete solution for tooth cleaning and care.',
     url: '/best/oral-b-pro-5000-smartseries-rechargeable',
   },
   list: [
     "Real-time feedback on brushing habits",
-    "3D Cleaning Action",
+    "Size: 9.96 x 7.68 x 3.89 In",
     "Visible Pressure Sensor",
     "Bluetooth Connectivity",
     "Travel Case",
@@ -101,7 +101,29 @@ export const oralB5000Props = {
     "Sensitive Gum Care",
   ],
 }
-
+export const titleListProps = {
+  title: 'What do people who have purchased it say?',
+  items: [
+    {
+      itemTitle: [
+        'Quality:',
+        'Functionality:',
+        'Intensity:',
+        'Accessories:',
+        'Customer Service:',
+        'Overall Satisfaction:'
+      ],
+      itemContent: [
+        "Most users are satisfied with the product's quality, emphasizing its durability and effectiveness in oral hygiene.",
+        "The combination of a modern electric toothbrush with an oral irrigator in the same station is appreciated by many users.",
+        "Some users have mentioned that the brush can be too intense, while the irrigator may lack the desired intensity.",
+        "The station comes with many accessories, making it convenient to use.",
+        "There have been some comments about product issues and the need for customer service, but overall, the experience has been positive.",
+        "Many users have expressed their satisfaction with the product, recommending it for its complete dental hygiene and price."
+      ]
+    }
+  ]
+}
 
 
 //not using yet
@@ -179,12 +201,3 @@ export const comparativeProductsProps = {
   ]
 }
 
-export const titleListProps = {
-  title: 'What criteria we used in this Irrigators Comparison?',
-  items: [
-    { item: 'To find the most reliable oral irrigators, we have analyzed user satisfaction levels, rating them on a scale of 1 to 10.' },
-    { item: 'From buyer opinions, we have extracted the most praised feature and the most common issue for each irrigator.' },
-    { item: 'To provide you with comprehensive information, we present the features and accessories of each one.' },
-    { item: 'Finally, we assess the price in relation to its quality, rating it as: Improvable, Fair, Exceptional.' },
-  ]
-}

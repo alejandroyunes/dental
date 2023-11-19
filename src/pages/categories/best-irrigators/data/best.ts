@@ -151,10 +151,20 @@ export const comparativeTableProps = {
 export const titleListProps = {
   title: 'What criteria we used in this Irrigators Comparison?',
   items: [
-    'To find the most reliable oral irrigators, we have analyzed user satisfaction levels, rating them on a scale of 1 to 10.',
-    'From buyer opinions, we have extracted the most praised feature and the most common issue for each irrigator.',
-    'To provide you with comprehensive information, we present the features and accessories of each one.',
-    'Finally, we assess the price in relation to its quality, rating it as: Improvable, Fair, Exceptional.',
+    {
+      itemTitle: [
+        '',
+        '',
+        '',
+        '',
+      ],
+      itemContent: [
+        'To find the most reliable oral irrigators, we have analyzed user satisfaction levels, rating them on a scale of 1 to 10.',
+        'From buyer opinions, we have extracted the most praised feature and the most common issue for each irrigator.',
+        'To provide you with comprehensive information, we present the features and accessories of each one.',
+        'Finally, we assess the price in relation to its quality, rating it as: Improvable, Fair, Exceptional.',
+      ]
+    }
   ]
 }
 

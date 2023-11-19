@@ -9,7 +9,7 @@ export const Container = styled.div<ImageProps>`
   width: 100%;
   height: 300px; 
   background: 
-  linear-gradient(rgb(8 7 7 / 90%), rgb(38 31 31 / 69%)),
+  linear-gradient(rgb(8 7 7 / 80%), rgb(38 31 31 / 69%)),
   url(${({ image }) => image}) center/cover no-repeat;
   background-size: cover;
   background-position: center;
@@ -21,7 +21,7 @@ export const Container = styled.div<ImageProps>`
 
   @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
     background: 
-      linear-gradient(rgb(8 7 7 / 93%), rgb(38 31 31 / 69%)),
+      linear-gradient(rgb(8 7 7 / 88%), rgb(38 31 31 / 69%)),
       url(${({ mobileimage }) => mobileimage}) center/cover no-repeat;
   }
 `

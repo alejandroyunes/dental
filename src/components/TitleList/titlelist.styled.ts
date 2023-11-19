@@ -45,10 +45,11 @@ export const TitleContainer = styled.div`
   padding: 0;
   list-style-type: circle;
 }
-
+span {
+  font-weight: 700;
+}
 li {
   margin: 0 0 10px 24px;
   font-size: 1.125rem;
 }
-
 `
