@@ -62,11 +62,10 @@ export const SliderWrapper = styled.div<SliderProps>`
   transition: transform 0.5s ease-in-out;
 `
 
-
 export const Slide = styled.div`
   width: 100%; 
   box-sizing: border-box;
-  padding: 20px;
+  padding: 20px 24px 0;
   text-align: center;
 `
 

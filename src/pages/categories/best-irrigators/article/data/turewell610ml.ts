@@ -52,9 +52,9 @@ export const titleProps = {
 
 export const turewell600mlProps = {
   product: {
-    title: 'TUREWELL Water Flossing Oral Irrigator, 600ml',
+    title: 'TUREWELL Water Flossing Oral Irrigator',
     image: turewell600ml,
-    alt: 'TUREWELL Water Flossing Oral Irrigator, 600ml',
+    alt: 'TUREWELL Water Flossing Oral Irrigator',
     productUrl: productUrl,
     primeUrl: amazonPrime,
     description: 'TUREWELL Water Flosser offers superior oral care, reaching areas traditional methods miss. Unlike toothbrushes, it cleans hidden gaps, ensuring a thorough and healthier dental routine.'
