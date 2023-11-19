@@ -5,10 +5,9 @@ type AmazonButtonProps = {
   text: string
   url: string
   blank?: boolean
-  side?: 'left' | 'right' | 'center'
 }
 
-export default function ({ text, url, blank, side }: AmazonButtonProps) {
+export default function ({ text, url, blank }: AmazonButtonProps) {
   return (
     <Container>
       <Button>
