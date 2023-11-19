@@ -69,5 +69,7 @@ export const Header = styled.div`
   }
   button {
     margin-top: 16px;
+    margin-left: 0;
+    text-align: left;
   }
 `

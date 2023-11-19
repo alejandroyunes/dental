@@ -1,7 +1,12 @@
-import styled from "styled-components";
+import styled from "styled-components"
+
+export const Container = styled.div`
+  display: flex;
+`
 
 export const SimpleButton = styled.button`
   line-height: 42px;
+  margin: 0 auto;
   span {
     background-color: ${({ theme }) => theme.palette.white};
     color: ${({ theme }) => theme.palette.black};
@@ -11,8 +16,9 @@ export const SimpleButton = styled.button`
     height: 42px;
     cursor: pointer;
     text-decoration: none;
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1.2rem;
     font-weight: 400;
     transition: color 0.3s ease, transform 0.2s ease;

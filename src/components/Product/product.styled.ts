@@ -36,7 +36,6 @@ export const Product = styled.div`
       margin: 0 auto;
     }
   }
-
   img {
     max-width: 100%;
     height: auto;
@@ -44,9 +43,9 @@ export const Product = styled.div`
   }
   h3 {
     margin-top: 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
-    margin-bottom: 4px;
+    margin-bottom: 16px;
     text-decoration: underline;
     font-weight: 400;
   }
@@ -72,7 +71,6 @@ export const Product = styled.div`
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-
     svg {
       margin-bottom: 16px;
     }

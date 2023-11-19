@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { SimpleButton as Button } from "./simple.styled"
+import { SimpleButton as Button, Container } from "./simple.styled"
 
 type SimpleButtonProps = {
   text: string
@@ -10,13 +10,16 @@ type SimpleButtonProps = {
 
 export default function ({ text, url, color, blank }: SimpleButtonProps) {
   return (
-    <Button>
-      <Link to={url} target={blank ? '_blank' : '_self'}>
+    <Container>
+      <Button>
+        <Link to={url} target={blank ? '_blank' : '_self'} style={{ margin: '0 auto' }}>
 
-        <span className={color ? 'color' : ''}>
-          {text}
-        </span></Link>
+          <span className={color ? 'color' : ''}>
+            {text}
+          </span>
+        </Link>
 
-    </Button>
+      </Button>
+    </Container>
   )
 }

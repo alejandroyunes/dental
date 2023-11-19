@@ -93,11 +93,11 @@ export const oralB5000Props = {
   },
   list: [
     "Real-time feedback on brushing habits",
-    "Size: 9.96 x 7.68 x 3.89 In",
+    "Dimensions: 7.68 x 3.9 x 9.96 in, 1.26 Pounds",
     "Visible Pressure Sensor",
     "Bluetooth Connectivity",
     "Travel Case",
-    "5 Clearning Modes",
+    "5 Cleaning Modes",
     "Sensitive Gum Care",
   ],
 }
@@ -109,16 +109,14 @@ export const titleListProps = {
         'Quality:',
         'Functionality:',
         'Intensity:',
-        'Accessories:',
-        'Customer Service:',
+        'Confort:',
         'Overall Satisfaction:'
       ],
       itemContent: [
         "Most users are satisfied with the product's quality, emphasizing its durability and effectiveness in oral hygiene.",
-        "The combination of a modern electric toothbrush with an oral irrigator in the same station is appreciated by many users.",
+        "Users mentioned that it works better than they had anticipated.",
         "Some users have mentioned that the brush can be too intense, while the irrigator may lack the desired intensity.",
-        "The station comes with many accessories, making it convenient to use.",
-        "There have been some comments about product issues and the need for customer service, but overall, the experience has been positive.",
+        "Some customers have mixed opinions on comfort, but overall they like the ease of use.",
         "Many users have expressed their satisfaction with the product, recommending it for its complete dental hygiene and price."
       ]
     }

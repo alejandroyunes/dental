@@ -43,7 +43,7 @@ export const TitleContainer = styled.div`
   ul {
   margin: 0;
   padding: 0;
-  list-style-type: circle;
+  list-style-type: disc;
 }
 span {
   font-weight: 700;
