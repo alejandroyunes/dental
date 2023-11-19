@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const TitleContainer = styled.div`
   margin: 0 auto;
-  padding: 0 24px 32px;
+  padding: 0 24px;
 	max-width: ${({ theme }) => theme.breakpoint.sm};
   scroll-margin-top: 24px; 
   &.left {
@@ -38,6 +38,6 @@ export const TitleContainer = styled.div`
 		font-weight: 600;
     color: ${({ theme }) => theme.textColor};
     line-height: 3rem;
-    padding-bottom: 24px;
+    padding: 24px 0;
   }
 `
