@@ -10,6 +10,7 @@ interface TitleContent {
 }
 
 interface TitleProps {
+  id?: string
   title?: string
   titleH2?: string
   message?: string
@@ -22,12 +23,12 @@ interface TitleProps {
   items: TitleContent[]
 }
 
-export default function ({ title, message, left, moreinfo, url, titleH2, items }: TitleProps) {
+export default function ({ title, message, left, moreinfo, url, titleH2, items, id }: TitleProps) {
 
   return (
     <StyleSheetManager shouldForwardProp={(prop) => isPropValid(prop)}>
 
-      <TitleContainer className={left ? 'left' : ''}>
+      <TitleContainer className={left ? 'left' : ''} id={id}>
         {title && <h1>{title}</h1>}
         {titleH2 && <h2>{titleH2}</h2>}
         {message && <p>{message}</p>}

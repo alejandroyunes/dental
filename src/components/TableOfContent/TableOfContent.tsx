@@ -22,7 +22,10 @@ export default function ({ items }: TableOfContentProps) {
         </summary>
 
         {items.map((item, index) => (
-          <div key={index} className="summary-content"><Link to={item.id}>{item.content}</Link></div>
+          <div key={index} className="summary-content">
+            <Link to={item.id}>
+              {item.content}
+            </Link></div>
         ))}
 
         <div className="summary-chevron-down">

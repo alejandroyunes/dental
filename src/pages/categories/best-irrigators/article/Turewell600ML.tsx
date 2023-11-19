@@ -8,7 +8,6 @@ import TableOfContent from "../../../../components/TableOfContent/TableOfContent
 import Title from "../../../../components/Title/Title"
 import TitleList from "../../../../components/TitleList/TitleList"
 
-
 import {
   tableOfContentItems,
   headerProps,
@@ -17,7 +16,9 @@ import {
   titleListProps,
   turewell600mlProps,
   proAndCons,
-  productReview
+  productReview,
+  titleListTurewellProps,
+  productUrl
 } from "./data/turewell610ml"
 
 export default function () {
@@ -25,23 +26,22 @@ export default function () {
     <main>
       <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
-      <Title message={titleProps.message} title={titleProps.title} />
+      <Title message={titleProps.message} title={titleProps.title} id={titleProps.id} />
 
       <Product {...turewell600mlProps.product} list={turewell600mlProps.list} />
-      <TitleList {...titleListProps} />
 
+      <TitleList {...titleListProps} id={titleListProps.id} />
       <SimpleButton blank text="View all Reviews" url={productReview} />
 
-      <Title titleH2={proAndCons.title} />
+      <Title titleH2={proAndCons.title} id={proAndCons.id} />
       <ProAndCon {...proAndCons} />
 
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
 
-      <TitleList {...titleListProps} />
+      <TitleList {...titleListTurewellProps} id={titleListTurewellProps.id} />
 
-      <AmazonButton text="Buy on Amazon" blank url={productReview} />
-
+      <AmazonButton text="Buy in Amazon" url={productUrl} />
     </main>
   )
 }

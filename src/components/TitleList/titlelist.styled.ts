@@ -4,6 +4,7 @@ export const TitleContainer = styled.div`
   margin: 0 auto;
   padding: 32px 24px;
 	max-width: ${({ theme }) => theme.breakpoint.sm};
+  scroll-margin-top: 24px;
   &.left {
     h1 {
       text-align: left;
