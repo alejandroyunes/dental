@@ -2,7 +2,7 @@ const HTML5Img = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/
 const webDev = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/o8uhw4gqb4wdjj6nrnef.webp'
 const NodeExpressServer = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698957906/blog/mcygclsb4g0jj5jrchuj.webp'
 
-import { oralB5000Props, oralb5000 } from '../../../categories/best-irrigators/article/data/oral-b-smart'
+import { turewell600mlProps, turewell600ml } from '../../../categories/best-irrigators/article/data/turewell610ml'
 
 export const firstThreeColumnCard = {
   title: "Brushing Alone Falls Short",
@@ -12,10 +12,10 @@ export const firstThreeColumnCard = {
   items: [
     {
       id: 6,
-      image: oralb5000,
-      alt: oralB5000Props.product.alt,
-      title: oralB5000Props.product.title,
-      url: oralB5000Props.product.url,
+      image: turewell600ml,
+      alt: turewell600mlProps.product.alt,
+      title: turewell600mlProps.product.title,
+      url: turewell600mlProps.product.url,
     },
     {
       id: 5,

@@ -21,7 +21,7 @@ export default function (product: ProductProps) {
 
       <Product>
         <div>
-          <img src={image} alt="" width="160" height="160" />
+          <img src={image} alt="" width="248" height="140" />
         </div>
         <div>
           <h3 className="product-title">
@@ -40,7 +40,7 @@ export default function (product: ProductProps) {
             {primeUrl && <Link to={primeUrl}>
               <PrimeSvg />
             </Link>}
-            <AmazonButton text="Buy in Amazon" url={productUrl} />
+            <AmazonButton text="Buy in Amazon" url={productUrl} blank />
           </div>
         </div>
       </Product>

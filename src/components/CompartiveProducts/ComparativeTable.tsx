@@ -13,7 +13,7 @@ type ItemProps = {
   alt: string
   prime: boolean
   dimensions: string
-  replacementheads: string
+  multifunctionaltips: string
   capacity: string
   highlight: string
   problem: string
@@ -36,7 +36,7 @@ export default function ({ items, primeUrl }: ComparativeTableProps) {
     'Image',
     'Prime',
     'Dimensions',
-    'Replacement Heads',
+    'Multifunctional Tips',
     'Capacity',
     'Highlight',
     'Problem',
@@ -72,8 +72,8 @@ export default function ({ items, primeUrl }: ComparativeTableProps) {
                         : column === 'View' ?
                           product.view ? <AmazonButton text={'View Price'} url={product.url} blank={true} /> : 'No'
                           :
-                          column === 'Replacement Heads' ?
-                            product.replacementheads
+                          column === 'Multifunctional Tips' ?
+                            product.multifunctionaltips
                             :
                             column === 'View More' ?
                               product.view ? <AmazonButton text={'View Price'} url={product.url} blank={true} /> : 'No' :
@@ -107,7 +107,7 @@ export default function ({ items, primeUrl }: ComparativeTableProps) {
                                 slide.prime ?
                                   <Link to={primeUrl} target="_blank"><PrimeSvg /></Link> : '-'
                                 :
-                                column === 'Replacement Heads' ? slide.replacementheads :
+                                column === 'Multifunctional Tips' ? slide.multifunctionaltips :
                                   column === 'View More' ?
                                     slide.view ? <AmazonButton text={'View Price'} url={slide.url} blank={true} /> : 'No' :
                                     slide[column.toLowerCase()]

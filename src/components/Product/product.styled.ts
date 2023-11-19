@@ -23,7 +23,8 @@ export const Container = styled.section`
 export const Product = styled.div`
   max-width: ${({ theme }) => theme.breakpoint.xs};
   display: grid;
-  grid-template-columns: 1fr 1.5fr; 
+  grid-template-columns: 1fr 1.5fr;
+  justify-items: center;
   padding: 24px;
   margin: 0 auto;
   border: 1px solid ${({ theme }) => theme.palette.primary.contrastBg};
@@ -61,6 +62,9 @@ export const Product = styled.div`
   p {
     font-size: 1rem;
     margin-bottom: 8px;
+  }
+  .product-title {
+    padding-top: 16px;
   }
   .product-characteristic {
     font-size: 1rem;

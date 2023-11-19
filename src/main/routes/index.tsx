@@ -8,7 +8,7 @@ import Privacy from "../../components/Legal/Privacy/Privacy.tsx"
 import Notice from "../../components/Legal/Notice/Notice.tsx"
 import { Cookie } from "@mui/icons-material";
 import Best from "../../pages/categories/best-irrigators/Best.tsx"
-import OralBSmart5000 from "../../pages/categories/best-irrigators/article/OralBSmart5000.tsx"
+import Turewell600ML from "../../pages/categories/best-irrigators/article/Turewell600ML.tsx"
 
 
 const routerConfig: RouteObject[] = [
@@ -26,8 +26,8 @@ const routerConfig: RouteObject[] = [
         errorElement: <ErrorPage />
       },
       {
-        path: '/best/oral-b-pro-5000-smartseries-rechargeable',
-        element: <OralBSmart5000 />,
+        path: '/best/turewell-600ml-water-flossing-oral-irrigator',
+        element: <Turewell600ML />,
         errorElement: <ErrorPage />
       },
       {

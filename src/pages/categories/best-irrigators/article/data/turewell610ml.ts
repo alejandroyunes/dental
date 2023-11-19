@@ -1,18 +1,15 @@
-import { turewell } from "./turewell610"
+const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384728/Best/Turewell610ml/dky9pghcnae8tjpfw0zo.webp'
+const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384732/Best/Turewell610ml/yzf5vdnjcyehudg0gywp.webp'
 
-const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700374349/Best/oralB5000/kycepptkxyb37q41lu9r.webp'
-const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700374348/Best/oralB5000/finsrbras3jo28nnopmm.webp'
-
-export const oralb5000 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700375550/Best/oralB5000/g9sgpbipdfztsyol3kfi.webp'
-
-
-const productUrl = 'https://a.co/d/aQoAc5G'
+export const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384014/Best/Turewell610ml/vzw3poalhe6gcmicyrfi.webp'
+export const productReview = 'https://www.amazon.com/product-reviews/B087717HRR/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+const productUrl = 'https://a.co/d/2ARiGQP'
 const amazonPrime = 'https://www.amazon.com'
 
 export const headerProps = {
-  title: "Oral-B 5000 SmartSeries",
-  subtitle: "Floss-like clean for healthier gums",
-  text: "Discover the next level of oral care innovation with the Oral-B 5000 SmartSeries rechargeable electric toothbrush.",
+  title: "TUREWELL Water Flossing Oral Irrigator, 600ml",
+  subtitle: "Dental Water Teeth Cleaner",
+  text: "Removes 99.99% of Debris: compared with regular toothbrush, toothpick or floss which can't reach the hidden parts.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
   url: productUrl,
@@ -77,48 +74,52 @@ export const tableOfContentItems = [
 ]
 
 export const titleProps = {
-  title: 'The Best of the Oral B SmartSeries 5000',
-  message: 'Achieve 100% healthier gums with this advanced toothbrush, outperforming manual ones. Its 3D cleaning action breaks up more plaque along the gumline. Bluetooth provides real-time feedback, and the pressure sensor alerts against excessive force.'
+  title: 'The Best of the TUREWELL Water Flosser',
+  message: 'TUREWELL teeth water flosser, with 360° rotating nozzles and 1700 times/min water pulsation, removes 99.99% debris, preventing tooth decay. Includes 8 nozzles, 10 pressure settings, a 600ml tank, and anti-leak design for efficient, family-friendly oral care. Responsive customer service provided.'
 }
 
-export const oralB5000Props = {
+export const turewell600mlProps = {
   product: {
-    title: 'Oral B Smart 5000 Rechargeable Electric Toothbrush',
-    image: oralb5000,
-    alt: 'Smart 5000 Rechargeable Electric Toothbrush',
+    title: 'TUREWELL Water Flossing Oral Irrigator, 600ml',
+    image: turewell600ml,
+    alt: 'TUREWELL Water Flossing Oral Irrigator, 600ml',
     productUrl: productUrl,
     primeUrl: amazonPrime,
-    description: 'The Oral-B Smart 5000 electric toothbrush is a complete and efficient product for daily dental care. Its combination of an electric toothbrush and oral irrigator provides a complete solution for tooth cleaning and care.',
-    url: '/best/oral-b-pro-5000-smartseries-rechargeable',
+    description: 'TUREWELL Water Flosser offers superior oral care, reaching areas traditional methods miss. Unlike toothbrushes, it cleans hidden gaps, ensuring a thorough and healthier dental routine.',
+    url: '/best/turewell-600ml-water-flossing-oral-irrigator',
   },
   list: [
-    "Real-time feedback on brushing habits",
-    "Dimensions: 7.68 x 3.9 x 9.96 in, 1.26 lbs",
-    "Visible Pressure Sensor",
-    "Bluetooth Connectivity",
-    "Premium Travel Case",
-    "5 Cleaning Modes",
-    "Sensitive Gum Care",
+    "Reaches hidden areas, preventing tooth decay, dental calculus, bleeding, and hypersensitivity.",
+    "Ideal for braces and kids.",
+    "600ml larger water tank, easy to clean and removable.",
+    "3 high-pressure tips and 5 specialized tips for various needs.",
+    "3-minute smart timer for safety and device lifespan.",
+    "Anti-leakage design ensures no liquid leaks during high-pressure use.",
+    "Sensitive Gum Care.",
   ],
 }
 
 export const titleListProps = {
-  title: 'What do people who have purchased it say?',
+  title: 'How to use the TUREWELL oral irrigator step by step',
   items: [
     {
       itemTitle: [
-        'Quality:',
-        'Functionality:',
-        'Intensity:',
-        'Confort:',
-        'Overall Satisfaction:'
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
       ],
       itemContent: [
-        "Most users are satisfied with the product's quality, emphasizing its durability and effectiveness in oral hygiene.",
-        "Users mentioned that it works better than they had anticipated.",
-        "Some users have mentioned that the brush can be too intense, while the irrigator may lack the desired intensity.",
-        "Some customers have mixed opinions on comfort, but overall they like the ease of use.",
-        "Many users have expressed their satisfaction with the product, recommending it for its complete dental hygiene and price."
+        'Place the irrigator on a smooth surface in the sink. We recommend using a wooden base for stability.',
+        'Fill the 600ml water tank with warm water.',
+        'Connect the Turewell to the power source.',
+        'Select the pressure level. Start with the lowest level and increase as needed.',
+        'Select the desired nozzle based on your needs (e.g., toothbrush tip, periodontal tip).',
+        'Press the nozzle onto the device and adjust the angle for a 90-degree flow into the sink.',
+        'Follow your gum line to thoroughly clean teeth and gums.'
       ]
     }
   ]
@@ -126,64 +127,60 @@ export const titleListProps = {
 
 export const proAndCons = {
   title: "Pros and Cons",
-  url: {
-    url: '/blog/water',
-    text: 'WaterPik url title'
-  },
   itemspro: [
     {
-      title: 'Positive feedback from both user and dentist during check-ups.',
+      title: 'Good for the price',
     },
     {
-      title: 'Comes with multiple brush heads and a convenient travel case.',
+      title: 'Effectively removes plaque and debris',
     },
     {
-      title: 'Outperforms manual toothbrush, providing effective teeth cleaning.',
+      title: 'Setup is easy and simple',
     },
     {
-      title: 'Consistently use it before replacement, long-term usage',
+      title: 'Comes with a variety of tools and attachments',
     },
   ],
   itemscons: [
     {
-      title: 'Some of the bluetooth app features are minimal',
+      title: 'Customers are mixed about the size of the oral irrigator',
     },
     {
-      title: 'Might be loud and inconvenient for those preferring a simple, offline experience',
+      title: 'It gets very messy and water pulsation could generate noise',
     },
   ]
 }
 
 export const comparativeTableProps = {
   id: '',
-  title: 'Compare the Oral-B Smart 5 with other irrigators',
+  title: 'Compare the TUREWELL 600ml Oral Irrigator, with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: '/primeurl',
   items: [
     {
       id: 1,
-      models: 'Oral B Smart 5',
-      image: oralb5000,
-      alt: 'Oral B Smart 5',
+      models: 'TUREWELL 600ml',
+      image: turewell600ml,
+      alt: 'TUREWELL 600ml Oral Irrigator',
       prime: true,
-      dimensions: '7.68 x 3.9 x 9.96 in, 1.26 lbs',
-      replacementheads: '5',
-      capacity: '-',
-      highlight: 'Includes 1 CrossAction Brush Head',
-      problem: 'Minimal app features',
-      price: 'Good price',
-      satisfaction: '10/10',
+      dimensions: '8.6 x 6.1 x 5.4 in, 1.7 lbs',
+      multifunctionaltips: '8',
+      capacity: '600 ml',
+      highlight: '10 Adjustable Pressure',
+      problem: 'Water Resistance',
+      price: 'Good Price',
+      satisfaction: '8/10',
       view: 'View Price',
       url: productUrl
     },
     {
       id: 2,
       models: 'Waterpik Ultra 660',
-      image: turewell,
+      image: turewell600ml,
       alt: 'Waterpik Ultra 660',
       prime: false,
       dimensions: '15 x 16,5 x 23 cm',
-      replacementheads: '6',
+      multifunctionaltips: '6',
       capacity: '650 ml',
       highlight: 'Economical, easy to use, and very comprehensive.',
       problem: 'The customer service of Waterpik.',
@@ -196,11 +193,11 @@ export const comparativeTableProps = {
     {
       id: 3,
       models: 'Waterpik Ultra 660',
-      image: oralb5000,
+      image: turewell600ml,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
-      replacementheads: '6',
+      multifunctionaltips: '6',
       capacity: '650 ml',
       highlight: 'Economical, easy to use, and very comprehensive.',
       problem: 'The customer service of Waterpik.',
@@ -212,11 +209,11 @@ export const comparativeTableProps = {
     {
       id: 4,
       models: 'Waterpik Ultra 660',
-      image: oralb5000,
+      image: turewell600ml,
       alt: 'Waterpik Ultra 660',
       prime: true,
       dimensions: '15 x 16,5 x 23 cm',
-      replacementheads: '6',
+      multifunctionaltips: '6',
       capacity: '650 ml',
       highlight: 'Economical, easy to use, and very comprehensive.',
       problem: 'The customer service of Waterpik.',

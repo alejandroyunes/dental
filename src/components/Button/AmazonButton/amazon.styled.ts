@@ -1,8 +1,11 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
-export const SimpleButton = styled.button`
-  display: inline-block;
-  scroll-behavior: smooth;
+export const Container = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
+export const Button = styled.button`
   line-height: 40px; 
   span {
     color: ${({ theme }) => theme.palette.black};
@@ -17,7 +20,6 @@ export const SimpleButton = styled.button`
     font-weight: 400;
     transition: color 0.3s ease, transform 0.2s ease;
     white-space: nowrap;
-    
     background: linear-gradient(180deg,#f7dfa5,#f0c14b) repeat scroll 0 0 transparent;
     border: 1px solid #9c7e31;
     border-radius: 3px;
