@@ -18,7 +18,7 @@ import {
   nicwellf5025Props,
   proAndCons,
   productReview,
-  titleListTurewellProps,
+  titleListNicwellProps,
   nicwellf5025ProductUrl
 } from "./data/nicwellf5025"
 
@@ -53,9 +53,9 @@ export default function () {
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
 
-      <TitleList {...titleListTurewellProps} id={titleListTurewellProps.id} />
+      <TitleList {...titleListNicwellProps} id={titleListNicwellProps.id} />
 
-      <AmazonButton text="Buy in Amazon" url={nicwellf5025ProductUrl} />
+      <AmazonButton text="Buy in Amazon" url={nicwellf5025ProductUrl} blank />
     </main>
   )
 }

@@ -4,8 +4,8 @@ const mobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v17001181
 export const billboard = {
   billboard: {
     titleH2: "Enhance your oral health",
-    title: "Dental Irrigator",
-    subtitle: "We have performed an exhaustive analysis of reviews, user comments, forum discussions, brand reputation sentiments, and other pertinent data to empower you in making an informed decision when selecting your Dental Irrigator.",
+    title: "With an Oral Dental Irrigator",
+    subtitle: "We've gone the extra mile by diving deep into reviews, user comments, forum discussions, brand reputation sentiments, and more, all to empower you in making a well-informed decision for your Oral Dental Irrigator. Your dental care journey just got a whole lot easier! 😊",
     buttonText: "View Irrigators",
     url: "/best-irrigators",
     image: image,

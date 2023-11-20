@@ -8,7 +8,7 @@ export const productReview = 'https://www.amazon.com/product-reviews/B087717HRR/
 export const turewell600mlProductUrl = 'https://a.co/d/2ARiGQP'
 const amazonPrime = 'https://www.amazon.com'
 
-//links of other best products
+//links of other best products problems with the bundler not reading the files first
 export const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
 export const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
 
@@ -71,7 +71,7 @@ export const turewell600mlProps = {
     "3 high-pressure tips and 5 specialized tips for various needs.",
     "3-minute smart timer for safety and device lifespan.",
     "Anti-leakage design ensures no liquid leaks during high-pressure use.",
-    "Available in black and white",
+    "Available in black and white.",
   ],
 }
 
@@ -131,7 +131,7 @@ export const proAndCons = {
 
 export const comparativeTableProps = {
   id: 'how-does-the-turewell-compares-to-other-irrigators',
-  title: 'Compare the TUREWELL 600ml Oral Irrigator with other irrigators',
+  title: 'Compare the TUREWELL 600ml with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
@@ -144,7 +144,7 @@ export const comparativeTableProps = {
       dimensions: '8.6 x 6.1 x 5.4 in, 1.7 lbs',
       multifunctionaltips: '8',
       capacity: '600 ml',
-      highlight: '10 Adjustable Pressure',
+      highlight: 'Economical, 10 Adjustable Pressure',
       problem: 'Water Resistance',
       price: 'Good Price',
       satisfaction: '8/10',
@@ -157,11 +157,11 @@ export const comparativeTableProps = {
       image: nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
-      dimensions: '8.03 x 4.02 x 2.73 in, 14.07 oz',
+      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
       multifunctionaltips: '5',
       capacity: '200 ml',
       highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
-      problem: 'Water Resistance',
+      problem: 'Charging',
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',

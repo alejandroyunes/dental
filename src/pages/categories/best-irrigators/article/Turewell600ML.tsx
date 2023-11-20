@@ -29,7 +29,7 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content='TUREWELL introduced an exceptionally budget-friendly model' />
+            content='TureWell introduced an exceptionally budget-friendly model' />
           <title>TUREWELL introduced an exceptionally budget-friendly model</title>
         </Helmet>
       </HelmetProvider>
@@ -51,7 +51,7 @@ export default function () {
 
       <TitleList {...titleListTurewellProps} id={titleListTurewellProps.id} />
 
-      <AmazonButton text="Buy in Amazon" url={turewell600mlProductUrl} />
+      <AmazonButton text="Buy in Amazon" url={turewell600mlProductUrl} blank />
     </main>
   )
 }

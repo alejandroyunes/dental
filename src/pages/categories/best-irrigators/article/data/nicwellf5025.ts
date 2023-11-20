@@ -39,6 +39,10 @@ export const tableOfContentItems = [
     content: '\u2022 Comparison table with other irrigators',
     id: `${nicwellF5025Url}#how-does-the-nicwell-compares-to-other-irrigators`
   },
+  {
+    content: '\u2022 Why opt for the Nicwell f5025',
+    id: `${nicwellF5025Url}#why-nicwell-200ml`
+  },
 ]
 
 export const titleProps = {
@@ -62,7 +66,7 @@ export const nicwellf5025Props = {
     "IPX7 Waterproof double-sealing rings, Nicwell oral irrigator prevent water leakage reliably.",
     "All the jet tips are sealed under sterile production environments.",
     "12 months after-sale service.",
-    "Up to 21 days of use.",
+    "Up to 21 days of use with a single charge.",
     "Available in black, pink and white.",
   ],
 }
@@ -78,7 +82,7 @@ export const titleListProps = {
         "IPX7",
       ],
       itemContent: [
-        'The brand employs an upgraded pulsation technique, offering a high-pressure water pulse (1400-1800 times/min, 30-110PSI) for effective and thorough oral care.',
+        'The Nicwell employs an upgraded pulsation technique, offering a high-pressure water pulse (1400-1800 times/min, 30-110PSI) for effective and thorough oral care.',
         "Removes up plaque and keeps breath fresh and improves gum health.",
         "Safely use the water flosser in the bath or shower.",
       ]
@@ -112,7 +116,7 @@ export const proAndCons = {
       title: 'Opinions on water resistance, battery life, and overall performance are mixed, indicating varying experiences among users.',
     },
     {
-      title: 'Mixed reviews on water resistance highlight concerns about messiness, water getting everywhere, and a small reservoir that may not last through the entire teeth-cleaning process.',
+      title: 'Customers are not satisfied with the charging feature of the oral irrigator. They mention that the charger is a USB and they never have a usb charger in the bathroom.',
     },
   ]
 }
@@ -129,11 +133,11 @@ export const comparativeTableProps = {
       image: nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
-      dimensions: '8.03 x 4.02 x 2.73 in, 14.07 oz',
+      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
       multifunctionaltips: '5',
       capacity: '200 ml',
       highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
-      problem: 'Water Resistance',
+      problem: 'Charging',
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',
@@ -190,24 +194,24 @@ export const comparativeTableProps = {
   ]
 }
 
-export const titleListTurewellProps = {
-  id: 'why-turewell-600ml',
-  title: 'Why opt for the TUREWELL 600ML?',
+export const titleListNicwellProps = {
+  id: 'why-nicwell-200ml',
+  title: 'Why opt for the Nicwell f5025?',
   items: [
     {
       itemTitle: [
-        'Turewell',
-        'This model',
-        'Allows',
-        'With its',
-        'What makes it unique?',
+        'Value for Money:',
+        'Cleanliness: ',
+        'Ease of Use:',
+        'Performance:',
+        'Convenience',
       ],
       itemContent: [
-        'is one of the most recognized brands in the dental hygiene market, known for its oral irrigators that offer a comprehensive solution to users.',
-        'stands out not only for its very affordable price but also for the capacity.',
-        'for easy mouth cleaning by adjusting the power with the dial.',
-        'set of 8 nozzles, each family member can improve their oral hygiene without having to share.',
-        'It features a timer that turns off the irrigator if it detects no use in 3 minutes to save energy.',
+        "Many customers emphasize that the oral irrigator is well worth the price. If you're looking for an effective and affordable solution for oral care, this product could offer good value.",
+        'Users praise the oral irrigator for its ability to clean between teeth effectively, leaving a refreshing and clean feeling. If maintaining oral hygiene is a priority for you, this product may enhance your daily routine.',
+        'The product is consistently complemented for its ease of use, providing a convenient and user-friendly alternative to traditional flossing. If you prefer a hassle-free oral care routine, the oral irrigator could be a beneficial addition.',
+        'Despite mixed opinions, a significant number of customers find the overall performance of the oral irrigator impressive. If you are seeking a device that performs well in maintaining oral health, this product may meet your expectations.',
+        'Customers appreciate the convenience the oral irrigator brings to their daily routine. If you are looking for a time-saving and efficient way to care for your teeth, this product might offer the convenience you desire.',
       ]
     }
   ]

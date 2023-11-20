@@ -6,9 +6,9 @@ import { nicwellF5025Url, nicwellf5025, nicwellf5025Props } from '../../../categ
 import { turewell600mlProps, turewell600ml, turewell600mlUrl } from '../../../categories/best-irrigators/article/data/turewell610ml'
 
 export const firstThreeColumnCard = {
-  title: "Brushing Alone Falls Short",
-  subTitle: "The Dental Irrigator removes plaque that lodges deep in the interdental spaces and below the gums. Using a toothbrush or dental floss alone is not sufficient to achieve the best oral hygiene. That's why we recommend that you acquire a good Oral Irrigator.",
-  moreInfo: "Click on the following images to read reviews of the top-rated Bucodental Irrigators:",
+  title: "Relying solely on brushing is not enough",
+  subTitle: "The Dental Irrigator removes plaque that lodges deep in the interdental spaces and below the gums. Using a toothbrush or dental floss alone is not sufficient to achieve the best oral hygiene. That's why if you thinking in buying an oral irrigator we recommend that you view these Oral Irrigators.",
+  moreInfo: "Click on the following images to read thereviews of the top-rated Oral Dental Irrigators",
   columnsUrl: '',
   items: [
     {
