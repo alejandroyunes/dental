@@ -12,10 +12,11 @@ export interface ArticleHeaderProps {
   buttonText: string
   text: string
   date?: string
+  externalUrl?: boolean
 }
 
 export default function (props: ArticleHeaderProps) {
-  const { image, mobileImage, date, title, subtitle, text, url, buttonText } = props
+  const { image, mobileImage, date, title, subtitle, text, url, buttonText, externalUrl } = props
 
   return (
     <StyleSheetManager shouldForwardProp={(prop) => isPropValid(prop)}>
@@ -24,7 +25,7 @@ export default function (props: ArticleHeaderProps) {
           <h3>{title}</h3>
           <h1>{subtitle}</h1>
           <p>{text}</p>
-          <SimpleButton text={buttonText} url={url} />
+          <SimpleButton text={buttonText} url={url} blank={externalUrl ? true : false} />
           {date && <p className="last-updated">Last updated: {date}</p>}
         </Header>
       </Container>

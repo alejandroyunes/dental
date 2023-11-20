@@ -10,7 +10,7 @@ import { Cookie } from "@mui/icons-material";
 import Best from "../../pages/categories/best-irrigators/Best.tsx"
 import Turewell600ML from "../../pages/categories/best-irrigators/article/Turewell600ML.tsx"
 import NicwellF5025 from "../../pages/categories/best-irrigators/article/NicwellF5025.tsx"
-
+import Waterpikwf02 from "../../pages/categories/best-irrigators/article/Waterpikwf02.tsx"
 
 const routerConfig: RouteObject[] = [
   {
@@ -34,6 +34,11 @@ const routerConfig: RouteObject[] = [
       {
         path: '/best/nicwell-f5025-water-flossing-oral-irrigator',
         element: <NicwellF5025 />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/best/waterpik-wf02-water-flossing-oral-irrigator',
+        element: <Waterpikwf02 />,
         errorElement: <ErrorPage />
       },
       {

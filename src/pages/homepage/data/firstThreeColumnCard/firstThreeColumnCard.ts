@@ -4,6 +4,7 @@ const NodeExpressServer = 'https://res.cloudinary.com/dcpdkock3/image/upload/v16
 
 import { nicwellF5025Url, nicwellf5025, nicwellf5025Props } from '../../../categories/best-irrigators/article/data/nicwellf5025'
 import { turewell600mlProps, turewell600ml, turewell600mlUrl } from '../../../categories/best-irrigators/article/data/turewell610ml'
+import { waterpikwf02, waterpikwf02Props, waterpikwf02Url } from '../../../categories/best-irrigators/article/data/waterpikwf02'
 
 export const firstThreeColumnCard = {
   title: "Relying solely on brushing is not enough",
@@ -27,10 +28,10 @@ export const firstThreeColumnCard = {
     },
     {
       id: 4,
-      image: HTML5Img,
-      alt: 'lorem ipsum, dolor sit amet consectetur.',
-      title: 'lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      url: 'https://res.cloudinary.com/d',
+      image: waterpikwf02,
+      alt: waterpikwf02Props.product.alt,
+      title: waterpikwf02Props.product.title,
+      url: waterpikwf02Url,
     },
     {
       id: 3,
