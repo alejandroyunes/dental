@@ -22,6 +22,9 @@ export const Table = styled.table`
   border-collapse: collapse;
   width: 100%;
   table-layout: fixed;
+  @media (max-width: ${({ theme }) => theme.breakpoint.sm}) {
+    table-layout: auto;
+  }
   tr:nth-child(2n+2) { 
     background-color: ${({ theme }) => theme.palette.primary.contrastBg};
   }
