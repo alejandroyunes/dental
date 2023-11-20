@@ -6,7 +6,7 @@ export const Container = styled.section`
 `
 export const ProAndCon = styled.div`
   display: flex;
-  margin: 0 24px;
+  margin: 24px 24px;
   background-color: ${({ theme }) => theme.palette.black};
   max-width:  ${({ theme }) => theme.breakpoint.sm};
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

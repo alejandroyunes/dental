@@ -19,7 +19,7 @@ import {
   proAndCons,
   productReview,
   titleListTurewellProps,
-  productUrl
+  turewell600mlProductUrl
 } from "./data/turewell610ml"
 
 export default function () {
@@ -51,7 +51,7 @@ export default function () {
 
       <TitleList {...titleListTurewellProps} id={titleListTurewellProps.id} />
 
-      <AmazonButton text="Buy in Amazon" url={productUrl} />
+      <AmazonButton text="Buy in Amazon" url={turewell600mlProductUrl} />
     </main>
   )
 }

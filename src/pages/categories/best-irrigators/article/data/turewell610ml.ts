@@ -1,11 +1,16 @@
+
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384728/Best/Turewell610ml/dky9pghcnae8tjpfw0zo.webp'
 const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384732/Best/Turewell610ml/yzf5vdnjcyehudg0gywp.webp'
 
 export const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700446979/Best/Turewell610ml/qavvjo3jasqtlujj7hnx.webp'
 export const productReview = 'https://www.amazon.com/product-reviews/B087717HRR/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
-export const productUrl = 'https://a.co/d/2ARiGQP'
+export const turewell600mlProductUrl = 'https://a.co/d/2ARiGQP'
 const amazonPrime = 'https://www.amazon.com'
+
+//links of other best products
+export const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
+export const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
 
 export const headerProps = {
   title: "TUREWELL Water Flossing Oral Irrigator, 600ml",
@@ -13,7 +18,7 @@ export const headerProps = {
   text: "Removes 99.99% of Debris: compared with regular toothbrush, toothpick or floss which can't reach the hidden parts.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
-  url: productUrl,
+  url: turewell600mlProductUrl,
   buttonText: "Buy Now",
   date: '11/18/2023'
 }
@@ -55,7 +60,7 @@ export const turewell600mlProps = {
     title: 'TUREWELL Water Flossing Oral Irrigator',
     image: turewell600ml,
     alt: 'TUREWELL Water Flossing Oral Irrigator',
-    productUrl: productUrl,
+    productUrl: turewell600mlProductUrl,
     primeUrl: amazonPrime,
     description: 'TUREWELL Water Flosser offers superior oral care, reaching areas traditional methods miss. Unlike toothbrushes, it cleans hidden gaps, ensuring a thorough and healthier dental routine.'
   },
@@ -126,7 +131,7 @@ export const proAndCons = {
 
 export const comparativeTableProps = {
   id: 'how-does-the-turewell-compares-to-other-irrigators',
-  title: 'Compare the TUREWELL 600ml Oral Irrigator, with other irrigators',
+  title: 'Compare the TUREWELL 600ml Oral Irrigator with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
@@ -144,24 +149,23 @@ export const comparativeTableProps = {
       price: 'Good Price',
       satisfaction: '8/10',
       view: 'View Price',
-      url: productUrl
+      url: turewell600mlProductUrl
     },
     {
       id: 2,
-      models: 'Waterpik Ultra 660',
-      image: turewell600ml,
-      alt: 'Waterpik Ultra 660',
-      prime: false,
-      dimensions: '15 x 16,5 x 23 cm',
-      multifunctionaltips: '6',
-      capacity: '650 ml',
-      highlight: 'Economical, easy to use, and very comprehensive.',
-      problem: 'The customer service of Waterpik.',
-      price: 'Best buy',
-      satisfaction: '5/5',
+      models: 'Nicwell f5025',
+      image: nicwellf5025,
+      alt: 'Nicwell 200ml Oral Irrigator',
+      prime: true,
+      dimensions: '8.03 x 4.02 x 2.73 in, 14.07 oz',
+      multifunctionaltips: '5',
+      capacity: '200 ml',
+      highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
+      problem: 'Water Resistance',
+      price: 'Great Price',
+      satisfaction: '9/10',
       view: 'View Price',
-      url: '/buy-amazon-url2'
-
+      url: nicwellf5025ProductUrl
     },
     {
       id: 3,

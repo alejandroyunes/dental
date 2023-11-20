@@ -1,10 +1,12 @@
+import { turewell600ml, turewell600mlProductUrl } from "./turewell610ml"
+
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/r8ukhc9rey1wembd26ui.webp'
 const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/rtxb5naorekpycb465eg.webp'
 
 export const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
 export const productReview = 'https://www.amazon.com/product-reviews/B08SM447BQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
-export const productUrl = 'https://a.co/d/9iu6CuK'
+export const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
 const amazonPrime = 'https://www.amazon.com'
 
 export const headerProps = {
@@ -13,7 +15,7 @@ export const headerProps = {
   text: "Discover the Nicwell water dental flosser's unique technology.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
-  url: productUrl,
+  url: nicwellf5025ProductUrl,
   buttonText: "Buy Now",
   date: '11/20/2023'
 }
@@ -27,7 +29,15 @@ export const tableOfContentItems = [
   },
   {
     content: '\u2022 Why Choose Nicwell',
-    id: `${nicwellF5025Url}#why-nicewell-f5025`
+    id: `${nicwellF5025Url}#why-nicwell-f5025`
+  },
+  {
+    content: '\u2022 Pros and Cons',
+    id: `${nicwellF5025Url}#pro-and-cons-f5025`
+  },
+  {
+    content: '\u2022 Comparison table with other irrigators',
+    id: `${nicwellF5025Url}#how-does-the-nicwell-compares-to-other-irrigators`
   },
 ]
 
@@ -42,74 +52,97 @@ export const nicwellf5025Props = {
     title: 'Nicwell Professional Water Flosser f5025',
     image: nicwellf5025,
     alt: 'Nicwell Professional Water Flosser f5025',
-    productUrl: productUrl,
+    productUrl: nicwellf5025ProductUrl,
     primeUrl: amazonPrime,
-    description: 'The Nicwell brand is one of the most trusted oral health brands throughout the world.'
+    description: 'Unleash the power of advanced pulsation technology, tailored flossing modes, and impeccable customer service. Portable, rechargeable, and designed for optimal oral health on the go.'
   },
   list: [
-    "Four Flossing Modes: Choose from Clean, Soft, Massage, and Customized modes to cater to various teeth and gum conditions.",
+    "4 Flossing Modes: Choose from Clean, Soft, Massage, and Customized modes to cater to various teeth and gum conditions.",
     "Portable and Lightweight: The cordless, rechargeable design makes it ideal for travel, and it comes with extra jet tips for the whole family.",
     "IPX7 Waterproof double-sealing rings, Nicwell oral irrigator prevent water leakage reliably.",
     "All the jet tips are sealed under sterile production environments.",
     "12 months after-sale service.",
-    "Up to 21 days of use",
-    "Available in black, pink and white",
+    "Up to 21 days of use.",
+    "Available in black, pink and white.",
   ],
 }
 
 export const titleListProps = {
-  id: 'why-nicewell-f5025',
+  id: 'why-nicwell-f5025',
   title: 'Why Choose Nicwell?',
   items: [
     {
       itemTitle: [
-        'Unleash the power',
+        'Advanced Pulsation Technique:',
+        "Double Stream:",
+        "IPX7",
       ],
       itemContent: [
-        'of advanced pulsation technology, tailored flossing modes, and impeccable customer service. Portable, rechargeable, and designed for optimal oral health on the go.',
+        'The brand employs an upgraded pulsation technique, offering a high-pressure water pulse (1400-1800 times/min, 30-110PSI) for effective and thorough oral care.',
+        "Removes up plaque and keeps breath fresh and improves gum health.",
+        "Safely use the water flosser in the bath or shower.",
       ]
     }
   ]
 }
 
-
 export const proAndCons = {
-  id: 'props-and-cons',
+  id: 'pro-and-cons-f5025',
   title: "Pros and Cons",
+  message: "In summary, while the oral irrigator has notable positive aspects such as value, cleanliness, ease of use, and overall performance, there are significant concerns regarding quality, water resistance, battery life, and the charging feature. Users' experiences with these aspects vary, making it important for potential buyers to consider these factors based on their personal preferences and needs.",
   itemspro: [
     {
-      title: 'Good for the price.',
+      title: 'Well worth the price.',
     },
     {
-      title: 'Effectively removes plaque and debris.',
+      title: 'Users like the cleanliness the product provides, effectively cleaning between teeth and leaving a clean feeling.',
     },
     {
-      title: 'Setup is easy and simple.',
+      title: 'The oral irrigator is praised for being easy to use, offering convenience and cost-effectiveness in daily oral care routines.',
     },
     {
-      title: 'Comes with a variety of tools and attachments.',
+      title: 'Many customers find the overall performance impressive, praising its effectiveness in maintaining oral hygiene.',
+    },
+    {
+      title: 'Customers appreciate the convenience of the oral irrigator, especially in comparison to traditional flossing.',
     },
   ],
   itemscons: [
     {
-      title: 'Customers are mixed about the size of the oral irrigator.',
+      title: 'Opinions on water resistance, battery life, and overall performance are mixed, indicating varying experiences among users.',
     },
     {
-      title: 'It gets very messy and water pulsation could generate noise.',
+      title: 'Mixed reviews on water resistance highlight concerns about messiness, water getting everywhere, and a small reservoir that may not last through the entire teeth-cleaning process.',
     },
   ]
 }
 
 export const comparativeTableProps = {
-  id: 'how-does-the-turewell-compares-to-other-irrigators',
-  title: 'Compare the TUREWELL 600ml Oral Irrigator, with other irrigators',
+  id: 'how-does-the-nicwell-compares-to-other-irrigators',
+  title: 'Compare the Nicwell f5025 Oral Irrigator with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
     {
       id: 1,
-      models: 'TUREWELL 600ml',
+      models: 'Nicwell f5025',
       image: nicwellf5025,
+      alt: 'Nicwell 200ml Oral Irrigator',
+      prime: true,
+      dimensions: '8.03 x 4.02 x 2.73 in, 14.07 oz',
+      multifunctionaltips: '5',
+      capacity: '200 ml',
+      highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
+      problem: 'Water Resistance',
+      price: 'Great Price',
+      satisfaction: '9/10',
+      view: 'View Price',
+      url: nicwellf5025ProductUrl
+    },
+    {
+      id: 2,
+      models: 'TUREWELL 600ml',
+      image: turewell600ml,
       alt: 'TUREWELL 600ml Oral Irrigator',
       prime: true,
       dimensions: '8.6 x 6.1 x 5.4 in, 1.7 lbs',
@@ -120,24 +153,7 @@ export const comparativeTableProps = {
       price: 'Good Price',
       satisfaction: '8/10',
       view: 'View Price',
-      url: productUrl
-    },
-    {
-      id: 2,
-      models: 'Waterpik Ultra 660',
-      image: nicwellf5025,
-      alt: 'Waterpik Ultra 660',
-      prime: false,
-      dimensions: '15 x 16,5 x 23 cm',
-      multifunctionaltips: '6',
-      capacity: '650 ml',
-      highlight: 'Economical, easy to use, and very comprehensive.',
-      problem: 'The customer service of Waterpik.',
-      price: 'Best buy',
-      satisfaction: '5/5',
-      view: 'View Price',
-      url: '/buy-amazon-url2'
-
+      url: turewell600mlProductUrl
     },
     {
       id: 3,

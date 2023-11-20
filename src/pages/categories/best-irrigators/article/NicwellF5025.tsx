@@ -19,7 +19,7 @@ import {
   proAndCons,
   productReview,
   titleListTurewellProps,
-  productUrl
+  nicwellf5025ProductUrl
 } from "./data/nicwellf5025"
 
 export default function () {
@@ -41,21 +41,21 @@ export default function () {
 
       <Product {...nicwellf5025Props.product} list={nicwellf5025Props.list} />
 
-
       <TitleList {...titleListProps} id={titleListProps.id} />
 
+      <Title titleH2={proAndCons.title} id={proAndCons.id} message={proAndCons.message} />
+      <ProAndCon {...proAndCons} />
 
       <SimpleButton blank text="View all Reviews" url={productReview} />
 
-      <Title titleH2={proAndCons.title} id={proAndCons.id} />
-      <ProAndCon {...proAndCons} />
+
 
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
 
       <TitleList {...titleListTurewellProps} id={titleListTurewellProps.id} />
 
-      <AmazonButton text="Buy in Amazon" url={productUrl} />
+      <AmazonButton text="Buy in Amazon" url={nicwellf5025ProductUrl} />
     </main>
   )
 }
