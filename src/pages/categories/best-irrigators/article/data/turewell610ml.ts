@@ -1,7 +1,7 @@
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384728/Best/Turewell610ml/dky9pghcnae8tjpfw0zo.webp'
 const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384732/Best/Turewell610ml/yzf5vdnjcyehudg0gywp.webp'
 
-export const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384014/Best/Turewell610ml/vzw3poalhe6gcmicyrfi.webp'
+export const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700446979/Best/Turewell610ml/qavvjo3jasqtlujj7hnx.webp'
 export const productReview = 'https://www.amazon.com/product-reviews/B087717HRR/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 export const productUrl = 'https://a.co/d/2ARiGQP'
