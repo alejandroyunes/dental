@@ -34,9 +34,6 @@ export const Table = styled.table`
   }
   img {
     margin: 0 auto;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
   }
   svg {
     margin: 0 auto;
