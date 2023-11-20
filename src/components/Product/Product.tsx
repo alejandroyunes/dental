@@ -21,11 +21,14 @@ export default function (product: ProductProps) {
 
       <Product>
         <div>
-          <img src={image} alt="" width="248" height="140" />
+          <Link to={productUrl} target="_blank">
+            <img src={image} alt="" width="248" height="140" />
+          </Link>
         </div>
+
         <div>
           <h3 className="product-title">
-            <Link to={productUrl}>
+            <Link to={productUrl} target="_blank">
               {title}
             </Link>
           </h3>
@@ -44,6 +47,6 @@ export default function (product: ProductProps) {
           </div>
         </div>
       </Product>
-    </ Container>
+    </ Container >
   )
 }

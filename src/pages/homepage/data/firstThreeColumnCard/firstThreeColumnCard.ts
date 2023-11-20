@@ -2,6 +2,7 @@ const HTML5Img = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/
 const webDev = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/o8uhw4gqb4wdjj6nrnef.webp'
 const NodeExpressServer = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698957906/blog/mcygclsb4g0jj5jrchuj.webp'
 
+import { nicwellF5025Url, nicwellf5025, nicwellf5025Props } from '../../../categories/best-irrigators/article/data/nicwellf5025'
 import { turewell600mlProps, turewell600ml, turewell600mlUrl } from '../../../categories/best-irrigators/article/data/turewell610ml'
 
 export const firstThreeColumnCard = {
@@ -19,10 +20,10 @@ export const firstThreeColumnCard = {
     },
     {
       id: 5,
-      image: webDev,
-      alt: 'lorem ipsum, dolor sit amet consectetur.',
-      title: 'lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      url: 'https://res.cloudinary.com/d',
+      image: nicwellf5025,
+      alt: nicwellf5025Props.product.alt,
+      title: nicwellf5025Props.product.title,
+      url: nicwellF5025Url,
     },
     {
       id: 4,

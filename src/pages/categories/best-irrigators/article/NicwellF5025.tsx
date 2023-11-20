@@ -1,4 +1,4 @@
-import { HelmetProvider, Helmet } from "react-helmet-async"
+import { Helmet, HelmetProvider } from "react-helmet-async"
 import Header from "../../../../components/Article/article-header/Header"
 import AmazonButton from "../../../../components/Button/AmazonButton/AmazonButton"
 import SimpleButton from "../../../../components/Button/SimpleButton/SimpleButton"
@@ -15,12 +15,12 @@ import {
   titleProps,
   comparativeTableProps,
   titleListProps,
-  turewell600mlProps,
+  nicwellf5025Props,
   proAndCons,
   productReview,
   titleListTurewellProps,
   productUrl
-} from "./data/turewell610ml"
+} from "./data/nicwellf5025"
 
 export default function () {
   return (
@@ -29,18 +29,22 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content='TUREWELL introduced an exceptionally budget-friendly model' />
-          <title>TUREWELL introduced an exceptionally budget-friendly model</title>
+            content="Discover the revolutionary Nicwell water dental flosser with advanced pulsation technology, offering high-pressure water pulses for deep cleaning, gum massage, and improved oral health. Portable, rechargeable, and backed by professional customer service. Transform your oral care routine today." />
+          <title>Discover the revolutionary Nicwell water dental flosser with advanced pulsation technology.</title>
         </Helmet>
       </HelmetProvider>
 
       <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
+
       <Title message={titleProps.message} title={titleProps.title} id={titleProps.id} />
 
-      <Product {...turewell600mlProps.product} list={turewell600mlProps.list} />
+      <Product {...nicwellf5025Props.product} list={nicwellf5025Props.list} />
+
 
       <TitleList {...titleListProps} id={titleListProps.id} />
+
+
       <SimpleButton blank text="View all Reviews" url={productReview} />
 
       <Title titleH2={proAndCons.title} id={proAndCons.id} />
