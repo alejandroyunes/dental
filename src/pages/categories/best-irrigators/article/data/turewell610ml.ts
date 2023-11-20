@@ -128,7 +128,7 @@ export const comparativeTableProps = {
   id: 'how-does-the-turewell-compares-to-other-irrigators',
   title: 'Compare the TUREWELL 600ml Oral Irrigator, with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: '/primeurl',
+  primeUrl: amazonPrime,
   items: [
     {
       id: 1,

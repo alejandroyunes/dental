@@ -21,6 +21,7 @@ export const MobileWrapper = styled.div`
 export const Table = styled.table`
   border-collapse: collapse;
   width: 100%;
+  table-layout: fixed;
   tr:nth-child(2n+2) { 
     background-color: ${({ theme }) => theme.palette.primary.contrastBg};
   }
@@ -30,6 +31,9 @@ export const Table = styled.table`
   }
   img {
     margin: 0 auto;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
   svg {
     margin: 0 auto;

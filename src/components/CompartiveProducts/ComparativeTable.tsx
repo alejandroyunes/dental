@@ -100,9 +100,9 @@ export default function ({ items, primeUrl }: ComparativeTableProps) {
                     <tbody>
                       {columns.map((column, i) => (
                         <tr key={i}>
-                          <td className="title">{column}</td>
+                          <td>{column}</td>
                           <td>
-                            {column === 'Image' ? <img src={slide.image} alt="Image" width={160} height={160} />
+                            {column === 'Image' ? <img src={slide.image} alt="Image" />
                               : column === 'Prime' ?
                                 slide.prime ?
                                   <Link to={primeUrl} target="_blank"><PrimeSvg /></Link> : '-'

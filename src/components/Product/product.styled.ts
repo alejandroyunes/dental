@@ -67,8 +67,8 @@ export const Product = styled.div`
     padding-top: 16px;
   }
   .product-characteristic {
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.250rem;
+    font-weight: 700;
     margin-bottom: 8px;
   }
   .buy-button {
