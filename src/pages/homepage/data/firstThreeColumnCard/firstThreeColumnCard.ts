@@ -10,7 +10,7 @@ import { waterpikwf02, waterpikwf02Props, waterpikwf02Url } from '../../../categ
 export const firstThreeColumnCard = {
   title: "Relying solely on brushing is not enough",
   subTitle: "The Dental Irrigator removes plaque that lodges deep in the interdental spaces and below the gums. Using a toothbrush or dental floss alone is not sufficient to achieve the best oral hygiene. That's why if you thinking in buying an oral irrigator we recommend that you view these Oral Irrigators.",
-  moreInfo: "Click on the following images to read thereviews of the top-rated Oral Dental Irrigators",
+  moreInfo: "Click on the following images to read the reviews of the top-rated Oral Dental Irrigators",
   columnsUrl: '',
   items: [
     {

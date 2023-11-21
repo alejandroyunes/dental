@@ -1,5 +1,3 @@
-import { nicwellf5025, turewell600ml, turewell600mlProductUrl } from "./turewell610ml"
-
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500932/Best/WaterPicWF02/tlioezzey3gnyhyz7uld.webp'
 const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500932/Best/WaterPicWF02/cyczyuuch0e4h3twemey.webp'
 
@@ -8,6 +6,14 @@ export const productReview = 'https://www.amazon.com/product-reviews/B07DQSC9B5/
 
 export const waterpikwf02ProductUrl = 'https://a.co/d/8D4Qw9R'
 const amazonPrime = 'https://www.amazon.com'
+
+const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
+const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
+const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
+const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
+const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700446979/Best/Turewell610ml/qavvjo3jasqtlujj7hnx.webp'
+const turewell600mlProductUrl = 'https://a.co/d/2ARiGQP'
+
 
 export const headerProps = {
   title: "Waterpik Water Flosser Model WF-02",
@@ -141,19 +147,19 @@ export const comparativeTableProps = {
       image: waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
-      dimensions: '11.75h x 2.5w x 3.6d, 11.68 oz',
+      dimensions: '3.6h x 2.5w x 11.75 in, 11.68 oz',
       multifunctionaltips: '2',
-      capacity: '5-ounce reservoir for 30 seconds of flossing time',
+      capacity: '5oz reservoir for 30 seconds of flossing time',
       highlight: 'Economical, Portable, Waterproof, Clinically Proven Plaque Removal, Customizable Cleaning.',
       problem: 'Battery replacement, Limited water capacity.',
       price: 'Best buy',
       satisfaction: '9/10',
       view: 'View Price',
-      url: '/buy-amazon-url3'
+      url: waterpikwf02ProductUrl
     },
     {
       id: 2,
-      models: 'Nicwell f5025',
+      models: 'Nicwell F5025',
       image: nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
@@ -165,15 +171,15 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: waterpikwf02ProductUrl
+      url: nicwellf5025ProductUrl
     },
     {
       id: 3,
-      models: 'TUREWELL 600ml',
+      models: 'Turewell FC165',
       image: turewell600ml,
-      alt: 'TUREWELL 600ml Oral Irrigator',
+      alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '8.6h x 6.1w x 5.4d in, 1.7 lbs',
+      dimensions: '5.7h x 4.9w x 8.07d in, 1.7 lbs',
       multifunctionaltips: '8',
       capacity: '600 ml',
       highlight: '10 Adjustable Pressure',
@@ -184,21 +190,21 @@ export const comparativeTableProps = {
       url: turewell600mlProductUrl
     },
     {
-      id: 4,
-      models: '',
-      image: waterpikwf02,
-      alt: '',
+      id: 1,
+      models: 'Coslus F5020E',
+      image: coslus300ml,
+      alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
-      dimensions: '',
-      multifunctionaltips: '',
-      capacity: '',
-      highlight: '',
-      problem: '',
-      price: '',
-      satisfaction: '',
+      dimensions: '1.97h x 2.74w x 12.2d in, 15.52 oz',
+      multifunctionaltips: '5',
+      capacity: '300ml',
+      highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
+      problem: 'Limited water capacity',
+      price: 'Excelent price',
+      satisfaction: '9/10',
       view: 'View Price',
-      url: '/buy-amazon-url'
-    }
+      url: coslus300mlProductUrl
+    },
   ]
 }
 

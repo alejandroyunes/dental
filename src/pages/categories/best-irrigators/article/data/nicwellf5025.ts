@@ -9,6 +9,13 @@ export const productReview = 'https://www.amazon.com/product-reviews/B08SM447BQ/
 export const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
 const amazonPrime = 'https://www.amazon.com'
 
+const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
+const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
+const waterpikwf02 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp'
+const waterpikwf02ProductUrl = 'https://a.co/d/8D4Qw9R'
+
+
+
 export const headerProps = {
   title: "Nicwell Professional Water Flosser",
   subtitle: "Smart Oral Irrigator",
@@ -146,11 +153,11 @@ export const comparativeTableProps = {
     },
     {
       id: 2,
-      models: 'TUREWELL 600ml',
+      models: 'Turewell FC165',
       image: turewell600ml,
-      alt: 'TUREWELL 600ml Oral Irrigator',
+      alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '8.6 x 6.1 x 5.4 in, 1.7 lbs',
+      dimensions: '5.7h x 4.9w x 8.07d in, 1.7 lbs',
       multifunctionaltips: '8',
       capacity: '600 ml',
       highlight: '10 Adjustable Pressure',
@@ -162,35 +169,35 @@ export const comparativeTableProps = {
     },
     {
       id: 3,
-      models: 'Waterpik Ultra 660',
-      image: nicwellf5025,
-      alt: 'Waterpik Ultra 660',
+      models: 'Coslus F5020E',
+      image: coslus300ml,
+      alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
-      dimensions: '15 x 16,5 x 23 cm',
-      multifunctionaltips: '6',
-      capacity: '650 ml',
-      highlight: 'Economical, easy to use, and very comprehensive.',
-      problem: 'The customer service of Waterpik.',
-      price: 'Best buy',
-      satisfaction: '5/5',
+      dimensions: '1.97h x 2.74w x 12.2d in, 15.52 oz',
+      multifunctionaltips: '5',
+      capacity: '300ml',
+      highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
+      problem: 'Limited water capacity',
+      price: 'Excelent price',
+      satisfaction: '9/10',
       view: 'View Price',
-      url: '/buy-amazon-url3'
+      url: coslus300mlProductUrl
     },
     {
       id: 4,
-      models: 'Waterpik Ultra 660',
-      image: nicwellf5025,
-      alt: 'Waterpik Ultra 660',
+      models: 'Waterpik WF-02',
+      image: waterpikwf02,
+      alt: 'Waterpik Model WF-02',
       prime: true,
-      dimensions: '15 x 16,5 x 23 cm',
-      multifunctionaltips: '6',
-      capacity: '650 ml',
-      highlight: 'Economical, easy to use, and very comprehensive.',
-      problem: 'The customer service of Waterpik.',
+      dimensions: '3.6h x 2.5w x 11.75 in, 11.68 oz',
+      multifunctionaltips: '2',
+      capacity: '5oz reservoir for 30 seconds of flossing time',
+      highlight: 'Economical, Portable, Waterproof, Clinically Proven Plaque Removal, Customizable Cleaning.',
+      problem: 'Battery replacement, Limited water capacity.',
       price: 'Best buy',
-      satisfaction: '5/5',
+      satisfaction: '9/10',
       view: 'View Price',
-      url: '/buy-amazon-url'
+      url: waterpikwf02ProductUrl
     }
   ]
 }

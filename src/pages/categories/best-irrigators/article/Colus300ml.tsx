@@ -29,8 +29,8 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content="Discover the revolutionary Nicwell water dental flosser with advanced pulsation technology, offering high-pressure water pulses for deep cleaning, gum massage, and improved oral health. Portable, rechargeable, and backed by professional customer service. Transform your oral care routine today." />
-          <title>Discover the revolutionary Nicwell water dental flosser with advanced pulsation technology.</title>
+            content="Discover the superior dental care experience with the Coslus F5020E water dental flosser." />
+          <title>Coslus F5020E Water Dental Flosser: Advanced Technology for Optimal Oral Health</title>
         </Helmet>
       </HelmetProvider>
 
@@ -47,8 +47,6 @@ export default function () {
       <ProAndCon {...proAndCons} />
 
       <SimpleButton blank text="View all Reviews" url={productReview} />
-
-
 
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />

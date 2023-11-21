@@ -9,8 +9,12 @@ export const turewell600mlProductUrl = 'https://a.co/d/2ARiGQP'
 const amazonPrime = 'https://www.amazon.com'
 
 //links of other best products problems with the bundler not reading the files first
-export const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
-export const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
+const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
+const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
+const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
+const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
+const waterpikwf02ProductUrl = 'https://a.co/d/8D4Qw9R'
+const waterpikwf02 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp'
 
 export const headerProps = {
   title: "TUREWELL Water Flossing Oral Irrigator, 600ml",
@@ -24,7 +28,7 @@ export const headerProps = {
   externalUrl: true
 }
 
-export const turewell600mlUrl = '/best/turewell-600ml-water-flossing-oral-irrigator'
+export const turewell600mlUrl = '/best/turewell-FC165-water-flossing-oral-irrigator'
 
 export const tableOfContentItems = [
   {
@@ -82,22 +86,22 @@ export const titleListProps = {
   items: [
     {
       itemTitle: [
-        '',
-        '',
-        '',
-        '',
-        '',
-        '',
-        '',
+        'Place the irrigator',
+        'Fill the 600ml',
+        'Connect',
+        'Select',
+        'Select',
+        'Press',
+        'Follow',
       ],
       itemContent: [
-        'Place the irrigator on a smooth surface in the sink. We recommend using a wooden base for stability.',
-        'Fill the 600ml water tank with warm water.',
-        'Connect the Turewell to the power source.',
-        'Select the pressure level. Start with the lowest level and increase as needed.',
-        'Select the desired nozzle based on your needs (e.g., toothbrush tip, periodontal tip).',
-        'Press the nozzle onto the device and adjust the angle for a 90-degree flow into the sink.',
-        'Follow your gum line to thoroughly clean teeth and gums.'
+        'on a smooth surface in the sink. We recommend using a wooden base for stability.',
+        'water tank with warm water.',
+        'the Turewell to the power source.',
+        'the pressure level. Start with the lowest level and increase as needed.',
+        'the desired nozzle based on your needs (e.g., toothbrush tip, periodontal tip).',
+        'the nozzle onto the device and adjust the angle for a 90-degree flow into the sink.',
+        'your gum line to thoroughly clean teeth and gums.'
       ]
     }
   ]
@@ -138,14 +142,14 @@ export const comparativeTableProps = {
   items: [
     {
       id: 1,
-      models: 'TUREWELL 600ml',
+      models: 'Turewell FC165',
       image: turewell600ml,
-      alt: 'TUREWELL 600ml Oral Irrigator',
+      alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '8.6 x 6.1 x 5.4 in, 1.7 lbs',
+      dimensions: '5.7h x 4.9w x 8.07d in, 1.7 lbs',
       multifunctionaltips: '8',
       capacity: '600 ml',
-      highlight: 'Economical, 10 Adjustable Pressure',
+      highlight: '10 Adjustable Pressure',
       problem: 'Water Resistance',
       price: 'Good Price',
       satisfaction: '8/10',
@@ -158,7 +162,7 @@ export const comparativeTableProps = {
       image: nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
-      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
+      dimensions: '8.03h x 4.02w x 2.73d in, 14 oz',
       multifunctionaltips: '5',
       capacity: '200 ml',
       highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
@@ -170,35 +174,35 @@ export const comparativeTableProps = {
     },
     {
       id: 3,
-      models: 'Waterpik Ultra 660',
-      image: turewell600ml,
-      alt: 'Waterpik Ultra 660',
+      models: 'Waterpik WF-02',
+      image: waterpikwf02,
+      alt: 'Waterpik Model WF-02',
       prime: true,
-      dimensions: '15 x 16,5 x 23 cm',
-      multifunctionaltips: '6',
-      capacity: '650 ml',
-      highlight: 'Economical, easy to use, and very comprehensive.',
-      problem: 'The customer service of Waterpik.',
+      dimensions: '3.6h x 2.5w x 11.75 in, 11.68 oz',
+      multifunctionaltips: '2',
+      capacity: '5oz reservoir for 30 seconds of flossing time',
+      highlight: 'Economical, Portable, Waterproof, Clinically Proven Plaque Removal, Customizable Cleaning.',
+      problem: 'Battery replacement, Limited water capacity.',
       price: 'Best buy',
-      satisfaction: '5/5',
+      satisfaction: '9/10',
       view: 'View Price',
-      url: '/buy-amazon-url3'
+      url: waterpikwf02ProductUrl
     },
     {
       id: 4,
-      models: 'Waterpik Ultra 660',
-      image: turewell600ml,
-      alt: 'Waterpik Ultra 660',
+      models: 'Coslus F5020E',
+      image: coslus300ml,
+      alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
-      dimensions: '15 x 16,5 x 23 cm',
-      multifunctionaltips: '6',
-      capacity: '650 ml',
-      highlight: 'Economical, easy to use, and very comprehensive.',
-      problem: 'The customer service of Waterpik.',
-      price: 'Best buy',
-      satisfaction: '5/5',
+      dimensions: '1.97h x 2.74w x 12.2d in, 15.52 oz',
+      multifunctionaltips: '5',
+      capacity: '300ml',
+      highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
+      problem: 'Limited water capacity',
+      price: 'Excelent price',
+      satisfaction: '9/10',
       view: 'View Price',
-      url: '/buy-amazon-url'
+      url: coslus300mlProductUrl
     }
   ]
 }

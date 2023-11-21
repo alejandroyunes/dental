@@ -28,7 +28,7 @@ const routerConfig: RouteObject[] = [
         errorElement: <ErrorPage />
       },
       {
-        path: '/best/turewell-600ml-water-flossing-oral-irrigator',
+        path: '/best/turewell-FC165-water-flossing-oral-irrigator',
         element: <Turewell600ML />,
         errorElement: <ErrorPage />
       },
@@ -43,7 +43,7 @@ const routerConfig: RouteObject[] = [
         errorElement: <ErrorPage />
       },
       {
-        path: '/best/coslus-300ml-water-flossing-oral-irrigator',
+        path: '/best/coslus-F5020E-water-flossing-oral-irrigator',
         element: <Colus300ml />,
         errorElement: <ErrorPage />
       },

@@ -1,5 +1,5 @@
-import { nicwellf5025, nicwellf5025ProductUrl, turewell600ml, turewell600mlProductUrl } from "./turewell610ml"
-import { waterpikwf02 } from "./waterpikwf02"
+import { turewell600ml, turewell600mlProductUrl } from "./turewell610ml"
+import { waterpikwf02, waterpikwf02ProductUrl } from "./waterpikwf02"
 
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700542160/Best/Coslus300ml/mwwygzs3lr0wvnz6hbgf.webp'
 const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541238/Best/Coslus300ml/nnbu7ewuqkl8cp4zkbh0.webp'
@@ -9,6 +9,11 @@ export const productReview = 'https://www.amazon.com/product-reviews/B0BG52SJ5N/
 
 export const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
 const amazonPrime = 'https://www.amazon.com'
+
+const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
+const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
+
+
 
 export const headerProps = {
   title: "Coslus Water Dental Flosser Teeth Pick",
@@ -22,139 +27,152 @@ export const headerProps = {
   externalUrl: true
 }
 
-export const coslus300mlUrl = '/best/coslus-300ml-water-flossing-oral-irrigator'
+export const coslus300mlUrl = '/best/coslus-F5020E-water-flossing-oral-irrigator'
 
 export const tableOfContentItems = [
   {
-    content: '\u2022 The Best of Waterpik wf02',
-    id: `${coslus300mlUrl}#the-best-of-colus-300ml`
+    content: '\u2022 The Best of Coslus F5020E',
+    id: `${coslus300mlUrl}#the-best-of-coslus-F5020E`
   },
   {
-    content: '\u2022 Why Choose Waterpik wf02',
-    id: `${coslus300mlUrl}#why-waterpic-wf02`
+    content: '\u2022 Why Choose Coslus F5020E',
+    id: `${coslus300mlUrl}#why-coslus-F5020E`
   },
   {
     content: '\u2022 Pros and Cons',
-    id: `${coslus300mlUrl}#pro-and-cons-wf02`
+    id: `${coslus300mlUrl}#pro-and-cons-F5020E`
   },
   {
     content: '\u2022 Comparison table with other irrigators',
-    id: `${coslus300mlUrl}#how-does-the-waterpik-compares-to-other-irrigators`
+    id: `${coslus300mlUrl}#how-does-the-coslus-compares-to-other-irrigators`
   },
   {
-    content: '\u2022 Why opt for the Waterpic wf02',
-    id: `${coslus300mlUrl}#why-waterpik-5oz`
+    content: '\u2022 Why opt for the Coslus F5020E',
+    id: `${coslus300mlUrl}#why-opt-for-coslus-F5020E`
   },
 ]
 
 export const titleProps = {
-  id: 'the-best-of-waterpic-wf02',
-  title: 'The Best of Waterpik ModelWF-02 Professional Water Flosser',
-  message: "Waterpik's Cordless Express Water Flosser, featuring a battery-operated, portable, and waterproof design, is perfect for on-the-go oral care. With 2 pressure settings, a water on/off slider, 30 seconds of flossing time, and included AA batteries, it's easy to use anytime, anywhere, for healthier gums and brighter teeth."
+  id: 'the-best-of-coslus-F5020E',
+  title: 'The Best of Coslus FC165',
+  message: "Discover the excellence of oral care with the Coslus FC165 water dental flosser. Engineered with advanced technology and designed for convenience, this oral irrigator is a game-changer in your dental hygiene routine. From its ultra-fine dual-thread water pulse technology to the upgraded 300ml water tank, the Coslus FC165 offers a superior and efficient teeth cleaning experience. Enjoy the benefits of improved gum health, fresh breath, and a confident smile. With a rechargeable battery, portability for travel, and a variety of user-friendly features, the Coslus FC165 stands out as the best choice for your oral care needs."
 }
 
 export const coslus300mlProps = {
   product: {
-    title: 'Waterpik Water Flosser',
+    title: 'COSLUS Water Dental Flosser Teeth Pick: Portable Cordless Oral Irrigator 300ml',
     image: coslus300ml,
-    alt: 'Waterpik Water Flosser ModelWF-02',
+    alt: 'COSLUS Water Dental Flosser Teeth Pick',
     productUrl: coslus300mlProductUrl,
     primeUrl: amazonPrime,
-    description: "Clinically proven to remove up to 99.9% of plaque, the Cordless Express combines water pressure with pulsating action for an exceptional clean that traditional methods can't match."
+    description: "The COSLUS F5020E water dental flosser is a portable and cordless oral irrigator designed for efficient teeth cleaning."
   },
   list: [
-    "Portable and waterproof design.",
-    "2 pressure settings (45-75 PSI) for customizable cleaning.",
-    "1200 water pulses per minute.",
-    "Easy-to-fill, removable 5-ounce reservoir for 30 seconds of flossing time.",
-    "2 JT-450E water flossing tips.",
-    "Compact dimension.",
-  ],
+    "Ultra-fine dual-thread water pulse technology, professionally endorsed by an American dental team.",
+    "Upgraded 300ml water tank ensures a thorough cleaning experience, effectively removing 99.9% of dental plaque for improved gum health and fresher breath.",
+    "Rechargeable battery and compact design, Coslus FC165 is perfect for on-the-go use.",
+    "Ease of use with adjustable pressure levels, multiple nozzles, and three convenient modes tailored for different age groups.",
+  ]
 }
 
 export const titleListProps = {
-  id: 'why-waterpic-wf02',
-  title: 'Why Choose WaterPik WF-02?',
+  id: 'why-coslus-F5020E',
+  title: 'Why Choose Coslus F5020E?',
   items: [
     {
       itemTitle: [
-        'Portability and On-the-Go Use:',
-        "Waterproof Design:",
-        "Clinically Proven Plaque Removal:",
-        "Mouthwash Compatibility:",
-        "Manufacturer's Warranty and Customer Support:",
+        'Quality:',
+        "Ease of Use:",
+        "Value:",
+        "Ease of Cleaning:",
+        "Size:",
+        "Battery Life:",
+        "Power:",
+        "Pressure:",
       ],
       itemContent: [
-        "Designed for travel, small bathrooms, and shower use, providing flexibility and convenience in maintaining oral hygiene wherever you go.",
-        "Waterproof construction enhances durability and allows for use in the shower, adding versatility to your oral care routine.",
-        "Clinically proven to remove up to 99.9% of plaque, offering an effective solution for superior oral cleanliness compared to traditional brushing and flossing.",
-        "Users can add their favorite mouthwash for a personalized and fresher clean, enhancing the overall flossing experience.",
-        "Backed by a 1-year manufacturer's warranty, ensuring product reliability and customer satisfaction.",
+        "Customers praise the oral irrigator's quality, ease of use, and effectiveness in dental cleaning. Overall satisfaction with its performance.",
+        "Users find the oral irrigator convenient, powerful, and ready for use with various settings. Many incorporate it into their daily routine.",
+        "Customers appreciate the value, considering the oral irrigator a great investment for its price.",
+        "Users like the ease of cleaning, stating it effectively removes debris, making their mouth feel clean. Positive feedback on water pressure and nozzle variety.",
+        "Customers value the compact size, portability, and lightweight design of the oral irrigator. They also praise adjustable pressure and battery life.",
+        "Satisfaction with the battery life, with users noting it holds a charge for an extended period. Positive remarks on the rechargeable feature.",
+        "Users commend the power of the oral irrigator, highlighting three power levels, efficiency, and user-friendly operation.",
+        "Impressed with the water pressure, users appreciate the multiple modes and nozzles, with strong water flow for effective cleaning. Overall satisfaction with pressure."
       ]
     }
   ]
 }
 
 export const proAndCons = {
-  id: 'pro-and-cons-wf02',
+  id: 'pro-and-cons-F5020E',
   title: "Pros and Cons",
-  message: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Waterpik Cordless Express WF-02 is the right fit for them.",
+  message: "Experience exceptional oral care with the Coslus FC165, offering efficient plaque removal, unmatched portability, and user-friendly design. While praised for its outstanding value, users note considerations for improvement, expressing a desire for more nozzle options and variations in size preferences.",
   itemspro: [
     {
-      title: 'Ideal for travel, small bathrooms, and on-the-go oral care.',
+      title: 'Advanced water pulse technology and adjustable pressure levels.',
     },
     {
-      title: 'Runs on 3 AA batteries (included), eliminating the need for charging cords.',
+      title: 'Compact, lightweight design with a rechargeable battery for 30 days of use.',
     },
     {
-      title: 'Allows for use in the shower, enhancing versatility and convenience.',
+      title: 'User-friendly settings and multiple nozzles provide a convenient and versatile experience for daily oral care routines.',
     },
     {
-      title: ' Removable 5-ounce reservoir with easy-fill design for convenient use.',
+      title: 'Customers perceive the Coslus FC165 as a cost-effective choice.',
     },
-
   ],
   itemscons: [
     {
-      title: 'Requires regular replacement of 3 AA batteries (every 1-2 months, depending on use).',
+      title: 'Some users desire more nozzle options for enhanced versatility in addressing different oral care needs.',
     },
     {
-      title: 'The 5-ounce reservoir may require refilling for extended flossing sessions.',
-    },
-    {
-      title: 'Relies on disposable batteries rather than a rechargeable system.',
-    },
-    {
-      title: 'While customizable, the flosser provides only two pressure settings.',
+      title: 'While praised for portability, individual preferences may vary, and some users might prefer a larger water tank.',
     },
   ]
 }
 
 export const comparativeTableProps = {
-  id: 'how-does-the-waterpik-compares-to-other-irrigators',
+  id: 'how-does-the-coslus-compares-to-other-irrigators',
   title: 'Compare the Waterpik WF-02 Oral Irrigator with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
     {
       id: 1,
+      models: 'Coslus F5020E',
+      image: coslus300ml,
+      alt: 'Coslus F5020E Oral Irrigator',
+      prime: true,
+      dimensions: '1.97h x 2.74w x 12.2d in, 15.52 oz',
+      multifunctionaltips: '5',
+      capacity: '300ml',
+      highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
+      problem: 'Limited water capacity',
+      price: 'Excelent price',
+      satisfaction: '9/10',
+      view: 'View Price',
+      url: coslus300mlProductUrl
+    },
+    {
+      id: 2,
       models: 'Waterpik WF-02',
       image: waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
-      dimensions: '11.75h x 2.5w x 3.6d, 11.68 oz',
+      dimensions: '3.6h x 2.5w x 11.75 in, 11.68 oz',
       multifunctionaltips: '2',
-      capacity: '5-ounce reservoir for 30 seconds of flossing time',
+      capacity: '5oz reservoir for 30 seconds of flossing time',
       highlight: 'Economical, Portable, Waterproof, Clinically Proven Plaque Removal, Customizable Cleaning.',
       problem: 'Battery replacement, Limited water capacity.',
       price: 'Best buy',
       satisfaction: '9/10',
       view: 'View Price',
-      url: '/buy-amazon-url3'
+      url: waterpikwf02ProductUrl
     },
     {
-      id: 2,
-      models: 'Nicwell f5025',
+      id: 3,
+      models: 'Nicwell F5025',
       image: nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
@@ -169,12 +187,12 @@ export const comparativeTableProps = {
       url: nicwellf5025ProductUrl
     },
     {
-      id: 3,
-      models: 'TUREWELL 600ml',
+      id: 4,
+      models: 'Turewell FC165',
       image: turewell600ml,
-      alt: 'TUREWELL 600ml Oral Irrigator',
+      alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '8.6h x 6.1w x 5.4d in, 1.7 lbs',
+      dimensions: '5.7h x 4.9w x 8.07d in, 1.7 lbs',
       multifunctionaltips: '8',
       capacity: '600 ml',
       highlight: '10 Adjustable Pressure',
@@ -184,35 +202,19 @@ export const comparativeTableProps = {
       view: 'View Price',
       url: turewell600mlProductUrl
     },
-    {
-      id: 4,
-      models: '',
-      image: waterpikwf02,
-      alt: '',
-      prime: true,
-      dimensions: '',
-      multifunctionaltips: '',
-      capacity: '',
-      highlight: '',
-      problem: '',
-      price: '',
-      satisfaction: '',
-      view: 'View Price',
-      url: '/buy-amazon-url'
-    }
   ]
 }
 
 export const titleListNicwellProps = {
-  id: 'why-waterpik-5oz',
-  title: 'Why opt for the Waterpik Model WF-02?',
+  id: 'why-opt-for-coslus-F5020E',
+  title: 'Why opt for the Coslus Model F5020E?',
   items: [
     {
       itemTitle: [
-        'Choose the Waterpik',
+        'The Coslus F5020E',
       ],
       itemContent: [
-        "Cordless Express WF-02 for unparalleled convenience in your oral care routine – its portable design, waterproof functionality, and clinically proven efficacy make it the ideal choice for those seeking a hassle-free, on-the-go solution to achieve superior plaque removal and gum health.",
+        "water dental flosser stands out for its advanced 0.3mm+0.3mm ultra-fine dual-thread water pulse technology, delivering high water pressure pulses at 1400-1800 times per minute. This ensures efficient plaque removal for deep teeth cleaning and improved gum health. With an upgraded 300ml water tank, it eliminates the need for frequent refills, providing convenience in your oral cleaning routine. Enjoy the benefits of an exceptionally long 30-day battery life, making it a portable solution for home and travel. Its IPX7 waterproof design, user-friendly features, and a 3-year lifespan guarantee make it a reliable and thoughtful choice for optimal oral health.",
       ]
     }
   ]
