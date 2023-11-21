@@ -17,7 +17,8 @@ export const headerProps = {
   mobileImage: headerBgMobileImage,
   url: nicwellf5025ProductUrl,
   buttonText: "Buy Now",
-  date: '11/20/2023'
+  date: '11/20/2023',
+  externalUrl: true
 }
 
 export const nicwellF5025Url = '/best/nicwell-f5025-water-flossing-oral-irrigator'
@@ -73,7 +74,7 @@ export const nicwellf5025Props = {
 
 export const titleListProps = {
   id: 'why-nicwell-f5025',
-  title: 'Why Choose Nicwell?',
+  titleH2: 'Why Choose Nicwell?',
   items: [
     {
       itemTitle: [
@@ -196,7 +197,7 @@ export const comparativeTableProps = {
 
 export const titleListNicwellProps = {
   id: 'why-nicwell-200ml',
-  title: 'Why opt for the Nicwell f5025?',
+  titleH2: 'Why opt for the Nicwell f5025?',
   items: [
     {
       itemTitle: [

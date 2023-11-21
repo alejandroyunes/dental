@@ -7,7 +7,6 @@ interface ImageProps {
 
 export const Container = styled.div<ImageProps>`
   width: 100%;
-  height: 300px; 
   background: 
   linear-gradient(rgb(8 7 7 / 80%), rgb(38 31 31 / 69%)),
   url(${({ image }) => image}) center/cover no-repeat;
@@ -28,19 +27,19 @@ export const Container = styled.div<ImageProps>`
 export const Header = styled.div`
   max-width: ${({ theme }) => theme.breakpoint.md};
   margin: 0 auto;
-  height: 300px;
+  min-height: 300px;
   padding: 24px;
   @media(max-width: ${({ theme }) => theme.breakpoint.sm}){
     height: 100%;
   }
-  h1 {
+  h2 {
     color: ${({ theme }) => theme.palette.white};
     font-size: 1.5rem;
     @media(max-width: ${({ theme }) => theme.breakpoint.xs}){
       font-size: 1.8rem;
     }
   }
-  h3 {
+  h1 {
     font-weight: bold;
     color: ${({ theme }) => theme.palette.white};
     font-size: 3rem;

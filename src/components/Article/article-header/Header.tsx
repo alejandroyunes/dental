@@ -22,8 +22,8 @@ export default function (props: ArticleHeaderProps) {
     <StyleSheetManager shouldForwardProp={(prop) => isPropValid(prop)}>
       <Container image={image} mobileimage={mobileImage}>
         <Header>
-          <h3>{title}</h3>
-          <h1>{subtitle}</h1>
+          <h1>{title}</h1>
+          <h2>{subtitle}</h2>
           <p>{text}</p>
           <SimpleButton text={buttonText} url={url} blank={externalUrl ? true : false} />
           {date && <p className="last-updated">Last updated: {date}</p>}

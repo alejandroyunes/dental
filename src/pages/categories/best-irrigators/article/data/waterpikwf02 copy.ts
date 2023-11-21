@@ -73,7 +73,7 @@ export const waterpikwf02Props = {
 
 export const titleListProps = {
   id: 'why-waterpic-wf02',
-  titleH2: 'Why Choose WaterPik WF-02?',
+  title: 'Why Choose WaterPik WF-02?',
   items: [
     {
       itemTitle: [
@@ -204,7 +204,7 @@ export const comparativeTableProps = {
 
 export const titleListNicwellProps = {
   id: 'why-waterpik-5oz',
-  titleH2: 'Why opt for the Waterpik Model WF-02?',
+  title: 'Why opt for the Waterpik Model WF-02?',
   items: [
     {
       itemTitle: [

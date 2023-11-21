@@ -20,7 +20,8 @@ export const headerProps = {
   mobileImage: headerBgMobileImage,
   url: turewell600mlProductUrl,
   buttonText: "Buy Now",
-  date: '11/18/2023'
+  date: '11/18/2023',
+  externalUrl: true
 }
 
 export const turewell600mlUrl = '/best/turewell-600ml-water-flossing-oral-irrigator'
@@ -77,7 +78,7 @@ export const turewell600mlProps = {
 
 export const titleListProps = {
   id: 'how-to-use',
-  title: 'How to use the TUREWELL oral irrigator step by step?',
+  titleH2: 'How to use the TUREWELL oral irrigator step by step?',
   items: [
     {
       itemTitle: [
@@ -204,7 +205,7 @@ export const comparativeTableProps = {
 
 export const titleListTurewellProps = {
   id: 'why-turewell-600ml',
-  title: 'Why opt for the TUREWELL 600ML?',
+  titleH2: 'Why opt for the TUREWELL 600ML?',
   items: [
     {
       itemTitle: [

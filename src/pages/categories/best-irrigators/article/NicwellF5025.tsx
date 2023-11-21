@@ -37,7 +37,7 @@ export default function () {
       <Header {...headerProps} />
       <TableOfContent items={tableOfContentItems} />
 
-      <Title message={titleProps.message} title={titleProps.title} id={titleProps.id} />
+      <Title message={titleProps.message} titleH2={titleProps.title} id={titleProps.id} />
 
       <Product {...nicwellf5025Props.product} list={nicwellf5025Props.list} />
 
