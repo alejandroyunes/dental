@@ -1,48 +1,49 @@
-import { nicwellf5025, turewell600ml, turewell600mlProductUrl } from "./turewell610ml"
+import { nicwellf5025, nicwellf5025ProductUrl, turewell600ml, turewell600mlProductUrl } from "./turewell610ml"
+import { waterpikwf02 } from "./waterpikwf02"
 
-const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500932/Best/WaterPicWF02/tlioezzey3gnyhyz7uld.webp'
-const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500932/Best/WaterPicWF02/cyczyuuch0e4h3twemey.webp'
+const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700542160/Best/Coslus300ml/mwwygzs3lr0wvnz6hbgf.webp'
+const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541238/Best/Coslus300ml/nnbu7ewuqkl8cp4zkbh0.webp'
 
-export const waterpikwf02 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp'
-export const productReview = 'https://www.amazon.com/product-reviews/B07DQSC9B5/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
+export const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
+export const productReview = 'https://www.amazon.com/product-reviews/B0BG52SJ5N/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
-export const waterpikwf02ProductUrl = 'https://a.co/d/8D4Qw9R'
+export const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
 const amazonPrime = 'https://www.amazon.com'
 
 export const headerProps = {
-  title: "Waterpik Water Flosser Model WF-02",
-  subtitle: "Cordless Express Portable Water Flosser",
-  text: "Waterpik: Dentist Recommended, ADA Accepted, and Clinically Proven for Superior Oral Health.",
+  title: "Coslus Water Dental Flosser Teeth Pick",
+  subtitle: "Portable Cordless Oral Irrigator 300ML",
+  text: "Deep clean every oral corner precisely! Keep healthier gums and brighter teeth.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
-  url: waterpikwf02ProductUrl,
+  url: coslus300mlProductUrl,
   buttonText: "Buy Now",
   date: '11/21/2023',
   externalUrl: true
 }
 
-export const waterpikwf02Url = '/best/waterpik-wf02-water-flossing-oral-irrigator'
+export const coslus300mlUrl = '/best/coslus-300ml-water-flossing-oral-irrigator'
 
 export const tableOfContentItems = [
   {
     content: '\u2022 The Best of Waterpik wf02',
-    id: `${waterpikwf02Url}#the-best-of-waterpic-wf02`
+    id: `${coslus300mlUrl}#the-best-of-colus-300ml`
   },
   {
     content: '\u2022 Why Choose Waterpik wf02',
-    id: `${waterpikwf02Url}#why-waterpic-wf02`
+    id: `${coslus300mlUrl}#why-waterpic-wf02`
   },
   {
     content: '\u2022 Pros and Cons',
-    id: `${waterpikwf02Url}#pro-and-cons-wf02`
+    id: `${coslus300mlUrl}#pro-and-cons-wf02`
   },
   {
     content: '\u2022 Comparison table with other irrigators',
-    id: `${waterpikwf02Url}#how-does-the-waterpik-compares-to-other-irrigators`
+    id: `${coslus300mlUrl}#how-does-the-waterpik-compares-to-other-irrigators`
   },
   {
     content: '\u2022 Why opt for the Waterpic wf02',
-    id: `${waterpikwf02Url}#why-waterpik-5oz`
+    id: `${coslus300mlUrl}#why-waterpik-5oz`
   },
 ]
 
@@ -52,12 +53,12 @@ export const titleProps = {
   message: "Waterpik's Cordless Express Water Flosser, featuring a battery-operated, portable, and waterproof design, is perfect for on-the-go oral care. With 2 pressure settings, a water on/off slider, 30 seconds of flossing time, and included AA batteries, it's easy to use anytime, anywhere, for healthier gums and brighter teeth."
 }
 
-export const waterpikwf02Props = {
+export const coslus300mlProps = {
   product: {
     title: 'Waterpik Water Flosser',
-    image: waterpikwf02,
+    image: coslus300ml,
     alt: 'Waterpik Water Flosser ModelWF-02',
-    productUrl: waterpikwf02ProductUrl,
+    productUrl: coslus300mlProductUrl,
     primeUrl: amazonPrime,
     description: "Clinically proven to remove up to 99.9% of plaque, the Cordless Express combines water pressure with pulsating action for an exceptional clean that traditional methods can't match."
   },
@@ -165,7 +166,7 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: waterpikwf02ProductUrl
+      url: nicwellf5025ProductUrl
     },
     {
       id: 3,

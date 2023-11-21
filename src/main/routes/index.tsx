@@ -11,6 +11,7 @@ import Best from "../../pages/categories/best-irrigators/Best.tsx"
 import Turewell600ML from "../../pages/categories/best-irrigators/article/Turewell600ML.tsx"
 import NicwellF5025 from "../../pages/categories/best-irrigators/article/NicwellF5025.tsx"
 import Waterpikwf02 from "../../pages/categories/best-irrigators/article/Waterpikwf02.tsx"
+import Colus300ml from "../../pages/categories/best-irrigators/article/Colus300ml.tsx"
 
 const routerConfig: RouteObject[] = [
   {
@@ -39,6 +40,11 @@ const routerConfig: RouteObject[] = [
       {
         path: '/best/waterpik-wf02-water-flossing-oral-irrigator',
         element: <Waterpikwf02 />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/best/coslus-300ml-water-flossing-oral-irrigator',
+        element: <Colus300ml />,
         errorElement: <ErrorPage />
       },
       {
