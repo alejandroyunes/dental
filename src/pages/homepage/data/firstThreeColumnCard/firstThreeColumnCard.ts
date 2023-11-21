@@ -1,7 +1,6 @@
-const HTML5Img = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/kkc4eb4flw5qgmjpmdro.webp'
 const webDev = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/o8uhw4gqb4wdjj6nrnef.webp'
-const NodeExpressServer = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698957906/blog/mcygclsb4g0jj5jrchuj.webp'
 
+import { bitvaec2, bitvaec2Props, bitvaec2Url } from '../../../categories/best-irrigators/article/data/bitvaeC2'
 import { coslus300ml, coslus300mlProps, coslus300mlUrl } from '../../../categories/best-irrigators/article/data/coslus300ml'
 import { nicwellF5025Url, nicwellf5025, nicwellf5025Props } from '../../../categories/best-irrigators/article/data/nicwellf5025'
 import { turewell600mlProps, turewell600ml, turewell600mlUrl } from '../../../categories/best-irrigators/article/data/turewell610ml'
@@ -43,10 +42,10 @@ export const firstThreeColumnCard = {
     },
     {
       id: 2,
-      image: NodeExpressServer,
-      alt: 'lorem ipsum, dolor sit amet consectetur.',
-      title: 'lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      url: 'https://res.cloudinary.com/d',
+      image: bitvaec2,
+      alt: bitvaec2Props.product.alt,
+      title: bitvaec2Props.product.title,
+      url: bitvaec2Url,
     },
     {
       id: 1,

@@ -14,7 +14,6 @@ const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448
 const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
 
 
-
 export const headerProps = {
   title: "Coslus Water Dental Flosser Teeth Pick",
   subtitle: "Portable Cordless Oral Irrigator 300ML",

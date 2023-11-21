@@ -12,6 +12,7 @@ import Turewell600ML from "../../pages/categories/best-irrigators/article/Turewe
 import NicwellF5025 from "../../pages/categories/best-irrigators/article/NicwellF5025.tsx"
 import Waterpikwf02 from "../../pages/categories/best-irrigators/article/Waterpikwf02.tsx"
 import Colus300ml from "../../pages/categories/best-irrigators/article/Colus300ml.tsx"
+import BitvaeC2 from "../../pages/categories/best-irrigators/article/BitvaeC2.tsx"
 
 const routerConfig: RouteObject[] = [
   {
@@ -45,6 +46,11 @@ const routerConfig: RouteObject[] = [
       {
         path: '/best/coslus-F5020E-water-flossing-oral-irrigator',
         element: <Colus300ml />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/best/bitvae-c2-water-flossing-oral-irrigator',
+        element: <BitvaeC2 />,
         errorElement: <ErrorPage />
       },
       {
