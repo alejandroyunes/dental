@@ -17,7 +17,7 @@ const waterpikwf02ProductUrl = 'https://a.co/d/8D4Qw9R'
 
 
 export const headerProps = {
-  title: "Nicwell Professional Water Flosser",
+  title: "Nicwell Professional Water Flosser, 200ml",
   subtitle: "Smart Oral Irrigator",
   text: "Discover the Nicwell water dental flosser's unique technology.",
   image: headerBgImage,
@@ -61,7 +61,7 @@ export const titleProps = {
 
 export const nicwellf5025Props = {
   product: {
-    title: 'Nicwell Professional Water Flosser f5025',
+    title: 'Nicwell Professional Water Flosser f5025, 200ml',
     image: nicwellf5025,
     alt: 'Nicwell Professional Water Flosser f5025',
     productUrl: nicwellf5025ProductUrl,
@@ -131,7 +131,7 @@ export const proAndCons = {
 
 export const comparativeTableProps = {
   id: 'how-does-the-nicwell-compares-to-other-irrigators',
-  title: 'Compare the Nicwell f5025 Oral Irrigator with other irrigators',
+  title: 'Compare the Nicwell f5025 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
@@ -157,7 +157,7 @@ export const comparativeTableProps = {
       image: turewell600ml,
       alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '5.7h x 4.9w x 8.07d in, 1.7 lbs',
+      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
       multifunctionaltips: '8',
       capacity: '600 ml',
       highlight: '10 Adjustable Pressure',
@@ -173,7 +173,7 @@ export const comparativeTableProps = {
       image: coslus300ml,
       alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
-      dimensions: '1.97h x 2.74w x 12.2d in, 15.52 oz',
+      dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
       multifunctionaltips: '5',
       capacity: '300ml',
       highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
@@ -189,10 +189,10 @@ export const comparativeTableProps = {
       image: waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
-      dimensions: '3.6h x 2.5w x 11.75 in, 11.68 oz',
+      dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
       multifunctionaltips: '2',
       capacity: '5oz reservoir for 30 seconds of flossing time',
-      highlight: 'Economical, Portable, Waterproof, Clinically Proven Plaque Removal, Customizable Cleaning.',
+      highlight: 'Economical, Portable, Waterproof, Customizable.',
       problem: 'Battery replacement, Limited water capacity.',
       price: 'Best buy',
       satisfaction: '9/10',

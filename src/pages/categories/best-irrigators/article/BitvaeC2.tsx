@@ -29,8 +29,8 @@ export default function () {
         <Helmet>
           <meta
             name='description'
-            content="Discover the superior dental care experience with the Coslus F5020E water dental flosser." />
-          <title>Coslus F5020E Water Dental Flosser: Advanced Technology for Optimal Oral Health</title>
+            content="Discover the features and benefits of the Bitvae C2 Water Dental Flosser. Enjoy effective oral care with its compact design, ease of use, and versatile performance. Read customer feedback on affordability, quality, and more." />
+          <title>Bitvae C2 Water Dental Flosser - Superior Oral Care</title>
         </Helmet>
       </HelmetProvider>
 

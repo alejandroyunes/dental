@@ -9,7 +9,7 @@ export const Column = styled.div`
   margin: 0 auto;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 1fr);
   a {
     text-decoration: none;
   }

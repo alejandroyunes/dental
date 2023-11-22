@@ -2,7 +2,7 @@
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384728/Best/Turewell610ml/dky9pghcnae8tjpfw0zo.webp'
 const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384732/Best/Turewell610ml/yzf5vdnjcyehudg0gywp.webp'
 
-export const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700446979/Best/Turewell610ml/qavvjo3jasqtlujj7hnx.webp'
+export const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700609760/Best/Turewell610ml/oootyoq5lyolf82fe1g7.webp'
 export const productReview = 'https://www.amazon.com/product-reviews/B087717HRR/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
 export const turewell600mlProductUrl = 'https://a.co/d/2ARiGQP'
@@ -17,7 +17,7 @@ const waterpikwf02ProductUrl = 'https://a.co/d/8D4Qw9R'
 const waterpikwf02 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp'
 
 export const headerProps = {
-  title: "TUREWELL Water Flossing Oral Irrigator, 600ml",
+  title: "Turewell Water Flossing Oral Irrigator, 600ml",
   subtitle: "Dental Water Teeth Cleaner",
   text: "Removes 99.99% of Debris: compared with regular toothbrush, toothpick or floss which can't reach the hidden parts.",
   image: headerBgImage,
@@ -55,19 +55,19 @@ export const tableOfContentItems = [
 
 export const titleProps = {
   id: 'the-best-of-turewell',
-  title: 'The Best of the TUREWELL Water Flosser 600 ml',
-  message: 'TUREWELL introduced an exceptionally budget-friendly model equipped with 360° rotating nozzles and 1700 times/min water pulsation, effectively eliminating 99.99% of debris, thus preventing tooth decay. This feature-rich oral irrigator includes 8 nozzles, 10 pressure settings, a 600ml tank, and an anti-leak design, ensuring efficient and family-friendly oral care. Responsive customer service is also guaranteed.'
+  title: 'The Best of the Turewell Water Flosser, 600ml',
+  message: 'Turewell introduced an exceptionally budget-friendly model equipped with 360° rotating nozzles and 1700 times/min water pulsation, effectively eliminating 99.99% of debris, thus preventing tooth decay. This feature-rich oral irrigator includes 8 nozzles, 10 pressure settings, a 600ml tank, and an anti-leak design, ensuring efficient and family-friendly oral care. Responsive customer service is also guaranteed.'
 }
 
 
 export const turewell600mlProps = {
   product: {
-    title: 'TUREWELL Water Flossing Oral Irrigator',
+    title: 'Turewell Water Flossing Oral Irrigator, 600ml',
     image: turewell600ml,
-    alt: 'TUREWELL Water Flossing Oral Irrigator',
+    alt: 'Turewell Water Flossing Oral Irrigator',
     productUrl: turewell600mlProductUrl,
     primeUrl: amazonPrime,
-    description: 'TUREWELL Water Flosser offers superior oral care, reaching areas traditional methods miss. Unlike toothbrushes, it cleans hidden gaps, ensuring a thorough and healthier dental routine.'
+    description: 'Turewell offers superior oral care, reaching areas traditional methods miss. Unlike toothbrushes, it cleans hidden gaps, ensuring a thorough and healthier dental routine.'
   },
   list: [
     "Reaches hidden areas, preventing tooth decay, dental calculus, bleeding, and hypersensitivity.",
@@ -82,7 +82,7 @@ export const turewell600mlProps = {
 
 export const titleListProps = {
   id: 'how-to-use',
-  titleH2: 'How to use the TUREWELL oral irrigator step by step?',
+  titleH2: 'How to use the Turewell oral irrigator step by step?',
   items: [
     {
       itemTitle: [
@@ -110,6 +110,7 @@ export const titleListProps = {
 export const proAndCons = {
   id: 'props-and-cons',
   title: "Pros and Cons",
+  message: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Turewell Water Flossing Oral Irrigator, 600ml is the right fit for them.",
   itemspro: [
     {
       title: 'Good for the price.',
@@ -136,7 +137,7 @@ export const proAndCons = {
 
 export const comparativeTableProps = {
   id: 'how-does-the-turewell-compares-to-other-irrigators',
-  title: 'Compare the TUREWELL 600ml with other irrigators',
+  title: 'Compare the Turewell 600ml with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
@@ -146,7 +147,7 @@ export const comparativeTableProps = {
       image: turewell600ml,
       alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '5.7h x 4.9w x 8.07d in, 1.7 lbs',
+      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
       multifunctionaltips: '8',
       capacity: '600 ml',
       highlight: '10 Adjustable Pressure',
@@ -162,7 +163,7 @@ export const comparativeTableProps = {
       image: nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
-      dimensions: '8.03h x 4.02w x 2.73d in, 14 oz',
+      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
       multifunctionaltips: '5',
       capacity: '200 ml',
       highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
@@ -178,10 +179,10 @@ export const comparativeTableProps = {
       image: waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
-      dimensions: '3.6h x 2.5w x 11.75 in, 11.68 oz',
+      dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
       multifunctionaltips: '2',
       capacity: '5oz reservoir for 30 seconds of flossing time',
-      highlight: 'Economical, Portable, Waterproof, Clinically Proven Plaque Removal, Customizable Cleaning.',
+      highlight: 'Economical, Portable, Waterproof, Customizable.',
       problem: 'Battery replacement, Limited water capacity.',
       price: 'Best buy',
       satisfaction: '9/10',

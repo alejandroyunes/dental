@@ -15,8 +15,8 @@ const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
 
 
 export const headerProps = {
-  title: "Coslus Water Dental Flosser Teeth Pick",
-  subtitle: "Portable Cordless Oral Irrigator 300ML",
+  title: "Coslus Water Dental Flosser Teeth Pick: Portable Cordless, 300ml",
+  subtitle: "Portable Cordless Oral Irrigator 300ml",
   text: "Deep clean every oral corner precisely! Keep healthier gums and brighter teeth.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
@@ -59,12 +59,12 @@ export const titleProps = {
 
 export const coslus300mlProps = {
   product: {
-    title: 'COSLUS Water Dental Flosser Teeth Pick: Portable Cordless Oral Irrigator 300ml',
+    title: 'Coslus Water Dental Flosser Teeth Pick: Portable Cordless, 300ml',
     image: coslus300ml,
-    alt: 'COSLUS Water Dental Flosser Teeth Pick',
+    alt: 'Coslus Water Dental Flosser Teeth Pick',
     productUrl: coslus300mlProductUrl,
     primeUrl: amazonPrime,
-    description: "The COSLUS F5020E water dental flosser is a portable and cordless oral irrigator designed for efficient teeth cleaning."
+    description: "The Coslus F5020E water dental flosser is a portable and cordless oral irrigator designed for efficient teeth cleaning."
   },
   list: [
     "Ultra-fine dual-thread water pulse technology, professionally endorsed by an American dental team.",
@@ -133,7 +133,7 @@ export const proAndCons = {
 
 export const comparativeTableProps = {
   id: 'how-does-the-coslus-compares-to-other-irrigators',
-  title: 'Compare the Waterpik WF-02 Oral Irrigator with other irrigators',
+  title: 'Compare the Coslus C2 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
@@ -143,7 +143,7 @@ export const comparativeTableProps = {
       image: coslus300ml,
       alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
-      dimensions: '1.97h x 2.74w x 12.2d in, 15.52 oz',
+      dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
       multifunctionaltips: '5',
       capacity: '300ml',
       highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
@@ -159,10 +159,10 @@ export const comparativeTableProps = {
       image: waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
-      dimensions: '3.6h x 2.5w x 11.75 in, 11.68 oz',
+      dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
       multifunctionaltips: '2',
       capacity: '5oz reservoir for 30 seconds of flossing time',
-      highlight: 'Economical, Portable, Waterproof, Clinically Proven Plaque Removal, Customizable Cleaning.',
+      highlight: 'Economical, Portable, Waterproof, Customizable.',
       problem: 'Battery replacement, Limited water capacity.',
       price: 'Best buy',
       satisfaction: '9/10',
@@ -175,7 +175,7 @@ export const comparativeTableProps = {
       image: nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
-      dimensions: '8.03h x 4.02w x 2.73d in, 14 oz',
+      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
       multifunctionaltips: '5',
       capacity: '200 ml',
       highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
@@ -191,7 +191,7 @@ export const comparativeTableProps = {
       image: turewell600ml,
       alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '5.7h x 4.9w x 8.07d in, 1.7 lbs',
+      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
       multifunctionaltips: '8',
       capacity: '600 ml',
       highlight: '10 Adjustable Pressure',

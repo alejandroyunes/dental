@@ -30,7 +30,7 @@ export default function () {
           <meta
             name='description'
             content='TureWell introduced an exceptionally budget-friendly model' />
-          <title>TUREWELL introduced an exceptionally budget-friendly model</title>
+          <title>Turewell introduced an exceptionally budget-friendly model</title>
         </Helmet>
       </HelmetProvider>
 
@@ -41,10 +41,10 @@ export default function () {
       <Product {...turewell600mlProps.product} list={turewell600mlProps.list} />
 
       <TitleList {...titleListProps} id={titleListProps.id} />
-      <SimpleButton blank text="View all Reviews" url={productReview} />
 
       <Title titleH2={proAndCons.title} id={proAndCons.id} />
       <ProAndCon {...proAndCons} />
+      <SimpleButton blank text="View all Reviews" url={productReview} />
 
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />

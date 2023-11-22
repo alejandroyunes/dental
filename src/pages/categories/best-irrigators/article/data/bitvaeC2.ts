@@ -1,4 +1,3 @@
-import { turewell600ml, turewell600mlProductUrl } from "./turewell610ml"
 import { waterpikwf02, waterpikwf02ProductUrl } from "./waterpikwf02"
 
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700561237/Best/Bitvae/rvj9obwhl33j8tvurf0o.webp'
@@ -17,9 +16,9 @@ const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v17005412
 const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
 
 export const headerProps = {
-  title: "",
-  subtitle: "",
-  text: "",
+  title: "Bitvae C2 Professional Water Dental Flosser, 260ml",
+  subtitle: "Cordless and Portable",
+  text: "Achieve a brighter smile with advanced features and ergonomic design.",
   image: headerBgImage,
   mobileImage: headerBgMobileImage,
   url: bitvaec2ProductUrl,
@@ -56,102 +55,100 @@ export const tableOfContentItems = [
 export const titleProps = {
   id: 'the-best-of-bitvae-c2',
   title: 'The Best of Bitvae C2',
-  message: ""
+  message: "Discover cutting-edge oral care with the Bitvae C2 professional Water Dental Flosser with features such as, wireless portability, 300ml tank, 6 nozzles, 3 strengths, ergonomic design, removable water tank, special water pressure frequency. Popular Brand on Amazon."
 }
 
 export const bitvaec2Props = {
   product: {
-    title: '',
+    title: 'Bitvae C2 Professional Water Dental Flosser, 260ml',
     image: bitvaec2,
-    alt: '',
+    alt: 'Bitvae C2 Product Image',
     productUrl: bitvaec2ProductUrl,
     primeUrl: amazonPrime,
-    description: ""
+    description: "Experience advanced oral care with the Bitvae C2 Water Dental Flosser. Keep your mouth clean and healthy with cutting-edge features and portability."
   },
   list: [
-    "",
-    "",
-    "",
-    "",
+    "Wide Mouth Reservoir for Easy Cleaning.",
+    "Large Capacity for a 60-Second Full Mouth Clean.",
+    "3 Hours Charging for 40-Day Battery Life.",
+    "3 Pressure Settings, 6 Replaceable Nozzles, and More."
   ]
 }
 
 export const titleListProps = {
-  id: 'why-coslus-bitvae-c2',
+  id: 'why-bitvae-c2',
   title: 'Why Choose Bitvae C2?',
   items: [
     {
       itemTitle: [
-        'Quality:',
-        "Ease of Use:",
-        "Value:",
-        "Ease of Cleaning:",
-        "Size:",
-        "Battery Life:",
-        "Power:",
-        "Pressure:",
+        'At Home,',
+        "For blind",
+        "Bitvae 260ML",
+        "6pcs",
+        "The leading brand",
+        "Get a complete",
       ],
       itemContent: [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        'In The Office, or On the Go.',
+        'spots and hard-to-clean areas.',
+        'wide mouth Reservoir is easy to clean.',
+        'of Replaceable Nozzles.',
+        'in cordless oral irrigator battery life, up to 40 days of working time.',
+        'clean in 60 seconds with one refill.',
       ]
     }
   ]
 }
 
 export const proAndCons = {
-  id: 'pro-and-cons-F5020E',
+  id: 'pro-and-cons-bitvae-c2',
   title: "Pros and Cons",
-  message: "Experience exceptional oral care with the Coslus FC165, offering efficient plaque removal, unmatched portability, and user-friendly design. While praised for its outstanding value, users note considerations for improvement, expressing a desire for more nozzle options and variations in size preferences.",
+  message: "Explore the advantages and considerations of the Bitvae C2 Water Dental Flosser.",
   itemspro: [
     {
-      title: '',
+      title: 'Effective Cleaning: Customers praise its ability to remove debris and provide a thorough clean.',
     },
     {
-      title: '',
+      title: 'Compact Design: Portable and lightweight, making it suitable for travel and small spaces.',
     },
     {
-      title: '',
+      title: 'Versatile Performance: Multiple speeds, nozzle options, and a 60-second flossing time for a tailored experience.',
     },
     {
-      title: '',
+      title: 'Long Battery Life: Positive feedback on battery durability, lasting up to 40 days in the lowest pressure mode.',
     },
   ],
   itemscons: [
     {
-      title: '',
+      title: 'Durability Concerns: Mixed opinions on product durability, with reports of breakages and head detachment.',
     },
     {
-      title: '',
+      title: 'Water Resistance Issues: Some customers mention water leakage and challenges in drying the water reservoir.',
     },
   ]
 }
 
 export const comparativeTableProps = {
-  id: 'how-does-the-coslus-compares-to-other-irrigators',
-  title: 'Compare the Bitvae C2 Oral Irrigator with other irrigators',
+  id: 'how-does-the-bitvae-c2-compares-to-other-irrigators',
+  title: 'Compare the Bitvae C2 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
     {
       id: 1,
-      models: 'Turewell FC165',
-      image: turewell600ml,
-      alt: 'Turewell FC165 Oral Irrigator',
+      models: 'Bitvae C2',
+      image: bitvaec2,
+      alt: 'Bitvae C2 Oral Irrigator Image',
       prime: true,
-      dimensions: '5.7h x 4.9w x 8.07d in, 1.7 lbs',
-      multifunctionaltips: '8',
-      capacity: '600 ml',
-      highlight: '10 Adjustable Pressure',
-      problem: 'Water Resistance',
-      price: 'Good Price',
-      satisfaction: '8/10',
+      dimensions: '4 x 3 x 8 in, 12 oz',
+      multifunctionaltips: '6',
+      capacity: '260 ml',
+      highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
+      problem: 'Water Resistance, Durability',
+      price: 'Great Price',
+      satisfaction: '9/10',
       view: 'View Price',
-      url: turewell600mlProductUrl
+      url: bitvaec2ProductUrl
     },
     {
       id: 2,
@@ -159,7 +156,7 @@ export const comparativeTableProps = {
       image: coslus300ml,
       alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
-      dimensions: '1.97h x 2.74w x 12.2d in, 15.52 oz',
+      dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
       multifunctionaltips: '5',
       capacity: '300ml',
       highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
@@ -175,10 +172,10 @@ export const comparativeTableProps = {
       image: waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
-      dimensions: '3.6h x 2.5w x 11.75 in, 11.68 oz',
+      dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
       multifunctionaltips: '2',
       capacity: '5oz reservoir for 30 seconds of flossing time',
-      highlight: 'Economical, Portable, Waterproof, Clinically Proven Plaque Removal, Customizable Cleaning.',
+      highlight: 'Economical, Portable, Waterproof, Customizable.',
       problem: 'Battery replacement, Limited water capacity.',
       price: 'Best buy',
       satisfaction: '9/10',
@@ -191,7 +188,7 @@ export const comparativeTableProps = {
       image: nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
-      dimensions: '8.03h x 4.02w x 2.73d in, 14 oz',
+      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
       multifunctionaltips: '5',
       capacity: '200 ml',
       highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
@@ -205,15 +202,15 @@ export const comparativeTableProps = {
 }
 
 export const titleListNicwellProps = {
-  id: 'why-opt-for-coslus-F5020E',
-  title: 'Why opt for the Coslus Model F5020E?',
+  id: 'why-opt-for-bitvae-c2',
+  title: 'Is Bitvae a good brand?',
   items: [
     {
       itemTitle: [
-        'The Bitvae C2',
+        'After thorough analysis',
       ],
       itemContent: [
-        "",
+        "of customer feedback, product reviews, and ratings, Bitvae stands out with an impressive average star rating of 4.3. Having sold thousands of oral irrigators on Amazon, Bitvae is synonymous with high-quality products and overwhelmingly positive user reviews.",
       ]
     }
   ]

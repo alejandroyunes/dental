@@ -11,12 +11,12 @@ const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v17005412
 const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
 const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
 const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
-const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700446979/Best/Turewell610ml/qavvjo3jasqtlujj7hnx.webp'
+const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700609760/Best/Turewell610ml/oootyoq5lyolf82fe1g7.webp'
 const turewell600mlProductUrl = 'https://a.co/d/2ARiGQP'
 
 
 export const headerProps = {
-  title: "Waterpik Water Flosser Model WF-02",
+  title: "Waterpik Water Flosser Model WF-02, 5oz",
   subtitle: "Cordless Express Portable Water Flosser",
   text: "Waterpik: Dentist Recommended, ADA Accepted, and Clinically Proven for Superior Oral Health.",
   image: headerBgImage,
@@ -54,15 +54,15 @@ export const tableOfContentItems = [
 
 export const titleProps = {
   id: 'the-best-of-waterpic-wf02',
-  title: 'The Best of Waterpik ModelWF-02 Professional Water Flosser',
+  title: 'The Best of Waterpik Model WF-02 Professional Water Flosser',
   message: "Waterpik's Cordless Express Water Flosser, featuring a battery-operated, portable, and waterproof design, is perfect for on-the-go oral care. With 2 pressure settings, a water on/off slider, 30 seconds of flossing time, and included AA batteries, it's easy to use anytime, anywhere, for healthier gums and brighter teeth."
 }
 
 export const waterpikwf02Props = {
   product: {
-    title: 'Waterpik Water Flosser',
+    title: 'Waterpik Water Flosser Model WF-02, 5oz',
     image: waterpikwf02,
-    alt: 'Waterpik Water Flosser ModelWF-02',
+    alt: 'Waterpik Water Flosser Model WF-02',
     productUrl: waterpikwf02ProductUrl,
     primeUrl: amazonPrime,
     description: "Clinically proven to remove up to 99.9% of plaque, the Cordless Express combines water pressure with pulsating action for an exceptional clean that traditional methods can't match."
@@ -127,9 +127,6 @@ export const proAndCons = {
       title: 'The 5-ounce reservoir may require refilling for extended flossing sessions.',
     },
     {
-      title: 'Relies on disposable batteries rather than a rechargeable system.',
-    },
-    {
       title: 'While customizable, the flosser provides only two pressure settings.',
     },
   ]
@@ -137,7 +134,7 @@ export const proAndCons = {
 
 export const comparativeTableProps = {
   id: 'how-does-the-waterpik-compares-to-other-irrigators',
-  title: 'Compare the Waterpik WF-02 Oral Irrigator with other irrigators',
+  title: 'Compare the Waterpik WF-02 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
@@ -147,10 +144,10 @@ export const comparativeTableProps = {
       image: waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
-      dimensions: '3.6h x 2.5w x 11.75 in, 11.68 oz',
+      dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
       multifunctionaltips: '2',
       capacity: '5oz reservoir for 30 seconds of flossing time',
-      highlight: 'Economical, Portable, Waterproof, Clinically Proven Plaque Removal, Customizable Cleaning.',
+      highlight: 'Economical, Portable, Customizable.',
       problem: 'Battery replacement, Limited water capacity.',
       price: 'Best buy',
       satisfaction: '9/10',
@@ -163,7 +160,7 @@ export const comparativeTableProps = {
       image: nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
-      dimensions: '8.03h x 4.02w x 2.73d in, 14 oz',
+      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
       multifunctionaltips: '5',
       capacity: '200 ml',
       highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
@@ -179,7 +176,7 @@ export const comparativeTableProps = {
       image: turewell600ml,
       alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
-      dimensions: '5.7h x 4.9w x 8.07d in, 1.7 lbs',
+      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
       multifunctionaltips: '8',
       capacity: '600 ml',
       highlight: '10 Adjustable Pressure',
@@ -195,7 +192,7 @@ export const comparativeTableProps = {
       image: coslus300ml,
       alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
-      dimensions: '1.97h x 2.74w x 12.2d in, 15.52 oz',
+      dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
       multifunctionaltips: '5',
       capacity: '300ml',
       highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
