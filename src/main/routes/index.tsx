@@ -8,7 +8,7 @@ import Privacy from "../../components/Legal/Privacy/Privacy.tsx"
 import Notice from "../../components/Legal/Notice/Notice.tsx"
 import { Cookie } from "@mui/icons-material";
 import Best from "../../pages/categories/best-irrigators/Best.tsx"
-import Turewell600ML from "../../pages/categories/best-irrigators/article/best-portable/Turewell600ML.tsx"
+import Turewell600ML from "../../pages/categories/best-irrigators/article/best-counter/Turewell600ML.tsx"
 import NicwellF5025 from "../../pages/categories/best-irrigators/article/best-portable/NicwellF5025.tsx"
 import Waterpikwf02 from "../../pages/categories/best-irrigators/article/best-portable/Waterpikwf02.tsx"
 import Colus300ml from "../../pages/categories/best-irrigators/article/best-portable/Colus300ml.tsx"

@@ -8,6 +8,7 @@ import Product from "../../../../../components/Product/Product"
 import TableOfContent from "../../../../../components/TableOfContent/TableOfContent"
 import Title from "../../../../../components/Title/Title"
 import TitleList from "../../../../../components/TitleList/TitleList"
+import { nicwellF5025GlobalData } from "../global-data/global-data"
 
 import {
   tableOfContentItems,
@@ -17,9 +18,7 @@ import {
   titleListProps,
   nicwellf5025Props,
   proAndCons,
-  productReview,
   titleListNicwellProps,
-  nicwellf5025ProductUrl
 } from "./data/nicwellf5025"
 
 export default function () {
@@ -46,7 +45,7 @@ export default function () {
       <Title titleH2={proAndCons.title} id={proAndCons.id} message={proAndCons.message} />
       <ProAndCon {...proAndCons} />
 
-      <SimpleButton blank text="View all Reviews" url={productReview} />
+      <SimpleButton blank text="View all Reviews" url={nicwellF5025GlobalData.productReview} />
 
 
 
@@ -55,7 +54,7 @@ export default function () {
 
       <TitleList {...titleListNicwellProps} id={titleListNicwellProps.id} />
 
-      <AmazonButton text="Buy in Amazon" url={nicwellf5025ProductUrl} blank />
+      <AmazonButton text="Buy in Amazon" url={nicwellF5025GlobalData.nicwellf5025ProductUrl} blank />
     </main>
   )
 }

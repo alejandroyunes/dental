@@ -8,6 +8,7 @@ import Product from "../../../../../components/Product/Product"
 import TableOfContent from "../../../../../components/TableOfContent/TableOfContent"
 import Title from "../../../../../components/Title/Title"
 import TitleList from "../../../../../components/TitleList/TitleList"
+import { coslus300mlGlobalData } from "../global-data/global-data"
 
 import {
   tableOfContentItems,
@@ -17,9 +18,7 @@ import {
   titleListProps,
   coslus300mlProps,
   proAndCons,
-  productReview,
   titleListNicwellProps,
-  coslus300mlProductUrl
 } from "./data/coslus300ml"
 
 export default function () {
@@ -46,14 +45,14 @@ export default function () {
       <Title titleH2={proAndCons.title} id={proAndCons.id} message={proAndCons.message} />
       <ProAndCon {...proAndCons} />
 
-      <SimpleButton blank text="View all Reviews" url={productReview} />
+      <SimpleButton blank text="View all Reviews" url={coslus300mlGlobalData.productReview} />
 
       <Title id={comparativeTableProps.id} titleH2={comparativeTableProps.title} message={comparativeTableProps.message} />
       <ComparativeTable items={comparativeTableProps.items} primeUrl={comparativeTableProps.primeUrl} />
 
       <TitleList {...titleListNicwellProps} id={titleListNicwellProps.id} />
 
-      <AmazonButton text="Buy in Amazon" url={coslus300mlProductUrl} blank />
+      <AmazonButton text="Buy in Amazon" url={coslus300mlGlobalData.coslus300mlProductUrl} blank />
     </main>
   )
 }

@@ -8,6 +8,7 @@ import Product from "../../../../../components/Product/Product"
 import TableOfContent from "../../../../../components/TableOfContent/TableOfContent"
 import Title from "../../../../../components/Title/Title"
 import TitleList from "../../../../../components/TitleList/TitleList"
+import { nicefeelFC1592bkGlobalData } from "../global-data/global-data"
 
 import {
   tableOfContentItems,
@@ -17,9 +18,7 @@ import {
   titleListProps,
   nicefeelFC1592bkProps,
   proAndCons,
-  productReview,
   titleListNicwellProps,
-  nicefeelFC1592bkProductUrl
 } from "./data/nicefeelFC1592-bk"
 
 export default function () {
@@ -47,7 +46,7 @@ export default function () {
       <Title titleH2={proAndCons.title} id={proAndCons.id} message={proAndCons.message} />
       <ProAndCon {...proAndCons} />
 
-      <SimpleButton blank text="View all Reviews" url={productReview} />
+      <SimpleButton blank text="View all Reviews" url={nicefeelFC1592bkGlobalData.productReview} />
 
 
 
@@ -56,7 +55,7 @@ export default function () {
 
       <TitleList {...titleListNicwellProps} id={titleListNicwellProps.id} />
 
-      <AmazonButton text="Buy in Amazon" url={nicefeelFC1592bkProductUrl} blank />
+      <AmazonButton text="Buy in Amazon" url={nicefeelFC1592bkGlobalData.nicefeelFC1592bkProductUrl} blank />
     </main>
   )
 }

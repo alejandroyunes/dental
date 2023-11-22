@@ -1,17 +1,6 @@
-import { waterpikwf02, waterpikwf02ProductUrl } from "./waterpikwf02"
+import { waterPikGlobalData, insmartFC256GlobalData, nicwellF5025GlobalData } from "../../global-data/global-data"
 
-const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/glzvwrkfzi8wp9llopbv.webp'
-const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/td5m6r5zdqqa1criayzq.webp'
-export const insmartFC256 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700628391/Best/Insmart-FC256/wepwdcnie4cnqdymep3c.webp'
-
-export const productReview = 'https://www.amazon.com/product-reviews/B0862BTDLK/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
-export const insmartFC256ProductUrl = 'https://a.co/d/bAXZgvb'
 export const insmartFC256Url = '/best/insmartFC256-water-flossing-oral-irrigator'
-const amazonPrime = 'https://www.amazon.com'
-
-//Extras
-const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
-const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
 
 const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
 const coslus300mlProductUrl = ''
@@ -21,9 +10,9 @@ export const headerProps = {
   title: "InSmart Professional Cordless Water Dental Flosser FC256, 300ml",
   subtitle: "Efficient Oral Care Anytime, Anywhere",
   text: "Dentists highly recommend and choose the global-brand InSmart Portable Water Dental Flosser because it goes beyond the limitations of daily brushing.",
-  image: headerBgImage,
-  mobileImage: headerBgMobileImage,
-  url: insmartFC256ProductUrl,
+  image: insmartFC256GlobalData.headerBgImage,
+  mobileImage: insmartFC256GlobalData.headerBgMobileImage,
+  url: insmartFC256GlobalData.insmartFC256ProductUrl,
   buttonText: "Buy Now",
   date: '11/22/2023',
   externalUrl: true
@@ -61,10 +50,10 @@ export const titleProps = {
 export const insmartFC256Props = {
   product: {
     title: 'InSmart Professional Cordless Water Dental Flosser FC256, 300ml',
-    image: insmartFC256,
+    image: insmartFC256GlobalData.insmartFC256,
     alt: 'InSmart Professional Cordless Water Dental Flosser, 300ml Product Image',
-    productUrl: insmartFC256ProductUrl,
-    primeUrl: amazonPrime,
+    productUrl: insmartFC256GlobalData.insmartFC256ProductUrl,
+    primeUrl: insmartFC256GlobalData.amazonPrime,
     description: "Catering to the oral care needs of your entire family. Give the gift of a healthier smile with the InSmart Professional Cordless Water Dental Flosser—perfect for home and on-the-go use."
   },
   list: [
@@ -131,12 +120,12 @@ export const comparativeTableProps = {
   id: 'how-does-the-insmartFC256-compares-to-other-irrigators',
   title: 'Compare the InSmart FC256 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: amazonPrime,
+  primeUrl: insmartFC256GlobalData.amazonPrime,
   items: [
     {
       id: 1,
       models: 'InSmart FC256',
-      image: insmartFC256,
+      image: insmartFC256GlobalData.insmartFC256,
       alt: 'InSmart FC256 Oral Irrigator Image',
       prime: true,
       dimensions: '8.27 x 3.15 x 1.97 in, 14 oz',
@@ -147,7 +136,7 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '8/10',
       view: 'View Price',
-      url: insmartFC256ProductUrl
+      url: insmartFC256GlobalData.insmartFC256ProductUrl
     },
     {
       id: 2,
@@ -168,7 +157,7 @@ export const comparativeTableProps = {
     {
       id: 3,
       models: 'Waterpik WF-02',
-      image: waterpikwf02,
+      image: waterPikGlobalData.waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
       dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
@@ -179,12 +168,12 @@ export const comparativeTableProps = {
       price: 'Best buy',
       satisfaction: '9/10',
       view: 'View Price',
-      url: waterpikwf02ProductUrl
+      url: waterPikGlobalData.waterpikwf02ProductUrl
     },
     {
       id: 4,
       models: 'Nicwell F5025',
-      image: nicwellf5025,
+      image: nicwellF5025GlobalData.nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
       dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
@@ -195,7 +184,7 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: nicwellf5025ProductUrl
+      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
     },
   ]
 }

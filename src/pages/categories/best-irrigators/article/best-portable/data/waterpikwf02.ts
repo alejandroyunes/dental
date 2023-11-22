@@ -1,16 +1,9 @@
-const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500932/Best/WaterPicWF02/tlioezzey3gnyhyz7uld.webp'
-const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500932/Best/WaterPicWF02/cyczyuuch0e4h3twemey.webp'
-
-export const waterpikwf02 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp'
-export const productReview = 'https://www.amazon.com/product-reviews/B07DQSC9B5/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
-
-export const waterpikwf02ProductUrl = 'https://a.co/d/8D4Qw9R'
-const amazonPrime = 'https://www.amazon.com'
+import { waterPikGlobalData } from '../../global-data/global-data'
+import { nicwellF5025GlobalData } from '../../global-data/global-data'
 
 const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
 const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
-const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
-const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
+
 
 const nicefeelFC1592bk = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700616746/Best/Nicefeel-FC1592-BK/rp9vi5urhelrbxwgjquw.webp'
 const nicefeelFC1592bkProductUrl = 'https://a.co/d/dpyAsbv'
@@ -20,9 +13,9 @@ export const headerProps = {
   title: "Waterpik Water Flosser Model WF-02, 5oz",
   subtitle: "Cordless Express Portable Water Flosser",
   text: "Waterpik: Dentist Recommended, ADA Accepted, and Clinically Proven for Superior Oral Health.",
-  image: headerBgImage,
-  mobileImage: headerBgMobileImage,
-  url: waterpikwf02ProductUrl,
+  image: waterPikGlobalData.headerBgImage,
+  mobileImage: waterPikGlobalData.headerBgMobileImage,
+  url: waterPikGlobalData.waterpikwf02ProductUrl,
   buttonText: "Buy Now",
   date: '11/21/2023',
   externalUrl: true
@@ -62,10 +55,10 @@ export const titleProps = {
 export const waterpikwf02Props = {
   product: {
     title: 'Waterpik Water Flosser Model WF-02, 5oz',
-    image: waterpikwf02,
+    image: waterPikGlobalData.waterpikwf02,
     alt: 'Waterpik Water Flosser Model WF-02',
-    productUrl: waterpikwf02ProductUrl,
-    primeUrl: amazonPrime,
+    productUrl: waterPikGlobalData.waterpikwf02ProductUrl,
+    primeUrl: waterPikGlobalData.amazonPrime,
     description: "Clinically proven to remove up to 99.9% of plaque, the Cordless Express combines water pressure with pulsating action for an exceptional clean that traditional methods can't match."
   },
   list: [
@@ -137,12 +130,12 @@ export const comparativeTableProps = {
   id: 'how-does-the-waterpik-compares-to-other-irrigators',
   title: 'Compare the Waterpik WF-02 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: amazonPrime,
+  primeUrl: waterPikGlobalData.amazonPrime,
   items: [
     {
       id: 1,
       models: 'Waterpik WF-02',
-      image: waterpikwf02,
+      image: waterPikGlobalData.waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
       dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
@@ -153,12 +146,12 @@ export const comparativeTableProps = {
       price: 'Best buy',
       satisfaction: '9/10',
       view: 'View Price',
-      url: waterpikwf02ProductUrl
+      url: waterPikGlobalData.waterpikwf02ProductUrl
     },
     {
       id: 2,
       models: 'Nicwell F5025',
-      image: nicwellf5025,
+      image: nicwellF5025GlobalData.nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
       dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
@@ -169,7 +162,7 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: nicwellf5025ProductUrl
+      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
     },
     {
       id: 3,

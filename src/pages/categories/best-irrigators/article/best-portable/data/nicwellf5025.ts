@@ -1,26 +1,19 @@
-const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/r8ukhc9rey1wembd26ui.webp'
-const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/rtxb5naorekpycb465eg.webp'
+import { waterPikGlobalData, nicefeelFC1592bkGlobalData, nicwellF5025GlobalData } from '../../global-data/global-data'
 
-export const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
-export const productReview = 'https://www.amazon.com/product-reviews/B08SM447BQ/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
-
-export const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
 const amazonPrime = 'https://www.amazon.com'
 
 const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
 const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
-const waterpikwf02 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp'
-const waterpikwf02ProductUrl = 'https://a.co/d/8D4Qw9R'
+
 const nicefeelFC1592bk = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700616746/Best/Nicefeel-FC1592-BK/rp9vi5urhelrbxwgjquw.webp'
-const nicefeelFC1592bkProductUrl = 'https://a.co/d/dpyAsbv'
 
 export const headerProps = {
   title: "Nicwell Professional Water Flosser F5025, 200ml",
   subtitle: "Smart Oral Irrigator",
   text: "Discover the Nicwell water dental flosser's unique technology.",
-  image: headerBgImage,
-  mobileImage: headerBgMobileImage,
-  url: nicwellf5025ProductUrl,
+  image: nicwellF5025GlobalData.headerBgImage,
+  mobileImage: nicwellF5025GlobalData.headerBgMobileImage,
+  url: nicwellF5025GlobalData.nicwellf5025ProductUrl,
   buttonText: "Buy Now",
   date: '11/20/2023',
   externalUrl: true
@@ -60,9 +53,9 @@ export const titleProps = {
 export const nicwellf5025Props = {
   product: {
     title: 'Nicwell Professional Water Flosser F5025, 200ml',
-    image: nicwellf5025,
+    image: nicwellF5025GlobalData.nicwellf5025,
     alt: 'Nicwell Professional Water Flosser F5025',
-    productUrl: nicwellf5025ProductUrl,
+    productUrl: nicwellF5025GlobalData.nicwellf5025ProductUrl,
     primeUrl: amazonPrime,
     description: 'Unleash the power of advanced pulsation technology, tailored flossing modes, and impeccable customer service. Portable, rechargeable, and designed for optimal oral health on the go.'
   },
@@ -136,7 +129,7 @@ export const comparativeTableProps = {
     {
       id: 1,
       models: 'Nicwell F5025',
-      image: nicwellf5025,
+      image: nicwellF5025GlobalData.nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
       dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
@@ -147,7 +140,7 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: nicwellf5025ProductUrl
+      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
     },
     {
       id: 2,
@@ -163,7 +156,7 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '8/10',
       view: 'View Price',
-      url: nicefeelFC1592bkProductUrl
+      url: nicefeelFC1592bkGlobalData.nicefeelFC1592bkProductUrl
     },
 
     {
@@ -185,7 +178,7 @@ export const comparativeTableProps = {
     {
       id: 4,
       models: 'Waterpik WF-02',
-      image: waterpikwf02,
+      image: waterPikGlobalData.waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
       dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
@@ -196,7 +189,7 @@ export const comparativeTableProps = {
       price: 'Best buy',
       satisfaction: '9/10',
       view: 'View Price',
-      url: waterpikwf02ProductUrl
+      url: waterPikGlobalData.waterpikwf02ProductUrl
     }
   ]
 }

@@ -15,7 +15,8 @@ import { irrigatorProps } from './data/irrigatorTypes/irrigatorData';
 import { questions } from './data/questionsAndAnswers/questions'
 import Title from '../../components/Title/Title'
 import { portableBest } from './data/portableBest/portableBest'
-import { counterBest } from './data/countertopBest/countertopBest'
+import { countertopBest } from './data/countertopBest/countertopBest'
+import { firstThreeColumnProduct } from './data/firstThreeColumnProduct/firstThreeColumnProduct'
 
 export default function HomePage() {
 
@@ -29,15 +30,16 @@ export default function HomePage() {
           <title>Enhance Your Dental Health with a Dental Irrigator for Complete Oral Hygiene</title>
         </Helmet>
       </HelmetProvider>
+
       <Billboard {...billboard.billboard} />
       <ThreeColumnCard {...portableBest} />
 
       <Title {...titleProps} />
       <ProAndConComponent {...proAndCons} />
 
-      <ThreeColumnCard {...counterBest} />
+      <ThreeColumnCard {...countertopBest} />
 
-      <ThreeColumnProduct {...counterBest} />
+      <ThreeColumnProduct {...firstThreeColumnProduct} />
 
       <TwoColumnInverted {...irrigatorProps} />
       <QuestionsAndAnswers {...questions} />

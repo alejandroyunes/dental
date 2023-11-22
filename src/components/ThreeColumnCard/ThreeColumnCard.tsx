@@ -14,7 +14,7 @@ type Props = {
   title: string
   subTitle: string
   moreInfo: string
-  columnsUrl: string
+  columnsUrl?: string
   items: itemProps[]
 }
 
@@ -34,7 +34,7 @@ export default function ThreeColumnCard(props: Props) {
           </Link>
         ))}
       </Column>
-      <Title url={{ url: columnsUrl, text: 'VIEW MORE' }} />
+      {columnsUrl && <Title url={{ url: columnsUrl, text: 'VIEW MORE' }} />}
 
     </Container>
   )

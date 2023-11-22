@@ -1,27 +1,12 @@
-import { waterpikwf02, waterpikwf02ProductUrl } from "./waterpikwf02"
-
-const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700561237/Best/Bitvae/rvj9obwhl33j8tvurf0o.webp'
-const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/cou9qve0gvhthybqligf.webp'
-
-export const bitvaec2 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/ditfkdygrm4qoohqzttw.webp'
-export const productReview = 'https://www.amazon.com/product-reviews/B09T8WK7Q8/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
-
-export const bitvaec2ProductUrl = 'https://a.co/d/iqvztz1'
-const amazonPrime = 'https://www.amazon.com'
-
-const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
-const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
-
-const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
-const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
+import { waterPikGlobalData, bitvaec2GlobalData, nicwellF5025GlobalData, coslus300mlGlobalData } from "../../global-data/global-data"
 
 export const headerProps = {
   title: "Bitvae C2 Professional Water Dental Flosser, 260ml",
   subtitle: "Cordless and Portable",
   text: "Achieve a brighter smile with advanced features and ergonomic design.",
-  image: headerBgImage,
-  mobileImage: headerBgMobileImage,
-  url: bitvaec2ProductUrl,
+  image: bitvaec2GlobalData.headerBgImage,
+  mobileImage: bitvaec2GlobalData.headerBgMobileImage,
+  url: bitvaec2GlobalData.bitvaec2ProductUrl,
   buttonText: "Buy Now",
   date: '11/21/2023',
   externalUrl: true
@@ -61,10 +46,10 @@ export const titleProps = {
 export const bitvaec2Props = {
   product: {
     title: 'Bitvae C2 Professional Water Dental Flosser, 260ml',
-    image: bitvaec2,
+    image: bitvaec2GlobalData.bitvaec2,
     alt: 'Bitvae C2 Product Image',
-    productUrl: bitvaec2ProductUrl,
-    primeUrl: amazonPrime,
+    productUrl: bitvaec2GlobalData.bitvaec2ProductUrl,
+    primeUrl: bitvaec2GlobalData.amazonPrime,
     description: "Experience advanced oral care with the Bitvae C2 Water Dental Flosser. Keep your mouth clean and healthy with cutting-edge features and portability."
   },
   list: [
@@ -132,12 +117,12 @@ export const comparativeTableProps = {
   id: 'how-does-the-bitvae-c2-compares-to-other-irrigators',
   title: 'Compare the Bitvae C2 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: amazonPrime,
+  primeUrl: bitvaec2GlobalData.amazonPrime,
   items: [
     {
       id: 1,
       models: 'Bitvae C2',
-      image: bitvaec2,
+      image: bitvaec2GlobalData.bitvaec2,
       alt: 'Bitvae C2 Oral Irrigator Image',
       prime: true,
       dimensions: '4 x 3 x 8 in, 12 oz',
@@ -148,12 +133,12 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: bitvaec2ProductUrl
+      url: bitvaec2GlobalData.bitvaec2ProductUrl
     },
     {
       id: 2,
       models: 'Coslus F5020E',
-      image: coslus300ml,
+      image: coslus300mlGlobalData.coslus300ml,
       alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
       dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
@@ -164,12 +149,12 @@ export const comparativeTableProps = {
       price: 'Excelent price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: coslus300mlProductUrl
+      url: coslus300mlGlobalData.coslus300mlProductUrl
     },
     {
       id: 3,
       models: 'Waterpik WF-02',
-      image: waterpikwf02,
+      image: waterPikGlobalData.waterpikwf02,
       alt: 'Waterpik Model WF-02',
       prime: true,
       dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
@@ -180,12 +165,12 @@ export const comparativeTableProps = {
       price: 'Best buy',
       satisfaction: '9/10',
       view: 'View Price',
-      url: waterpikwf02ProductUrl
+      url: waterPikGlobalData.waterpikwf02ProductUrl
     },
     {
       id: 4,
       models: 'Nicwell F5025',
-      image: nicwellf5025,
+      image: nicwellF5025GlobalData.nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
       dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
@@ -196,7 +181,7 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: nicwellf5025ProductUrl
+      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
     },
   ]
 }
