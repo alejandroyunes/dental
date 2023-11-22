@@ -68,13 +68,13 @@ export const nicefeelFC1592bkProps = {
     description: "State-of-the-art oral care device designed for optimal gum health and effective teeth cleaning."
   },
   list: [
-    "Versatile Cleaning Modes Normal, Soft, Pulse",
-    "Water Proof: IPX7 Dual Waterproof",
-    "Water Pressure: 30-120PSI",
-    "Powerful and Efficient Cleaning",
-    "Battery: 1400mAh Lithium Battery",
-    "Convenient and Portable Design",
-    "Durable and Long-lasting"
+    "Versatile Cleaning Modes Normal, Soft, Pulse.",
+    "Water Proof: IPX7 Dual Waterproof.",
+    "Water Pressure: 30-120PSI.",
+    "Powerful and Efficient Cleaning.",
+    "Battery: 1400mAh Lithium Battery.",
+    "Convenient and Portable Design.",
+    "Durable and Long-lasting."
   ]
 }
 
@@ -136,17 +136,17 @@ export const comparativeTableProps = {
   items: [
     {
       id: 1,
-      models: 'Bitvae C2',
+      models: 'Nicefeel FC1592-BK',
       image: nicefeelFC1592bk,
-      alt: 'Bitvae C2 Oral Irrigator Image',
+      alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
       prime: true,
-      dimensions: '4 x 3 x 8 in, 12 oz',
-      multifunctionaltips: '6',
-      capacity: '260 ml',
-      highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
-      problem: 'Water Resistance, Durability',
+      dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
+      multifunctionaltips: '4',
+      capacity: '300 ml',
+      highlight: 'Compact Design, Long Battery Life',
+      problem: 'Durability',
       price: 'Great Price',
-      satisfaction: '9/10',
+      satisfaction: '8/10',
       view: 'View Price',
       url: nicefeelFC1592bkProductUrl
     },
