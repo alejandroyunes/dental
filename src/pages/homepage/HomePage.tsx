@@ -9,11 +9,13 @@ import ThreeColumnProduct from '../../components/ThreeColumnProduct/ThreeColumnP
 
 //data
 import { billboard } from './data/billboard/billboard'
-import { firstThreeColumnCard } from './data/firstThreeColumnCard/firstThreeColumnCard'
-import { proAndCons } from './data/proAndCons/proAndCons'
+
+import { proAndCons, titleProps } from './data/proAndCons/proAndCons'
 import { irrigatorProps } from './data/irrigatorTypes/irrigatorData';
-import { firstThreeColumnProduct } from './data/firstThreeColumnProduct/firstThreeColumnProduct'
 import { questions } from './data/questionsAndAnswers/questions'
+import Title from '../../components/Title/Title'
+import { portableBest } from './data/portableBest/portableBest'
+import { counterBest } from './data/countertopBest/countertopBest'
 
 export default function HomePage() {
 
@@ -28,12 +30,20 @@ export default function HomePage() {
         </Helmet>
       </HelmetProvider>
       <Billboard {...billboard.billboard} />
-      <ThreeColumnCard {...firstThreeColumnCard} />
+      <ThreeColumnCard {...portableBest} />
+
+      <Title {...titleProps} />
       <ProAndConComponent {...proAndCons} />
+
+      <ThreeColumnCard {...counterBest} />
+
+      <ThreeColumnProduct {...counterBest} />
+
       <TwoColumnInverted {...irrigatorProps} />
       <QuestionsAndAnswers {...questions} />
-      <ThreeColumnCard {...firstThreeColumnCard} />
-      <ThreeColumnProduct {...firstThreeColumnProduct} />
+
+
+
     </main>
   )
 }

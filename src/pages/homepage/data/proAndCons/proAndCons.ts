@@ -13,16 +13,16 @@ export const proAndCons = {
   },
   itemspro: [
     {
-      title: 'Helps reduce tartar and prevent oral diseases.',
+      title: "Portability: Being compact and portable, it's easy to carry the oral irrigator with you, making it convenient for travel or use on the go.",
     },
     {
-      title: 'Ensures a thorough cleaning, improving the health of teeth and gums.',
+      title: 'Affordability: Affordable oral irrigators offer a cost-effective solution for individuals seeking improved oral hygiene without a significant financial investment.',
     },
     {
-      title: 'Can be especially useful for people with braces or implants, facilitating cleaning in hard-to-reach areas.',
+      title: 'Versatility: Many portable models come with multiple settings and nozzle options, providing versatility in addressing different oral care needs and preferences.',
     },
     {
-      title: 'Promotes circulation in the gums, strengthening them and helping to maintain their health.',
+      title: 'Ease of Use: Portable oral irrigators are generally designed for user-friendly operation, often featuring simple controls and easy setup.',
     },
     {
       title: 'Contributes to the prevention of dental stains, maintaining a more attractive dental aesthetic.',
@@ -30,13 +30,21 @@ export const proAndCons = {
   ],
   itemscons: [
     {
-      title: 'The more comprehensive models require a lot of space',
+      title: 'Reduced Capacity: Portable models may have smaller water reservoirs, requiring more frequent refilling compared to larger, stationary alternatives.',
     },
     {
-      title: ' For those with dental sensitivity, using it can be a bit uncomfortable.',
+      title: ' Power Limitations: Some affordable options may have less powerful motors, impacting the force of the water stream and potentially affecting the efficiency of plaque removal.',
     },
     {
-      title: 'Is easy to use, but it is necessary to learn how to use it correctly to avoid damaging the gums.',
+      title: 'Build Quality: Inexpensive models may use materials that are less durable, potentially leading to a shorter lifespan and increased susceptibility to damage.',
+    },
+    {
+      title: 'Limited Features: While effective for basic oral care, budget-friendly oral irrigators may lack advanced features available in higher-end models, such as additional cleaning modes or smart technology.',
     },
   ]
+}
+
+export const titleProps = {
+  title: 'Pros and Cons of Portable and Affordable Oral Irrigators',
+  message: "Explore the convenience of portable oral irrigators – a budget-friendly solution for enhanced oral hygiene wherever you go. Learn about the advantages and limitations, empowering you to make an informed choice for your dental care routine."
 }

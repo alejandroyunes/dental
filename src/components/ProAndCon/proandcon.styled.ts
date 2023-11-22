@@ -54,4 +54,5 @@ export const ProAndCon = styled.div`
 export const ProAndConButton = styled.div`
   display: flex;
   justify-content: center;
+  padding-bottom: 24px;
 `

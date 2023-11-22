@@ -1,4 +1,3 @@
-import { turewell600ml, turewell600mlProductUrl } from "./turewell610ml"
 import { waterpikwf02, waterpikwf02ProductUrl } from "./waterpikwf02"
 
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700542160/Best/Coslus300ml/mwwygzs3lr0wvnz6hbgf.webp'
@@ -12,6 +11,10 @@ const amazonPrime = 'https://www.amazon.com'
 
 const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
 const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
+
+export const bitvaec2 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/ditfkdygrm4qoohqzttw.webp'
+export const bitvaec2ProductUrl = 'https://a.co/d/iqvztz1'
+
 
 
 export const headerProps = {
@@ -187,19 +190,19 @@ export const comparativeTableProps = {
     },
     {
       id: 4,
-      models: 'Turewell FC165',
-      image: turewell600ml,
-      alt: 'Turewell FC165 Oral Irrigator',
+      models: 'Bitvae C2',
+      image: bitvaec2,
+      alt: 'Bitvae C2 Oral Irrigator Image',
       prime: true,
-      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
-      multifunctionaltips: '8',
-      capacity: '600 ml',
-      highlight: '10 Adjustable Pressure',
-      problem: 'Water Resistance',
-      price: 'Good Price',
-      satisfaction: '8/10',
+      dimensions: '4 x 3 x 8 in, 12 oz',
+      multifunctionaltips: '6',
+      capacity: '260 ml',
+      highlight: 'Effective Cleaning, Compact Design, Long Battery Life',
+      problem: 'Water Resistance, Durability',
+      price: 'Great Price',
+      satisfaction: '9/10',
       view: 'View Price',
-      url: turewell600mlProductUrl
+      url: bitvaec2ProductUrl
     },
   ]
 }

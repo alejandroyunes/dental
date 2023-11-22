@@ -5,7 +5,7 @@ import { nicefeelFC1592bk, nicefeelFC1592bkProps, nicefeelFC1592bkUrl } from '..
 import { nicwellF5025Url, nicwellf5025, nicwellf5025Props } from '../../../categories/best-irrigators/article/best-portable/data/nicwellf5025'
 import { waterpikwf02, waterpikwf02Props, waterpikwf02Url } from '../../../categories/best-irrigators/article/best-portable/data/waterpikwf02'
 
-export const firstThreeColumnCard = {
+export const portableBest = {
   title: "Smile Bright: Dive into Portable and Affordable Oral Irrigators",
   subTitle: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
   moreInfo: "Click on the following images to read the reviews of the top-rated Oral Dental Irrigators.",
