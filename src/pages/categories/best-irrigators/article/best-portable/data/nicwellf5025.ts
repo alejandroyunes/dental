@@ -1,11 +1,9 @@
-import { waterPikGlobalData, nicefeelFC1592bkGlobalData, nicwellF5025GlobalData } from '../../global-data/global-data'
-
-const amazonPrime = 'https://www.amazon.com'
-
-const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
-const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
-
-const nicefeelFC1592bk = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700616746/Best/Nicefeel-FC1592-BK/rp9vi5urhelrbxwgjquw.webp'
+import {
+  waterPikGlobalData,
+  nicefeelFC1592bkGlobalData,
+  nicwellF5025GlobalData,
+  coslus300mlGlobalData
+} from '../../global-data/global-data'
 
 export const headerProps = {
   title: "Nicwell Professional Water Flosser F5025, 200ml",
@@ -56,7 +54,7 @@ export const nicwellf5025Props = {
     image: nicwellF5025GlobalData.nicwellf5025,
     alt: 'Nicwell Professional Water Flosser F5025',
     productUrl: nicwellF5025GlobalData.nicwellf5025ProductUrl,
-    primeUrl: amazonPrime,
+    primeUrl: nicwellF5025GlobalData.amazonPrime,
     description: 'Unleash the power of advanced pulsation technology, tailored flossing modes, and impeccable customer service. Portable, rechargeable, and designed for optimal oral health on the go.'
   },
   list: [
@@ -124,7 +122,7 @@ export const comparativeTableProps = {
   id: 'how-does-the-nicwell-compares-to-other-irrigators',
   title: 'Compare the Nicwell F5025 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: amazonPrime,
+  primeUrl: nicwellF5025GlobalData.amazonPrime,
   items: [
     {
       id: 1,
@@ -145,7 +143,7 @@ export const comparativeTableProps = {
     {
       id: 2,
       models: 'Nicefeel FC1592-BK',
-      image: nicefeelFC1592bk,
+      image: nicefeelFC1592bkGlobalData.nicefeelFC1592bk,
       alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
       prime: true,
       dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
@@ -162,7 +160,7 @@ export const comparativeTableProps = {
     {
       id: 3,
       models: 'Coslus F5020E',
-      image: coslus300ml,
+      image: coslus300mlGlobalData.coslus300ml,
       alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
       dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
@@ -173,7 +171,7 @@ export const comparativeTableProps = {
       price: 'Excelent price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: coslus300mlProductUrl
+      url: coslus300mlGlobalData.coslus300mlProductUrl
     },
     {
       id: 4,

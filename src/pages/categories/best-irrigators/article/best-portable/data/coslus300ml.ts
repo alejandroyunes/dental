@@ -1,10 +1,9 @@
-import { waterPikGlobalData } from "../../global-data/global-data"
-import { nicwellF5025GlobalData } from "../../global-data/global-data"
-import { coslus300mlGlobalData } from "../../global-data/global-data"
-
-export const bitvaec2 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700560366/Best/Bitvae/ditfkdygrm4qoohqzttw.webp'
-export const bitvaec2ProductUrl = 'https://a.co/d/iqvztz1'
-
+import {
+  waterPikGlobalData,
+  bitvaec2GlobalData,
+  nicwellF5025GlobalData,
+  coslus300mlGlobalData
+} from "../../global-data/global-data"
 
 
 export const headerProps = {
@@ -181,7 +180,7 @@ export const comparativeTableProps = {
     {
       id: 4,
       models: 'Bitvae C2',
-      image: bitvaec2,
+      image: bitvaec2GlobalData.bitvaec2,
       alt: 'Bitvae C2 Oral Irrigator Image',
       prime: true,
       dimensions: '4 x 3 x 8 in, 12 oz',
@@ -192,7 +191,7 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: bitvaec2ProductUrl
+      url: bitvaec2GlobalData.bitvaec2ProductUrl
     },
   ]
 }

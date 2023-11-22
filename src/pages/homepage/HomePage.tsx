@@ -7,7 +7,6 @@ import TwoColumnInverted from '../../components/TwoColumnInverted/TwoColumnInver
 import QuestionsAndAnswers from '../../components/QuestionAndAnswers/QuestionsAndAnswers'
 import ThreeColumnProduct from '../../components/ThreeColumnProduct/ThreeColumnProduct'
 
-//data
 import { billboard } from './data/billboard/billboard'
 
 import { proAndCons, titleProps } from './data/proAndCons/proAndCons'
@@ -43,8 +42,6 @@ export default function HomePage() {
 
       <TwoColumnInverted {...irrigatorProps} />
       <QuestionsAndAnswers {...questions} />
-
-
 
     </main>
   )

@@ -1,10 +1,11 @@
-import { waterPikGlobalData, insmartFC256GlobalData, nicwellF5025GlobalData } from "../../global-data/global-data"
+import {
+  waterPikGlobalData,
+  insmartFC256GlobalData,
+  nicwellF5025GlobalData,
+  coslus300mlGlobalData
+} from "../../global-data/global-data"
 
 export const insmartFC256Url = '/best/insmartFC256-water-flossing-oral-irrigator'
-
-const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
-const coslus300mlProductUrl = ''
-//
 
 export const headerProps = {
   title: "InSmart Professional Cordless Water Dental Flosser FC256, 300ml",
@@ -141,7 +142,7 @@ export const comparativeTableProps = {
     {
       id: 2,
       models: 'Coslus F5020E',
-      image: coslus300ml,
+      image: coslus300mlGlobalData.coslus300ml,
       alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
       dimensions: '1.97 x 2.74 x 12.2 in, 15.52 oz',
@@ -152,7 +153,7 @@ export const comparativeTableProps = {
       price: 'Excelent price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: coslus300mlProductUrl
+      url: coslus300mlGlobalData.coslus300mlProductUrl
     },
     {
       id: 3,
