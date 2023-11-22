@@ -1,10 +1,9 @@
-const webDev = 'https://res.cloudinary.com/dcpdkock3/image/upload/v1698377831/blog/o8uhw4gqb4wdjj6nrnef.webp'
-
-import { bitvaec2, bitvaec2Props, bitvaec2Url } from '../../../categories/best-irrigators/article/data/bitvaeC2'
-import { coslus300ml, coslus300mlProps, coslus300mlUrl } from '../../../categories/best-irrigators/article/data/coslus300ml'
-import { nicwellF5025Url, nicwellf5025, nicwellf5025Props } from '../../../categories/best-irrigators/article/data/nicwellf5025'
-import { turewell600mlProps, turewell600ml, turewell600mlUrl } from '../../../categories/best-irrigators/article/data/turewell610ml'
-import { waterpikwf02, waterpikwf02Props, waterpikwf02Url } from '../../../categories/best-irrigators/article/data/waterpikwf02'
+import { bitvaec2, bitvaec2Props, bitvaec2Url } from '../../../categories/best-irrigators/article/best-portable/data/bitvaeC2'
+import { coslus300ml, coslus300mlProps, coslus300mlUrl } from '../../../categories/best-irrigators/article/best-portable/data/coslus300ml'
+import { nicefeelFC1592bk, nicefeelFC1592bkProps, nicefeelFC1592bkUrl } from '../../../categories/best-irrigators/article/best-portable/data/nicefeelFC1592-bk'
+import { nicwellF5025Url, nicwellf5025, nicwellf5025Props } from '../../../categories/best-irrigators/article/best-portable/data/nicwellf5025'
+import { turewell600mlProps, turewell600ml, turewell600mlUrl } from '../../../categories/best-irrigators/article/best-portable/data/turewell610ml'
+import { waterpikwf02, waterpikwf02Props, waterpikwf02Url } from '../../../categories/best-irrigators/article/best-portable/data/waterpikwf02'
 
 export const firstThreeColumnCard = {
   title: "Relying solely on brushing is not enough",
@@ -49,10 +48,10 @@ export const firstThreeColumnCard = {
     },
     {
       id: 1,
-      image: webDev,
-      alt: 'lorem ipsum, dolor sit amet consectetur.',
-      title: 'lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-      url: 'https://res.cloudinary.com/d',
-    }
+      image: nicefeelFC1592bk,
+      alt: nicefeelFC1592bkProps.product.alt,
+      title: nicefeelFC1592bkProps.product.title,
+      url: nicefeelFC1592bkUrl,
+    },
   ]
 }

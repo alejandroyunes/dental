@@ -106,7 +106,7 @@ export const titleListProps = {
 export const proAndCons = {
   id: 'pro-and-cons-F5020E',
   title: "Pros and Cons",
-  message: "Experience exceptional oral care with the Coslus FC165, offering efficient plaque removal, unmatched portability, and user-friendly design. While praised for its outstanding value, users note considerations for improvement, expressing a desire for more nozzle options and variations in size preferences.",
+  message: "While praised for its outstanding value, users note considerations for improvement, expressing a desire for more nozzle options and variations in size preferences. Either way, the Coslus FC165 offers efficient plaque removal, unmatched portability, and user-friendly design.",
   itemspro: [
     {
       title: 'Advanced water pulse technology and adjustable pressure levels.',

@@ -1,13 +1,13 @@
 import { HelmetProvider, Helmet } from "react-helmet-async"
-import Header from "../../../../components/Article/article-header/Header"
-import AmazonButton from "../../../../components/Button/AmazonButton/AmazonButton"
-import SimpleButton from "../../../../components/Button/SimpleButton/SimpleButton"
-import ComparativeTable from "../../../../components/CompartiveProducts/ComparativeTable"
-import ProAndCon from "../../../../components/ProAndCon/ProAndCon"
-import Product from "../../../../components/Product/Product"
-import TableOfContent from "../../../../components/TableOfContent/TableOfContent"
-import Title from "../../../../components/Title/Title"
-import TitleList from "../../../../components/TitleList/TitleList"
+import Header from "../../../../../components/Article/article-header/Header"
+import AmazonButton from "../../../../../components/Button/AmazonButton/AmazonButton"
+import SimpleButton from "../../../../../components/Button/SimpleButton/SimpleButton"
+import ComparativeTable from "../../../../../components/CompartiveProducts/ComparativeTable"
+import ProAndCon from "../../../../../components/ProAndCon/ProAndCon"
+import Product from "../../../../../components/Product/Product"
+import TableOfContent from "../../../../../components/TableOfContent/TableOfContent"
+import Title from "../../../../../components/Title/Title"
+import TitleList from "../../../../../components/TitleList/TitleList"
 
 import {
   tableOfContentItems,

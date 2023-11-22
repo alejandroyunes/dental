@@ -8,11 +8,12 @@ import Privacy from "../../components/Legal/Privacy/Privacy.tsx"
 import Notice from "../../components/Legal/Notice/Notice.tsx"
 import { Cookie } from "@mui/icons-material";
 import Best from "../../pages/categories/best-irrigators/Best.tsx"
-import Turewell600ML from "../../pages/categories/best-irrigators/article/Turewell600ML.tsx"
-import NicwellF5025 from "../../pages/categories/best-irrigators/article/NicwellF5025.tsx"
-import Waterpikwf02 from "../../pages/categories/best-irrigators/article/Waterpikwf02.tsx"
-import Colus300ml from "../../pages/categories/best-irrigators/article/Colus300ml.tsx"
-import BitvaeC2 from "../../pages/categories/best-irrigators/article/BitvaeC2.tsx"
+import Turewell600ML from "../../pages/categories/best-irrigators/article/best-portable/Turewell600ML.tsx"
+import NicwellF5025 from "../../pages/categories/best-irrigators/article/best-portable/NicwellF5025.tsx"
+import Waterpikwf02 from "../../pages/categories/best-irrigators/article/best-portable/Waterpikwf02.tsx"
+import Colus300ml from "../../pages/categories/best-irrigators/article/best-portable/Colus300ml.tsx"
+import BitvaeC2 from "../../pages/categories/best-irrigators/article/best-portable/BitvaeC2.tsx"
+import NicefeelFC1592BK from "../../pages/categories/best-irrigators/article/best-portable/NicefeelFC1592-BK.tsx"
 
 const routerConfig: RouteObject[] = [
   {
@@ -51,6 +52,11 @@ const routerConfig: RouteObject[] = [
       {
         path: '/best/bitvae-c2-water-flossing-oral-irrigator',
         element: <BitvaeC2 />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/best/nicefeelFC1592bk-water-flossing-oral-irrigator',
+        element: <NicefeelFC1592BK />,
         errorElement: <ErrorPage />
       },
       {

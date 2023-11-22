@@ -55,7 +55,7 @@ export const tableOfContentItems = [
 export const titleProps = {
   id: 'the-best-of-bitvae-c2',
   title: 'The Best of Bitvae C2',
-  message: "Discover cutting-edge oral care with the Bitvae C2 professional Water Dental Flosser with features such as, wireless portability, 300ml tank, 6 nozzles, 3 strengths, ergonomic design, removable water tank, special water pressure frequency. Popular Brand on Amazon."
+  message: "The Bitvae C2 Professional Water Dental Flosser is a leading choice for dental care, boasting a range of impressive features: Portable, 300ml tank, 6 nozzles, 3 pressure settings, ergonomic design, removable tank, special pressure frequency. A top-rated brand on Amazon."
 }
 
 export const bitvaec2Props = {
