@@ -7,7 +7,7 @@ import { waterpikwf02Props, waterpikwf02Url } from '../../../categories/best-irr
 import { bitvaec2GlobalData, coslus300mlGlobalData, insmartFC256GlobalData, nicefeelFC1592bkGlobalData, nicwellF5025GlobalData, waterPikGlobalData } from '../../../categories/best-irrigators/article/global-data/global-data'
 
 
-export const portableBest = {
+export const countertopBest = {
   title: "Smile Bright: Dive into Portable and Affordable Oral Irrigators",
   subTitle: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
   moreInfo: "Click on the following images to read the reviews of the top-rated Oral Dental Irrigators.",
