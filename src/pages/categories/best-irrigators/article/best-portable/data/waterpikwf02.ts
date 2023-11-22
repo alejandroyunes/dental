@@ -11,8 +11,9 @@ const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v17005412
 const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
 const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
 const nicwellf5025ProductUrl = 'https://a.co/d/9iu6CuK'
-const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700609760/Best/Turewell610ml/oootyoq5lyolf82fe1g7.webp'
-const turewell600mlProductUrl = 'https://a.co/d/2ARiGQP'
+
+const nicefeelFC1592bk = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700616746/Best/Nicefeel-FC1592-BK/rp9vi5urhelrbxwgjquw.webp'
+const nicefeelFC1592bkProductUrl = 'https://a.co/d/dpyAsbv'
 
 
 export const headerProps = {
@@ -31,11 +32,11 @@ export const waterpikwf02Url = '/best/waterpik-wf02-water-flossing-oral-irrigato
 
 export const tableOfContentItems = [
   {
-    content: '\u2022 The Best of Waterpik wf02',
+    content: '\u2022 The Best of Waterpik WF-02',
     id: `${waterpikwf02Url}#the-best-of-waterpic-wf02`
   },
   {
-    content: '\u2022 Why Choose Waterpik wf02',
+    content: '\u2022 Why Choose Waterpik WF-02?',
     id: `${waterpikwf02Url}#why-waterpic-wf02`
   },
   {
@@ -47,7 +48,7 @@ export const tableOfContentItems = [
     id: `${waterpikwf02Url}#how-does-the-waterpik-compares-to-other-irrigators`
   },
   {
-    content: '\u2022 Why opt for the Waterpic wf02',
+    content: '\u2022 Why opt for the Waterpic WF-02',
     id: `${waterpikwf02Url}#why-waterpik-5oz`
   },
 ]
@@ -172,19 +173,19 @@ export const comparativeTableProps = {
     },
     {
       id: 3,
-      models: 'Turewell FC165',
-      image: turewell600ml,
-      alt: 'Turewell FC165 Oral Irrigator',
+      models: 'Nicefeel FC1592-BK',
+      image: nicefeelFC1592bk,
+      alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
       prime: true,
-      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
-      multifunctionaltips: '8',
-      capacity: '600 ml',
-      highlight: '10 Adjustable Pressure',
-      problem: 'Water Resistance',
-      price: 'Good Price',
+      dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
+      multifunctionaltips: '4',
+      capacity: '300 ml',
+      highlight: 'Compact Design, Long Battery Life',
+      problem: 'Durability',
+      price: 'Great Price',
       satisfaction: '8/10',
       view: 'View Price',
-      url: turewell600mlProductUrl
+      url: nicefeelFC1592bkProductUrl
     },
     {
       id: 1,

@@ -35,7 +35,7 @@ export const tableOfContentItems = [
     id: `${bitvaec2Url}#the-best-of-bitvae-c2`
   },
   {
-    content: '\u2022 Why Choose Bitvae C2',
+    content: '\u2022 Why Choose Bitvae C2?',
     id: `${bitvaec2Url}#why-bitvae-c2`
   },
   {
@@ -47,7 +47,7 @@ export const tableOfContentItems = [
     id: `${bitvaec2Url}#how-does-the-bitvae-c2-compares-to-other-irrigators`
   },
   {
-    content: '\u2022 Why opt for the Bitvae C2',
+    content: '\u2022 Why opt for the Bitvae C2?',
     id: `${bitvaec2Url}#why-opt-for-bitvae-c2`
   },
 ]

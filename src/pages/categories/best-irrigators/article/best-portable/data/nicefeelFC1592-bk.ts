@@ -6,14 +6,14 @@ const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v
 export const nicefeelFC1592bk = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700616746/Best/Nicefeel-FC1592-BK/rp9vi5urhelrbxwgjquw.webp'
 export const productReview = 'https://www.amazon.com/product-reviews/B09BYVJJPP/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
 
-export const nicefeelFC1592bkProductUrl = ''
+export const nicefeelFC1592bkProductUrl = 'https://a.co/d/dpyAsbv'
 const amazonPrime = 'https://www.amazon.com'
 
 const nicwellf5025 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/ofjladptkdqgsbyeqcve.webp'
-const nicwellf5025ProductUrl = 'https://a.co/d/fGHOn00'
+const nicwellf5025ProductUrl = 'https://a.co/d/fNJ2sGh'
 
 const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
-const coslus300mlProductUrl = ''
+const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
 
 export const headerProps = {
   title: "Nicefeel Cordless Water Flosser FC1592BK, 300ml",
@@ -35,7 +35,7 @@ export const tableOfContentItems = [
     id: `${nicefeelFC1592bkUrl}#the-best-of-nicefeelFC1592bk`
   },
   {
-    content: '\u2022 Why Choose The Nicefeel FC1592BK',
+    content: '\u2022 Why Choose The Nicefeel FC1592BK?',
     id: `${nicefeelFC1592bkUrl}#why-nicefeelFC1592bk`
   },
   {
@@ -47,7 +47,7 @@ export const tableOfContentItems = [
     id: `${nicefeelFC1592bkUrl}#how-does-the-nicefeelFC1592bk-compares-to-other-irrigators`
   },
   {
-    content: '\u2022 Why opt for the Nicefeel FC1592BK',
+    content: '\u2022 Why opt for the Nicefeel FC1592BK?',
     id: `${nicefeelFC1592bkUrl}#why-opt-for-nicefeelFC1592bk`
   },
 ]
@@ -80,7 +80,7 @@ export const nicefeelFC1592bkProps = {
 
 export const titleListProps = {
   id: 'why-nicefeelFC1592bk',
-  title: 'Why Choose the Nicefeel FC1592BK',
+  title: 'Why Choose the Nicefeel FC1592BK?',
   items: [
     {
       itemTitle: [
@@ -203,7 +203,7 @@ export const comparativeTableProps = {
 
 export const titleListNicwellProps = {
   id: 'why-opt-for-nicefeelFC1592bk',
-  title: 'Why opt for the Nicefeel FC1592BK',
+  title: 'Why opt for the Nicefeel FC1592BK?',
   items: [
     {
       itemTitle: [

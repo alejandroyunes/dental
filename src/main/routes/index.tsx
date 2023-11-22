@@ -14,6 +14,7 @@ import Waterpikwf02 from "../../pages/categories/best-irrigators/article/best-po
 import Colus300ml from "../../pages/categories/best-irrigators/article/best-portable/Colus300ml.tsx"
 import BitvaeC2 from "../../pages/categories/best-irrigators/article/best-portable/BitvaeC2.tsx"
 import NicefeelFC1592BK from "../../pages/categories/best-irrigators/article/best-portable/NicefeelFC1592-BK.tsx"
+import InSmartFC256 from "../../pages/categories/best-irrigators/article/best-portable/InSmartFC256.tsx"
 
 const routerConfig: RouteObject[] = [
   {
@@ -30,8 +31,8 @@ const routerConfig: RouteObject[] = [
         errorElement: <ErrorPage />
       },
       {
-        path: '/best/turewell-FC165-water-flossing-oral-irrigator',
-        element: <Turewell600ML />,
+        path: '/best/waterpik-wf02-water-flossing-oral-irrigator',
+        element: <Waterpikwf02 />,
         errorElement: <ErrorPage />
       },
       {
@@ -40,8 +41,13 @@ const routerConfig: RouteObject[] = [
         errorElement: <ErrorPage />
       },
       {
-        path: '/best/waterpik-wf02-water-flossing-oral-irrigator',
-        element: <Waterpikwf02 />,
+        path: '/best/nicefeelFC1592bk-water-flossing-oral-irrigator',
+        element: <NicefeelFC1592BK />,
+        errorElement: <ErrorPage />
+      },
+      {
+        path: '/best/insmartFC256-water-flossing-oral-irrigator',
+        element: <InSmartFC256 />,
         errorElement: <ErrorPage />
       },
       {
@@ -54,9 +60,10 @@ const routerConfig: RouteObject[] = [
         element: <BitvaeC2 />,
         errorElement: <ErrorPage />
       },
+
       {
-        path: '/best/nicefeelFC1592bk-water-flossing-oral-irrigator',
-        element: <NicefeelFC1592BK />,
+        path: '/best/turewell-FC165-water-flossing-oral-irrigator',
+        element: <Turewell600ML />,
         errorElement: <ErrorPage />
       },
       {

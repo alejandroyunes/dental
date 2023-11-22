@@ -1,5 +1,3 @@
-import { turewell600ml, turewell600mlProductUrl } from "./turewell610ml"
-
 const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/r8ukhc9rey1wembd26ui.webp'
 const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700448959/Best/Nicwellf5025/rtxb5naorekpycb465eg.webp'
 
@@ -13,11 +11,11 @@ const coslus300mlProductUrl = 'https://a.co/d/hQhUiFO'
 const coslus300ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700541237/Best/Coslus300ml/bekj7waajyb9egnw08a8.webp'
 const waterpikwf02 = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700500931/Best/WaterPicWF02/hpp82kmw3yjoyjbira9h.webp'
 const waterpikwf02ProductUrl = 'https://a.co/d/8D4Qw9R'
-
-
+const nicefeelFC1592bk = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700616746/Best/Nicefeel-FC1592-BK/rp9vi5urhelrbxwgjquw.webp'
+const nicefeelFC1592bkProductUrl = 'https://a.co/d/dpyAsbv'
 
 export const headerProps = {
-  title: "Nicwell Professional Water Flosser, 200ml",
+  title: "Nicwell Professional Water Flosser F5025, 200ml",
   subtitle: "Smart Oral Irrigator",
   text: "Discover the Nicwell water dental flosser's unique technology.",
   image: headerBgImage,
@@ -32,11 +30,11 @@ export const nicwellF5025Url = '/best/nicwell-f5025-water-flossing-oral-irrigato
 
 export const tableOfContentItems = [
   {
-    content: '\u2022 The Best of Nicwell',
+    content: '\u2022 The Best of Nicwell F5025',
     id: `${nicwellF5025Url}#the-best-of-nicwell-f5025`
   },
   {
-    content: '\u2022 Why Choose Nicwell',
+    content: '\u2022 Why Choose Nicwell F5025?',
     id: `${nicwellF5025Url}#why-nicwell-f5025`
   },
   {
@@ -48,7 +46,7 @@ export const tableOfContentItems = [
     id: `${nicwellF5025Url}#how-does-the-nicwell-compares-to-other-irrigators`
   },
   {
-    content: '\u2022 Why opt for the Nicwell f5025',
+    content: '\u2022 Why opt for the Nicwell F5025?',
     id: `${nicwellF5025Url}#why-nicwell-200ml`
   },
 ]
@@ -61,9 +59,9 @@ export const titleProps = {
 
 export const nicwellf5025Props = {
   product: {
-    title: 'Nicwell Professional Water Flosser f5025, 200ml',
+    title: 'Nicwell Professional Water Flosser F5025, 200ml',
     image: nicwellf5025,
-    alt: 'Nicwell Professional Water Flosser f5025',
+    alt: 'Nicwell Professional Water Flosser F5025',
     productUrl: nicwellf5025ProductUrl,
     primeUrl: amazonPrime,
     description: 'Unleash the power of advanced pulsation technology, tailored flossing modes, and impeccable customer service. Portable, rechargeable, and designed for optimal oral health on the go.'
@@ -81,7 +79,7 @@ export const nicwellf5025Props = {
 
 export const titleListProps = {
   id: 'why-nicwell-f5025',
-  titleH2: 'Why Choose Nicwell?',
+  titleH2: 'Why Choose Nicwell F5025?',
   items: [
     {
       itemTitle: [
@@ -131,13 +129,13 @@ export const proAndCons = {
 
 export const comparativeTableProps = {
   id: 'how-does-the-nicwell-compares-to-other-irrigators',
-  title: 'Compare the Nicwell f5025 with other irrigators',
+  title: 'Compare the Nicwell F5025 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
   primeUrl: amazonPrime,
   items: [
     {
       id: 1,
-      models: 'Nicwell f5025',
+      models: 'Nicwell F5025',
       image: nicwellf5025,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
@@ -153,20 +151,21 @@ export const comparativeTableProps = {
     },
     {
       id: 2,
-      models: 'Turewell FC165',
-      image: turewell600ml,
-      alt: 'Turewell FC165 Oral Irrigator',
+      models: 'Nicefeel FC1592-BK',
+      image: nicefeelFC1592bk,
+      alt: 'Nicefeel FC1592-BK Oral Irrigator Image',
       prime: true,
-      dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
-      multifunctionaltips: '8',
-      capacity: '600 ml',
-      highlight: '10 Adjustable Pressure',
-      problem: 'Water Resistance',
-      price: 'Good Price',
+      dimensions: '0.3 x 0.31 x 0.87 in, 13 oz',
+      multifunctionaltips: '4',
+      capacity: '300 ml',
+      highlight: 'Compact Design, Long Battery Life',
+      problem: 'Durability',
+      price: 'Great Price',
       satisfaction: '8/10',
       view: 'View Price',
-      url: turewell600mlProductUrl
+      url: nicefeelFC1592bkProductUrl
     },
+
     {
       id: 3,
       models: 'Coslus F5020E',
@@ -204,7 +203,7 @@ export const comparativeTableProps = {
 
 export const titleListNicwellProps = {
   id: 'why-nicwell-200ml',
-  titleH2: 'Why opt for the Nicwell f5025?',
+  titleH2: 'Why opt for the Nicwell F5025?',
   items: [
     {
       itemTitle: [
