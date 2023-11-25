@@ -17,6 +17,7 @@ import BitvaeC2 from "../../pages/categories/best-irrigators/article/best-portab
 import NicefeelFC1592BK from "../../pages/categories/best-irrigators/article/best-portable/NicefeelFC1592-BK.tsx"
 import InSmartFC256 from "../../pages/categories/best-irrigators/article/best-portable/InSmartFC256.tsx"
 import H2oFlossHF9 from "../../pages/categories/best-irrigators/article/best-counter/H2oFlossHF9.tsx"
+import SawgmoreB09 from "../../pages/categories/best-irrigators/article/best-counter/SawgmoreB09.tsx"
 
 const bestPortableConfig = [
   {
@@ -60,6 +61,11 @@ const bestCountertopConfig = [
   {
     path: '/best-countertop/h2ofloss-hf9-water-flossing-oral-irrigator',
     element: <H2oFlossHF9 />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '/best-countertop/sawgmore-B09-water-flossing-oral-irrigator',
+    element: <SawgmoreB09 />,
     errorElement: <ErrorPage />
   }
 ]

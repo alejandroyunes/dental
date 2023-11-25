@@ -1,18 +1,18 @@
-import { h2oflossHF9GlobalData, turewell600mlGlobalData } from '../../../categories/best-irrigators/article/global-data/best-countertop/best-countertop'
+import { h2oflossHF9GlobalData, sawgmoreB09GlobalData, turewell600mlGlobalData } from '../../../categories/best-irrigators/article/global-data/best-countertop/best-countertop'
 import { turewell600mlProps, turewell600mlUrl } from '../../../categories/best-irrigators/article/best-counter/data/turewell610ml'
 
 
 import { bitvaec2Props, bitvaec2Url } from '../../../categories/best-irrigators/article/best-portable/data/bitvaeC2'
 import { coslus300mlProps, coslus300mlUrl } from '../../../categories/best-irrigators/article/best-portable/data/coslus300ml'
-import { insmartFC256Url, insmartFC256Props } from '../../../categories/best-irrigators/article/best-portable/data/insmartfc256'
-import { nicefeelFC1592bkProps, nicefeelFC1592bkUrl } from '../../../categories/best-irrigators/article/best-portable/data/nicefeelFC1592-bk'
-import { bitvaec2GlobalData, coslus300mlGlobalData, insmartFC256GlobalData, nicefeelFC1592bkGlobalData, nicwellF5025GlobalData } from '../../../categories/best-irrigators/article/global-data/best-portable/best-portable'
+import { insmartFC256Props } from '../../../categories/best-irrigators/article/best-portable/data/insmartfc256'
+import { bitvaec2GlobalData, coslus300mlGlobalData, insmartFC256GlobalData, } from '../../../categories/best-irrigators/article/global-data/best-portable/best-portable'
 import { h2oflossHF9Props, h2oflossHF9Url } from '../../../categories/best-irrigators/article/best-counter/data/h2ofloss-HF9'
+import { sawgmoreB09Props, sawgmoreB09Url } from '../../../categories/best-irrigators/article/best-counter/data/sawgmore-b09'
 
 
 export const countertopBest = {
   title: "Top Budget-friendly countertop oral irrigators",
-  subTitle: "These are the beset budget-friendly models available in the market, and also one of the best-selling products on Amazon.",
+  subTitle: "These are the best budget-friendly countertop models available in the market, and also one of the best-selling products.",
   moreInfo: "Click on the following images to read our review of the top budget-friendly countertop oral irrigators.",
   columnsUrl: '',
   items: [
@@ -32,17 +32,17 @@ export const countertopBest = {
     },
     {
       id: 4,
-      image: nicefeelFC1592bkGlobalData.nicefeelFC1592bk,
-      alt: nicefeelFC1592bkProps.product.alt,
-      title: nicefeelFC1592bkProps.product.title,
-      url: nicefeelFC1592bkUrl,
+      image: sawgmoreB09GlobalData.sawgmoreB09,
+      alt: sawgmoreB09Props.product.alt,
+      title: sawgmoreB09Props.product.title,
+      url: sawgmoreB09Url,
     },
     {
       id: 3,
       image: insmartFC256GlobalData.insmartFC256,
       alt: insmartFC256Props.product.alt,
       title: insmartFC256Props.product.title,
-      url: insmartFC256Url,
+      url: sawgmoreB09Url,
     },
     {
       id: 2,
