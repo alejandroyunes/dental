@@ -58,10 +58,10 @@ export const insmartFC256Props = {
     description: "Catering to the oral care needs of your entire family. Give the gift of a healthier smile with the InSmart Professional Cordless Water Dental Flosser—perfect for home and on-the-go use."
   },
   list: [
-    "Water Dental Flosser(Cordless and Portable for home and travel use).",
-    "Charging Cable (Be charged with all USB port).",
-    "Nozzle Tips(Satisfy whole family).",
-    "Travel Carrying bag(Convenient to carry when go out).",
+    "Cordless and Portable for home and travel use.",
+    "Charging with all USB port.",
+    "Nozzle Tips for the whole family.",
+    "Convenient travel carrying bag.",
   ]
 }
 
@@ -105,9 +105,6 @@ export const proAndCons = {
     },
   ],
   itemscons: [
-    {
-      title: 'Some customers express dissatisfaction with the durability of the oral irrigator.',
-    },
     {
       title: 'Reports of breakage after a few months of use, including issues with the device not holding a charge.',
     },

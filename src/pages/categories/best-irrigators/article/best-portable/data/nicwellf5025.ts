@@ -55,7 +55,7 @@ export const nicwellf5025Props = {
     alt: 'Nicwell Professional Water Flosser F5025',
     productUrl: nicwellF5025GlobalData.nicwellf5025ProductUrl,
     primeUrl: nicwellF5025GlobalData.amazonPrime,
-    description: 'Unleash the power of advanced pulsation technology, tailored flossing modes, and impeccable customer service. Portable, rechargeable, and designed for optimal oral health on the go.'
+    description: 'Portable, rechargeable, and designed for optimal oral health on the go.'
   },
   list: [
     "4 Flossing Modes: Choose from Clean, Soft, Massage, and Customized modes to cater to various teeth and gum conditions.",

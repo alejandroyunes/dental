@@ -45,7 +45,7 @@ export const tableOfContentItems = [
 export const titleProps = {
   id: 'the-best-of-bitvae-c2',
   title: 'The Best of Bitvae C2',
-  message: "The Bitvae C2 Professional Water Dental Flosser is a leading choice for dental care, boasting a range of impressive features: Portable, 300ml tank, 6 nozzles, 3 pressure settings, ergonomic design, removable tank, special pressure frequency. A top-rated brand on Amazon."
+  message: "The Bitvae C2 Professional Water Dental Flosser is a leading choice for dental care, boasting a range of impressive features: Portable, 300ml tank, 6 nozzles, 3 pressure settings, ergonomic design, removable tank, special pressure frequency."
 }
 
 export const bitvaec2Props = {
@@ -73,16 +73,16 @@ export const titleListProps = {
       itemTitle: [
         'At Home,',
         "For blind",
-        "Bitvae 260ML",
+        "Bitvae",
         "6pcs",
         "The leading brand",
         "Get a complete",
       ],
       itemContent: [
-        'In The Office, or On the Go.',
+        'In the office, or on the go.',
         'spots and hard-to-clean areas.',
-        'wide mouth Reservoir is easy to clean.',
-        'of Replaceable Nozzles.',
+        'wide reservoir is easy to clean.',
+        'of replaceable nozzles.',
         'in cordless oral irrigator battery life, up to 40 days of working time.',
         'clean in 60 seconds with one refill.',
       ]
@@ -96,24 +96,24 @@ export const proAndCons = {
   message: "Explore the advantages and considerations of the Bitvae C2 Water Dental Flosser.",
   itemspro: [
     {
-      title: 'Effective Cleaning: Customers praise its ability to remove debris and provide a thorough clean.',
+      title: 'Customers praise its ability to remove debris and provide a thorough clean.',
     },
     {
-      title: 'Compact Design: Portable and lightweight, making it suitable for travel and small spaces.',
+      title: 'Portable and lightweight, making it suitable for travel and small spaces.',
     },
     {
-      title: 'Versatile Performance: Multiple speeds, nozzle options, and a 60-second flossing time for a tailored experience.',
+      title: 'Multiple speeds, nozzle options, and a 60-second flossing time for a tailored experience.',
     },
     {
-      title: 'Long Battery Life: Positive feedback on battery durability, lasting up to 40 days in the lowest pressure mode.',
+      title: 'Positive feedback on battery durability, lasting up to 40 days in the lowest pressure mode.',
     },
   ],
   itemscons: [
     {
-      title: 'Durability Concerns: Mixed opinions on product durability, with reports of breakages and head detachment.',
+      title: 'Mixed opinions on product durability, with reports of breakages and head detachment.',
     },
     {
-      title: 'Water Resistance Issues: Some customers mention water leakage and challenges in drying the water reservoir.',
+      title: 'Some customers mention water leakage and challenges in drying the water reservoir.',
     },
   ]
 }

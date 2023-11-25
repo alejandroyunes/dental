@@ -7,7 +7,7 @@ import {
 
 
 export const headerProps = {
-  title: "Coslus Water Dental Flosser Teeth Pick: Portable Cordless, 300ml",
+  title: "Coslus Water Dental Flosser F5020E, 300ml",
   subtitle: "Portable Cordless Oral Irrigator 300ml",
   text: "Deep clean every oral corner precisely! Keep healthier gums and brighter teeth.",
   image: coslus300mlGlobalData.headerBgImage,
@@ -46,17 +46,17 @@ export const tableOfContentItems = [
 export const titleProps = {
   id: 'the-best-of-coslus-F5020E',
   title: 'The Best of Coslus FC165',
-  message: "Discover the excellence of oral care with the Coslus FC165 water dental flosser. Engineered with advanced technology and designed for convenience, this oral irrigator is a game-changer in your dental hygiene routine. From its ultra-fine dual-thread water pulse technology to the upgraded 300ml water tank, the Coslus FC165 offers a superior and efficient teeth cleaning experience. Enjoy the benefits of improved gum health, fresh breath, and a confident smile. With a rechargeable battery, portability for travel, and a variety of user-friendly features, the Coslus FC165 stands out as the best choice for your oral care needs."
+  message: "With its ultra-fine dual-thread water pulse technology to the upgraded 300ml water tank, the Coslus FC165 offers a superior and efficient teeth cleaning experience. Enjoy the benefits of improved gum health, fresh breath, and a confident smile. With a rechargeable battery, portability for travel, and a variety of user-friendly features, the Coslus FC165 stands out as the best choice for your oral care needs."
 }
 
 export const coslus300mlProps = {
   product: {
-    title: 'Coslus Water Dental Flosser Teeth Pick: Portable Cordless, 300ml',
+    title: 'Coslus Water Dental Flosser Teeth Pick, F5020E 300ml',
     image: coslus300mlGlobalData.coslus300ml,
     alt: 'Coslus Water Dental Flosser Teeth Pick',
     productUrl: coslus300mlGlobalData.coslus300mlProductUrl,
     primeUrl: coslus300mlGlobalData.amazonPrime,
-    description: "The Coslus F5020E water dental flosser is a portable and cordless oral irrigator designed for efficient teeth cleaning."
+    description: "Discover the excellence of oral care with the Coslus FC165 water dental flosser. Designed for efficient teeth cleaning."
   },
   list: [
     "Ultra-fine dual-thread water pulse technology, professionally endorsed by an American dental team.",

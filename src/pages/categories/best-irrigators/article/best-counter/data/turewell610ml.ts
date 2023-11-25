@@ -40,7 +40,7 @@ export const tableOfContentItems = [
 export const titleProps = {
   id: 'the-best-of-turewell',
   title: 'The Best of the Turewell FC165 Water Flosser',
-  message: 'Turewell introduced an exceptionally budget-friendly model equipped with 360° rotating nozzles and 1700 times/min water pulsation, effectively eliminating 99.99% of debris, thus preventing tooth decay. This feature-rich oral irrigator includes 8 nozzles, 10 pressure settings, a 600ml tank, and an anti-leak design, ensuring efficient and family-friendly oral care. Responsive customer service is also guaranteed.'
+  message: 'Turewell introduced an exceptionally budget-friendly model equipped with 360° rotating nozzles and 1700 times/min water pulsation, effectively eliminating 99.99% of debris, thus preventing tooth decay.'
 }
 
 
@@ -54,7 +54,7 @@ export const turewell600mlProps = {
     description: 'Turewell offers superior oral care, reaching areas traditional methods miss. Unlike toothbrushes, it cleans hidden gaps, ensuring a thorough and healthier dental routine.'
   },
   list: [
-    "Reaches hidden areas, preventing tooth decay, dental calculus, bleeding, and hypersensitivity.",
+    "Prevents tooth decay, dental calculus, bleeding, and hypersensitivity.",
     "Ideal for braces and kids.",
     "600ml larger water tank, easy to clean and removable.",
     "3 high-pressure tips and 5 specialized tips for various needs.",
@@ -143,19 +143,19 @@ export const comparativeTableProps = {
     },
     {
       id: 2,
-      models: 'Nicwell f5025',
+      models: 'H2ofloss HF-9',
       image: h2oflossHF9GlobalData.h2oflossHF9,
-      alt: 'Nicwell 200ml Oral Irrigator',
+      alt: 'H2ofloss HF-9 Oral Irrigator',
       prime: true,
-      dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
-      multifunctionaltips: '5',
-      capacity: '200 ml',
-      highlight: 'Cleaning Orthodontic Gums, Prevent Bad Breath',
-      problem: 'Charging',
-      price: 'Great Price',
+      dimensions: '8.39 x 2.56 x 4 in, 3.95 lbs',
+      multifunctionaltips: '12',
+      capacity: '800 ml',
+      highlight: 'User-Friendly Design, Versatility and Cleaning Power',
+      problem: 'Leaking Problems, Noise Levels',
+      price: 'Good Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: h2oflossHF9GlobalData.h2oflossHF9
+      url: h2oflossHF9GlobalData.h2oflossHF9ProductUrl
     },
     {
       id: 3,
