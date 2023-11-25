@@ -1,4 +1,4 @@
-import { h2oflossHF9GlobalData, sawgmoreB09GlobalData, turewell600mlGlobalData } from "../../global-data/best-countertop/best-countertop"
+import { h2oflossHF9GlobalData, sawgmoreB09GlobalData, turewell600mlGlobalData, zerhuntFC169GlobalData } from "../../global-data/best-countertop/best-countertop"
 
 export const headerProps = {
   title: "Sawgmore Water Flosser Oral Irrigator B09, 600ml",
@@ -164,6 +164,22 @@ export const comparativeTableProps = {
       satisfaction: '9/10',
       view: 'View Price',
       url: h2oflossHF9GlobalData.h2oflossHF9ProductUrl
+    },
+    {
+      id: 4,
+      models: 'Zerhunt FC169',
+      image: zerhuntFC169GlobalData.zerhuntFC169,
+      alt: 'Zerhunt FC169 Oral Irrigator',
+      prime: true,
+      dimensions: '5 x 5.5 x 7.9 in, 1.72 lbs',
+      multifunctionaltips: '4',
+      capacity: '600 ml',
+      highlight: 'Multiple Pressure Settings, Multiple Tips',
+      problem: 'Leaking Problems',
+      price: 'Good Price',
+      satisfaction: '8/10',
+      view: 'View Price',
+      url: zerhuntFC169GlobalData.zerhuntFC169ProductUrl
     },
   ]
 }

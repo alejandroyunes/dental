@@ -1,4 +1,4 @@
-import { h2oflossHF9GlobalData, turewell600mlGlobalData } from "../../global-data/best-countertop/best-countertop"
+import { h2oflossHF9GlobalData, sawgmoreB09GlobalData, turewell600mlGlobalData, zerhuntFC169GlobalData } from "../../global-data/best-countertop/best-countertop"
 
 export const headerProps = {
   title: "H2ofloss Dental Water Flosser, HF-9, 800ml",
@@ -162,35 +162,35 @@ export const comparativeTableProps = {
     },
     {
       id: 3,
-      models: 'Waterpik WF-02',
-      image: h2oflossHF9GlobalData.h2oflossHF9,
-      alt: 'Waterpik Model WF-02',
+      models: 'Sawgmore B09',
+      image: sawgmoreB09GlobalData.sawgmoreB09,
+      alt: 'Sawgmore B09 Oral Irrigator',
       prime: true,
-      dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
-      multifunctionaltips: '2',
-      capacity: '5oz reservoir for 30 seconds of flossing time',
-      highlight: 'Economical, Portable, Waterproof, Customizable.',
-      problem: 'Battery replacement, Limited water capacity.',
-      price: 'Best buy',
-      satisfaction: '9/10',
+      dimensions: '7.09 x 5.31 x 8.27 in, 2.2 lbs',
+      multifunctionaltips: '8',
+      capacity: '600 ml',
+      highlight: '8 Nozzles, Value, Ease of use',
+      problem: 'Noisy',
+      price: 'Good Price',
+      satisfaction: '8/10',
       view: 'View Price',
-      url: h2oflossHF9GlobalData.h2oflossHF9
+      url: sawgmoreB09GlobalData.sawgmoreB09ProductUrl
     },
     {
       id: 4,
-      models: 'Coslus F5020E',
-      image: h2oflossHF9GlobalData.h2oflossHF9,
-      alt: 'Coslus F5020E Oral Irrigator',
+      models: 'Zerhunt FC169',
+      image: zerhuntFC169GlobalData.zerhuntFC169,
+      alt: 'Zerhunt FC169 Oral Irrigator',
       prime: true,
-      dimensions: '1.97h x 2.74w x 12.2d in, 15.52 oz',
-      multifunctionaltips: '5',
-      capacity: '300ml',
-      highlight: 'Dual-thread stream, Child mode, IPX7 waterproof',
-      problem: 'Limited water capacity',
-      price: 'Excelent price',
-      satisfaction: '9/10',
+      dimensions: '5 x 5.5 x 7.9 in, 1.72 lbs',
+      multifunctionaltips: '4',
+      capacity: '600 ml',
+      highlight: 'Multiple Pressure Settings, Multiple Tips',
+      problem: 'Leaking Problems',
+      price: 'Good Price',
+      satisfaction: '8/10',
       view: 'View Price',
-      url: h2oflossHF9GlobalData.h2oflossHF9ProductUrl
+      url: zerhuntFC169GlobalData.zerhuntFC169ProductUrl
     }
   ]
 }
