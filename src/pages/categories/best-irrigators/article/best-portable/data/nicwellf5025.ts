@@ -3,7 +3,7 @@ import {
   nicefeelFC1592bkGlobalData,
   nicwellF5025GlobalData,
   coslus300mlGlobalData
-} from '../../global-data/global-data'
+} from '../../global-data/best-portable/best-portable'
 
 export const headerProps = {
   title: "Nicwell Professional Water Flosser F5025, 200ml",
@@ -17,7 +17,7 @@ export const headerProps = {
   externalUrl: true
 }
 
-export const nicwellF5025Url = '/best/nicwell-f5025-water-flossing-oral-irrigator'
+export const nicwellF5025Url = '/best-portable/nicwell-f5025-water-flossing-oral-irrigator'
 
 export const tableOfContentItems = [
   {
@@ -44,7 +44,7 @@ export const tableOfContentItems = [
 
 export const titleProps = {
   id: 'the-best-of-nicwell-f5025',
-  title: 'The Best of Nicwell Professional Water Flosser',
+  title: 'The Best of Nicwell F5025 Professional Water Flosser',
   message: "Nicwell Water Dental Flosser redefines oral care with its upgraded pulsation technique, delivering a high-pressure water pulse for deep cleaning, gum massage, and improved blood circulation. It effectively addresses issues like bleeding gums, bad breath, and is beneficial for orthodontic brace and bridge care."
 }
 
@@ -89,7 +89,7 @@ export const titleListProps = {
 
 export const proAndCons = {
   id: 'pro-and-cons-f5025',
-  title: "Pros and Cons",
+  title: "Pros and Cons of Nicwell F5025",
   message: "In summary, while the oral irrigator has notable positive aspects such as value, cleanliness, ease of use, and overall performance, there are significant concerns regarding quality, water resistance, battery life, and the charging feature. Users' experiences with these aspects vary, making it important for potential buyers to consider these factors based on their personal preferences and needs.",
   itemspro: [
     {

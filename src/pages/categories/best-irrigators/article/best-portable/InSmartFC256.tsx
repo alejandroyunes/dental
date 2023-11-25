@@ -8,7 +8,7 @@ import Product from "../../../../../components/Product/Product"
 import TableOfContent from "../../../../../components/TableOfContent/TableOfContent"
 import Title from "../../../../../components/Title/Title"
 import TitleList from "../../../../../components/TitleList/TitleList"
-import { insmartFC256GlobalData } from "../global-data/global-data"
+import { insmartFC256GlobalData } from "../global-data/best-portable/best-portable"
 
 import {
   tableOfContentItems,

@@ -3,7 +3,7 @@ import {
   bitvaec2GlobalData,
   nicwellF5025GlobalData,
   coslus300mlGlobalData
-} from "../../global-data/global-data"
+} from "../../global-data/best-portable/best-portable"
 
 
 export const headerProps = {
@@ -18,7 +18,7 @@ export const headerProps = {
   externalUrl: true
 }
 
-export const coslus300mlUrl = '/best/coslus-F5020E-water-flossing-oral-irrigator'
+export const coslus300mlUrl = '/best-portable/coslus-F5020E-water-flossing-oral-irrigator'
 
 export const tableOfContentItems = [
   {

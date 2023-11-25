@@ -4,13 +4,13 @@ import { insmartFC256Url, insmartFC256Props } from '../../../categories/best-irr
 import { nicefeelFC1592bkProps, nicefeelFC1592bkUrl } from '../../../categories/best-irrigators/article/best-portable/data/nicefeelFC1592-bk'
 import { nicwellF5025Url, nicwellf5025Props } from '../../../categories/best-irrigators/article/best-portable/data/nicwellf5025'
 import { waterpikwf02Props, waterpikwf02Url } from '../../../categories/best-irrigators/article/best-portable/data/waterpikwf02'
-import { bitvaec2GlobalData, coslus300mlGlobalData, insmartFC256GlobalData, nicefeelFC1592bkGlobalData, nicwellF5025GlobalData, waterPikGlobalData } from '../../../categories/best-irrigators/article/global-data/global-data'
+import { bitvaec2GlobalData, coslus300mlGlobalData, insmartFC256GlobalData, nicefeelFC1592bkGlobalData, nicwellF5025GlobalData, waterPikGlobalData } from '../../../categories/best-irrigators/article/global-data/best-portable/best-portable'
 
 
 export const portableBest = {
   title: "Smile Bright: Dive into Portable and Affordable Oral Irrigators",
   subTitle: "Upgrade your smile game without breaking the bank! Dive into the coolest portable and affordable oral irrigators on Amazon. We've rounded up the best brands for easy, breezy dental care.",
-  moreInfo: "Click on the following images to read the reviews of the top-rated Oral Dental Irrigators.",
+  moreInfo: "Click on the following images to read our review of the top-rated portable oral Irrigators.",
   columnsUrl: '',
   items: [
     {

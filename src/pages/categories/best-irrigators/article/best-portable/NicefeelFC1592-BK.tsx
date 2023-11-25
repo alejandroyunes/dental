@@ -8,7 +8,7 @@ import Product from "../../../../../components/Product/Product"
 import TableOfContent from "../../../../../components/TableOfContent/TableOfContent"
 import Title from "../../../../../components/Title/Title"
 import TitleList from "../../../../../components/TitleList/TitleList"
-import { nicefeelFC1592bkGlobalData } from "../global-data/global-data"
+import { nicefeelFC1592bkGlobalData } from "../global-data/best-portable/best-portable"
 
 import {
   tableOfContentItems,

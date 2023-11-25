@@ -3,9 +3,9 @@ import {
   insmartFC256GlobalData,
   nicwellF5025GlobalData,
   coslus300mlGlobalData
-} from "../../global-data/global-data"
+} from "../../global-data/best-portable/best-portable"
 
-export const insmartFC256Url = '/best/insmartFC256-water-flossing-oral-irrigator'
+export const insmartFC256Url = '/best-portable/insmartFC256-water-flossing-oral-irrigator'
 
 export const headerProps = {
   title: "InSmart Professional Cordless Water Dental Flosser FC256, 300ml",

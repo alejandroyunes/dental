@@ -1,4 +1,9 @@
-import { waterPikGlobalData, bitvaec2GlobalData, nicwellF5025GlobalData, coslus300mlGlobalData } from "../../global-data/global-data"
+import {
+  waterPikGlobalData,
+  bitvaec2GlobalData,
+  nicwellF5025GlobalData,
+  coslus300mlGlobalData
+} from "../../global-data/best-portable/best-portable"
 
 export const headerProps = {
   title: "Bitvae C2 Professional Water Dental Flosser, 260ml",
@@ -12,7 +17,7 @@ export const headerProps = {
   externalUrl: true
 }
 
-export const bitvaec2Url = '/best/bitvae-c2-water-flossing-oral-irrigator'
+export const bitvaec2Url = '/best-portable/bitvae-c2-water-flossing-oral-irrigator'
 
 export const tableOfContentItems = [
   {

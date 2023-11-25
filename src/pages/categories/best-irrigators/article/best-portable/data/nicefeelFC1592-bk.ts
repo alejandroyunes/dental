@@ -1,4 +1,4 @@
-import { nicwellF5025GlobalData, waterPikGlobalData, nicefeelFC1592bkGlobalData, coslus300mlGlobalData } from "../../global-data/global-data"
+import { nicwellF5025GlobalData, waterPikGlobalData, nicefeelFC1592bkGlobalData, coslus300mlGlobalData } from "../../global-data/best-portable/best-portable"
 
 export const headerProps = {
   title: "Nicefeel Cordless Water Flosser FC1592BK, 300ml",
@@ -12,7 +12,7 @@ export const headerProps = {
   externalUrl: true
 }
 
-export const nicefeelFC1592bkUrl = '/best/nicefeelFC1592bk-water-flossing-oral-irrigator'
+export const nicefeelFC1592bkUrl = '/best-portable/nicefeelFC1592bk-water-flossing-oral-irrigator'
 
 export const tableOfContentItems = [
   {
@@ -86,7 +86,7 @@ export const titleListProps = {
 
 export const proAndCons = {
   id: 'pro-and-cons-nicefeelFC1592bk',
-  title: "Pros and Cons",
+  title: "Pros and Cons of Nicefeel FC1592BK",
   message: "Evaluate the advantages and disadvantages of the Nicefeel FC1592-BK Cordless Water Flosser.",
   itemspro: [
     {

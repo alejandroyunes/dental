@@ -1,10 +1,9 @@
-import { } from '../../global-data/global-data'
 import {
   nicwellF5025GlobalData,
   nicefeelFC1592bkGlobalData,
   waterPikGlobalData,
   coslus300mlGlobalData
-} from '../../global-data/global-data'
+} from '../../global-data/best-portable/best-portable'
 
 export const headerProps = {
   title: "Waterpik Water Flosser Model WF-02, 5oz",
@@ -18,7 +17,7 @@ export const headerProps = {
   externalUrl: true
 }
 
-export const waterpikwf02Url = '/best/waterpik-wf02-water-flossing-oral-irrigator'
+export const waterpikwf02Url = '/best-portable/waterpik-wf02-water-flossing-oral-irrigator'
 
 export const tableOfContentItems = [
   {
@@ -93,7 +92,7 @@ export const titleListProps = {
 
 export const proAndCons = {
   id: 'pro-and-cons-wf02',
-  title: "Pros and Cons",
+  title: "Pros and Cons Waterpik Model WF-02",
   message: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Waterpik Cordless Express WF-02 is the right fit for them.",
   itemspro: [
     {

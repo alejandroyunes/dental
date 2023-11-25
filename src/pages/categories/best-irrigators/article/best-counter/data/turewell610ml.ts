@@ -1,38 +1,26 @@
-import { coslus300mlGlobalData, nicwellF5025GlobalData, waterPikGlobalData } from "../../global-data/global-data"
-
-const headerBgImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384728/Best/Turewell610ml/dky9pghcnae8tjpfw0zo.webp'
-const headerBgMobileImage = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700384732/Best/Turewell610ml/yzf5vdnjcyehudg0gywp.webp'
-
-export const turewell600ml = 'https://res.cloudinary.com/dkv2cmxfs/image/upload/v1700609760/Best/Turewell610ml/oootyoq5lyolf82fe1g7.webp'
-export const productReview = 'https://www.amazon.com/product-reviews/B087717HRR/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar'
-
-export const turewell600mlProductUrl = 'https://a.co/d/2ARiGQP'
-const amazonPrime = 'https://www.amazon.com'
-
-
-
+import { h2oflossHF9GlobalData, turewell600mlGlobalData } from "../../global-data/best-countertop/best-countertop"
 
 export const headerProps = {
-  title: "Turewell Water Flossing Oral Irrigator, 600ml",
+  title: "Turewell Water Flossing Oral Irrigator FC165, 600ml",
   subtitle: "Dental Water Teeth Cleaner",
   text: "Removes 99.99% of Debris: compared with regular toothbrush, toothpick or floss which can't reach the hidden parts.",
-  image: headerBgImage,
-  mobileImage: headerBgMobileImage,
-  url: turewell600mlProductUrl,
+  image: turewell600mlGlobalData.headerBgImage,
+  mobileImage: turewell600mlGlobalData.headerBgMobileImage,
+  url: turewell600mlGlobalData.turewell600mlProductUrl,
   buttonText: "Buy Now",
   date: '11/18/2023',
   externalUrl: true
 }
 
-export const turewell600mlUrl = '/best/turewell-FC165-water-flossing-oral-irrigator'
+export const turewell600mlUrl = '/best-countertop/turewell-FC165-water-flossing-oral-irrigator'
 
 export const tableOfContentItems = [
   {
-    content: '\u2022 The Best of the TUREWELL Water Flosser',
+    content: '\u2022 The Best of the Turewell FC165 Water Flosser',
     id: `${turewell600mlUrl}#the-best-of-turewell`
   },
   {
-    content: '\u2022 How to use?',
+    content: '\u2022 How to use the Turewell FC165?',
     id: `${turewell600mlUrl}#how-to-use`
   },
   {
@@ -44,25 +32,25 @@ export const tableOfContentItems = [
     id: `${turewell600mlUrl}#how-does-the-turewell-compares-to-other-irrigators`
   },
   {
-    content: '\u2022 Why opt for the TUREWELL 600ML?',
+    content: '\u2022 Why opt for the Turewell FC165, 600ML?',
     id: `${turewell600mlUrl}#why-turewell-600ml`
   },
 ]
 
 export const titleProps = {
   id: 'the-best-of-turewell',
-  title: 'The Best of the Turewell Water Flosser, 600ml',
+  title: 'The Best of the Turewell FC165 Water Flosser',
   message: 'Turewell introduced an exceptionally budget-friendly model equipped with 360° rotating nozzles and 1700 times/min water pulsation, effectively eliminating 99.99% of debris, thus preventing tooth decay. This feature-rich oral irrigator includes 8 nozzles, 10 pressure settings, a 600ml tank, and an anti-leak design, ensuring efficient and family-friendly oral care. Responsive customer service is also guaranteed.'
 }
 
 
 export const turewell600mlProps = {
   product: {
-    title: 'Turewell Water Flossing Oral Irrigator, 600ml',
-    image: turewell600ml,
+    title: 'Turewell Water Flossing Oral Irrigator FC165, 600ml',
+    image: turewell600mlGlobalData.turewell600ml,
     alt: 'Turewell Water Flossing Oral Irrigator',
-    productUrl: turewell600mlProductUrl,
-    primeUrl: amazonPrime,
+    productUrl: turewell600mlGlobalData.turewell600mlProductUrl,
+    primeUrl: turewell600mlGlobalData.amazonPrime,
     description: 'Turewell offers superior oral care, reaching areas traditional methods miss. Unlike toothbrushes, it cleans hidden gaps, ensuring a thorough and healthier dental routine.'
   },
   list: [
@@ -78,7 +66,7 @@ export const turewell600mlProps = {
 
 export const titleListProps = {
   id: 'how-to-use',
-  titleH2: 'How to use the Turewell oral irrigator step by step?',
+  titleH2: 'How to use the Turewell FC165 oral irrigator step by step?',
   items: [
     {
       itemTitle: [
@@ -105,7 +93,7 @@ export const titleListProps = {
 
 export const proAndCons = {
   id: 'props-and-cons',
-  title: "Pros and Cons",
+  title: "Pros and Cons of the Turewell FC165",
   message: "It's important to note that the perceived pros and cons can vary based on individual preferences and needs. Users should consider their specific oral care requirements and lifestyle when deciding if the Turewell Water Flossing Oral Irrigator, 600ml is the right fit for them.",
   itemspro: [
     {
@@ -133,30 +121,30 @@ export const proAndCons = {
 
 export const comparativeTableProps = {
   id: 'how-does-the-turewell-compares-to-other-irrigators',
-  title: 'Compare the Turewell 600ml with other irrigators',
+  title: 'Compare the Turewell FC165 with other irrigators',
   message: 'In this table, you can see all the analyzed models, their features, notable advantages, user ratings, and the results of our analyses in 2023.',
-  primeUrl: amazonPrime,
+  primeUrl: turewell600mlGlobalData.amazonPrime,
   items: [
     {
       id: 1,
       models: 'Turewell FC165',
-      image: turewell600ml,
+      image: turewell600mlGlobalData.turewell600ml,
       alt: 'Turewell FC165 Oral Irrigator',
       prime: true,
       dimensions: '5.7 x 4.9 x 8.07 in, 1.7 lbs',
       multifunctionaltips: '8',
       capacity: '600 ml',
-      highlight: '10 Adjustable Pressure',
+      highlight: '8 Nozzles, Value, Ease of use',
       problem: 'Water Resistance',
       price: 'Good Price',
       satisfaction: '8/10',
       view: 'View Price',
-      url: turewell600mlProductUrl
+      url: turewell600mlGlobalData.turewell600mlProductUrl
     },
     {
       id: 2,
       models: 'Nicwell f5025',
-      image: nicwellF5025GlobalData.nicwellf5025,
+      image: h2oflossHF9GlobalData.h2oflossHF9,
       alt: 'Nicwell 200ml Oral Irrigator',
       prime: true,
       dimensions: '8.03 x 4.02 x 2.73 in, 14 oz',
@@ -167,12 +155,12 @@ export const comparativeTableProps = {
       price: 'Great Price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: nicwellF5025GlobalData.nicwellf5025ProductUrl
+      url: h2oflossHF9GlobalData.h2oflossHF9
     },
     {
       id: 3,
       models: 'Waterpik WF-02',
-      image: waterPikGlobalData.waterpikwf02,
+      image: turewell600mlGlobalData.turewell600ml,
       alt: 'Waterpik Model WF-02',
       prime: true,
       dimensions: '3.6 x 2.5 x 11.75 in, 11.68 oz',
@@ -183,12 +171,12 @@ export const comparativeTableProps = {
       price: 'Best buy',
       satisfaction: '9/10',
       view: 'View Price',
-      url: waterPikGlobalData.waterpikwf02ProductUrl
+      url: turewell600mlGlobalData.turewell600ml
     },
     {
       id: 4,
       models: 'Coslus F5020E',
-      image: coslus300mlGlobalData.coslus300ml,
+      image: turewell600mlGlobalData.turewell600ml,
       alt: 'Coslus F5020E Oral Irrigator',
       prime: true,
       dimensions: '1.97h x 2.74w x 12.2d in, 15.52 oz',
@@ -199,14 +187,14 @@ export const comparativeTableProps = {
       price: 'Excelent price',
       satisfaction: '9/10',
       view: 'View Price',
-      url: coslus300mlGlobalData.coslus300mlProductUrl
+      url: turewell600mlGlobalData.turewell600mlProductUrl
     }
   ]
 }
 
 export const titleListTurewellProps = {
   id: 'why-turewell-600ml',
-  titleH2: 'Why opt for the TUREWELL 600ML?',
+  titleH2: 'Why opt for the Turewell FC165?',
   items: [
     {
       itemTitle: [

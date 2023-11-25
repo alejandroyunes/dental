@@ -5,7 +5,7 @@
 //   text: "",
 //   // image: headerBgImage,
 //   // mobileImage: headerBgMobileImage,
-//   // url: nicefeelFC1592bkProductUrl,
+//   // // url: nicefeelFC1592bkProductUrl,
 //   buttonText: "Buy Now",
 //   date: '11/22/2023',
 //   externalUrl: true

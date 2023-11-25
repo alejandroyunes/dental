@@ -17,7 +17,7 @@ import { portableBest } from './data/portableBest/portableBest'
 import { countertopBest } from './data/countertopBest/countertopBest'
 import { firstThreeColumnProduct } from './data/firstThreeColumnProduct/firstThreeColumnProduct'
 
-export default function HomePage() {
+export default function () {
 
   return (
     <main>

@@ -8,7 +8,7 @@ import Product from "../../../../../components/Product/Product"
 import TableOfContent from "../../../../../components/TableOfContent/TableOfContent"
 import Title from "../../../../../components/Title/Title"
 import TitleList from "../../../../../components/TitleList/TitleList"
-import { bitvaec2GlobalData } from "../global-data/global-data"
+import { bitvaec2GlobalData } from "../global-data/best-portable/best-portable"
 
 
 import {
